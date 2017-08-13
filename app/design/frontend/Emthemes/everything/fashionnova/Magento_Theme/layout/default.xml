@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>        
+        <move element="logo" destination="header-wrapper-container" before="navigation.sections" />
+	<referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_img_width" xsi:type="number">173</argument>
+                <argument name="logo_img_height" xsi:type="number">97</argument>
+            </arguments>
+        </referenceBlock>
+        <move element="navigation.sections" destination="header-wrapper-container" after="logo" before="em-wrapper-header-bottom"/>
+        <referenceContainer name="header-wrapper-container">
+            <container name="em-wrapper-header-bottom" htmlTag="div" htmlClass="em-wrapper-header-bottom">
+                  <container name="em-language-currency-link" htmlTag="div" htmlClass="em-language-currency-link" />
+            </container>
+        </referenceContainer>
+        <move element="header.panel.wrapper" destination="em-language-currency-link" before="-" />
+  
+		<!-- main content area -->
+		<referenceContainer name="main.content">
+			<container name="main_wrapper" htmlTag="div" htmlClass="main-wrapper" after="-" > 
+				<container name="main.wrapper.content" htmlTag="div" htmlClass="main-wrapper-content col-sm-20 col-sm-offset-2" label="Main Wrapper Content" before="-" />
+				
+			</container>
+		</referenceContainer>
+        <referenceBlock name="footer_links" display="true" />  
+		
+    </body>
+</page>

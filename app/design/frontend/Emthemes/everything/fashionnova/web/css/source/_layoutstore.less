@@ -1,0 +1,88 @@
+//FashionNova Shoes 
+.em-slideshow{
+	margin-bottom:0;
+}
+
+.em-clear-padding{
+	.img-banner .img-responsive{
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		border-radius: 0px;
+	}
+	.img-banner{		
+		.desc{
+			position:absolute;
+			color:#fff;
+			-moz-transition: all 500ms ease;
+			-webkit-transition: all 500ms ease;
+			-o-transition: all 500ms ease;
+			transition: all 500ms ease;
+			-moz-backface-visibility: hidden;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			left: 0;
+			width:100%;
+			padding:0 1rem;
+			bottom: 0;
+			margin:0;
+			text-transform:uppercase;
+			a.button-link{
+				float:none;
+				display:inline-block;
+				height: 0;
+				padding: 0;
+				font-size: 0;
+				margin:0;
+				opacity: 0;
+				filter: alpha(opacity=0);
+			}
+		}
+		&:hover{
+			background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+			background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);
+			.banner-img img{
+				opacity:0.5;	
+				-moz-transition: all 500ms ease;
+				-webkit-transition: all 500ms ease;
+				-o-transition: all 500ms ease;
+				transition: all 500ms ease;
+				-moz-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				backface-visibility: hidden;
+			}
+			.desc{
+				bottom:10%;
+				cursor:pointer;
+				.button-link{
+					height: 100%;
+					padding: 10px 25px;;
+					font-size: 100%;
+					opacity: 1;
+					filter: alpha(opacity=100);				
+				}
+			}
+		}
+	}
+}
+
+
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	.cms-index-index .page-main{ padding-top:0;}
+	.em-wrapper-content {
+		padding-left: 280px !important;
+	}
+	.cms-index-index .column.main{ padding:0;}
+}
+/*================= RTL =====================*/
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	.em-rtl{
+		.em-wrapper-content {
+			padding-left: 0 !important;
+			padding-right: 280px !important;
+		}
+		.col-sm-offset-2 {
+			margin-right: 8.33333333%;
+		}
+	}
+}

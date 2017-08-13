@@ -1,0 +1,371 @@
+title,identifier,content
+"EM0144 Everything - Beauty - Main Slideshow",em0144-beauty-main-slideshow,"<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""11""}}</div>"
+"EM0144 Everything - Beauty - Main Content Area 01 - Banners",em0144-beauty-main-content-area-01-banners,"<div class=""row hidden-xs"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-10 text-center"">
+<div class=""img-banner space-block""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_01.jpg'}}"" /> <span class=""effect-line"">&nbsp;</span></a>
+</div>
+</div>
+<div class=""col-sm-14 text-center"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""img-banner space-small-block""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_02.jpg'}}"" /> <span class=""effect-line"">&nbsp;</span></a>
+</div>
+</div>
+</div>
+<div class=""row"">
+<div class=""col-sm-12"">
+<div class="" img-banner space-block""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_03.jpg'}}"" /> <span class=""effect-line"">&nbsp;</span></a>
+</div>
+</div>
+<div class=""col-sm-12"">
+<div class="" img-banner space-block""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_04.jpg'}}"" /><span class=""effect-line"">&nbsp;</span> </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Beauty - Main Content Area 02 - New Arrivals Tabs",em0144-beauty-main-content-area-02-new-arrivals-tabs,"<div class=""emtabs-ajaxblock-loaded"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""widget-title em-widget-title"">
+<h3><span>New Arrivals</span></h3>
+</div>
+<div class=""em-tabs-right"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-shirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-shirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#shirt-tab"" data-toggle=""switch"">Shirt</a></div>
+<div id=""shirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`56`;]]""}}</div>
+<div id=""tab-label-skirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-skirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#skirt-tab"" data-toggle=""switch"">Skirt</a></div>
+<div id=""skirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`56`;]]""}}</div>
+<div id=""tab-label-dress-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-dress-tab-title"" class=""data switch"" tabindex=""-1"" href=""#dress-tab"" data-toggle=""switch"">Dress</a></div>
+<div id=""dress-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`56`;]]""}}</div>
+<div id=""tab-label-outerwear-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-outerwear-tab-title"" class=""data switch"" tabindex=""-1"" href=""#outerwear-tab"" data-toggle=""switch"">Outerwear</a></div>
+<div id=""outerwear-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`56`;]]""}}</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Beauty - Main Content Area 03 -  Parallax Ads",em0144-beauty-main-content-area-03-parallax-ads,"<div class=""em-background-parallax-full em-wrapper-ads-17 text-center space-block"">
+<div class=""em-background-parallax-info"">
+<div class=""em-box-info"">
+<h1 class=""em-text-upercase"" style=""font: 700 4.2rem/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;"">Already Loving emeverything? Rate Us Now!</h1>
+<h3 style=""font: italic 2.5rem/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif; padding-bottom: 3.4rem; margin-bottom: 2.2rem;"">We Make Your Dream Came True</h3>
+<a class=""button-link first"" href=""#""><span>purchase now</span></a></div>
+</div>
+<div class=""em-background-parallax-bg"">&nbsp;</div>
+</div>"
+"EM0144 Everything - Beauty - Main Content Area 04 - Bestseller",em0144-beauty-main-content-area-04-bestsellers,"<div class=""em-wrapper-best-slider  em-line-01 button-show02 space-block"">
+<div class=""widget-title em-widget-title"">
+<h3><span>Best Sellers</span></h3>
+</div>
+<div class=""em-best-slider row"">
+<div class=""col-sm-6 hidden-xs"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_06.jpg'}}"" alt=""New Collection Cosmo"" /><span class=""effect-line"">&nbsp;</span> </a></div>
+</div>
+<div class=""col-sm-18"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""6"" order_by=""name ASC"" show=""thumb,name,sku,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""em_grid_24.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`56`;]]"" cache_lifetime=""86400""}}</div>
+</div>
+</div>"
+"EM0144 Everything - Beauty - Main Content Area 05 - Blog - Code - Testimonials",em0144-beauty-main-content-area-05-blog-testimonials,"<div class=""container"">
+	<div class=""row"">
+		<div class=""col-sm-16"">
+			<div class=""em-wrapper-area04"">
+				<div class=""em-wrapper-from-our-blog"">
+					<div class=""clearer"">
+						<div class=""row"">
+							<div class=""col-sm-24"">
+								<div class=""space-block"">
+									<div class=""em-slider em-slider-from-our-blog"">
+										<div class=""widget block block-static-block"">
+											<div class=""row"">
+												<div class=""col-sm-24"">
+													<div class=""em-line-01"">
+														<div class=""em-block-title"">
+															<h2><span>From Our Blog</span></h2>
+														</div>
+														<div class=""em-slider em-slider-navigation-icon em-slider-from-our-blog"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:1,&quot;dots&quot;:false,&quot;nav&quot;:true}}"">
+																<div class=""blog-slider-item"">
+															<div class=""em-blog-item em-effect-13 em-wrapper-ads-12"">
+																<div class=""em-blog-content bkg-top  col-sm-12 col-xs-10""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_07.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+																	<div class=""em-blog-time"">
+																		<p class=""em-blog-date"">28</p>
+																		<p class=""em-blog-month"">aug</p>
+																	</div>
+																</div>
+																<div class=""em-box bkg-bottom  col-sm-12 col-xs-14"">
+																	<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+																	<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+																	<p><a class=""link-more"" href=""#"">Read more</a></p>
+																</div>
+															</div>
+															<div class=""em-blog-item em-effect-13 em-wrapper-ads-12"">
+																<div class=""em-blog-content bkg-top  col-sm-12 col-xs-10""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_08.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+																	<div class=""em-blog-time"">
+																		<p class=""em-blog-date"">28</p>
+																		<p class=""em-blog-month"">aug</p>
+																	</div>
+																</div>
+																<div class=""em-box bkg-bottom  col-sm-12 col-xs-14"">
+																	<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+																	<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+																	<p><a class=""link-more"" href=""#"">Read more</a></p>
+																</div>
+															</div>
+														</div>
+															<div class=""blog-slider-item"">
+															<div class=""em-blog-item em-effect-13 em-wrapper-ads-12"">
+																<div class=""em-blog-content bkg-top  col-sm-12 col-xs-10""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_07.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+																	<div class=""em-blog-time"">
+																		<p class=""em-blog-date"">28</p>
+																		<p class=""em-blog-month"">aug</p>
+																	</div>
+																</div>
+																<div class=""em-box bkg-bottom  col-sm-12 col-xs-14"">
+																	<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+																	<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+																	<p><a class=""link-more"" href=""#"">Read more</a></p>
+																</div>
+															</div>
+															<div class=""em-blog-item em-effect-13 em-wrapper-ads-12"">
+																<div class=""em-blog-content bkg-top  col-sm-12 col-xs-10""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_08.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+																	<div class=""em-blog-time"">
+																		<p class=""em-blog-date"">28</p>
+																		<p class=""em-blog-month"">aug</p>
+																	</div>
+																</div>
+																<div class=""em-box bkg-bottom  col-sm-12 col-xs-14"">
+																	<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+																	<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+																	<p><a class=""link-more"" href=""#"">Read more</a></p>
+																</div>
+															</div>
+														</div>
+															<div class=""blog-slider-item"">
+															<div class=""em-blog-item em-effect-13 em-wrapper-ads-12"">
+																<div class=""em-blog-content bkg-top  col-sm-12 col-xs-10""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_07.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+																	<div class=""em-blog-time"">
+																		<p class=""em-blog-date"">28</p>
+																		<p class=""em-blog-month"">aug</p>
+																	</div>
+																</div>
+																<div class=""em-box bkg-bottom  col-sm-12 col-xs-14"">
+																	<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+																	<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+																	<p><a class=""link-more"" href=""#"">Read more</a></p>
+																</div>
+															</div>
+															<div class=""em-blog-item em-effect-13 em-wrapper-ads-12"">
+																<div class=""em-blog-content bkg-top  col-sm-12 col-xs-10""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_08.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+																	<div class=""em-blog-time"">
+																		<p class=""em-blog-date"">28</p>
+																		<p class=""em-blog-month"">aug</p>
+																	</div>
+																</div>
+																<div class=""em-box bkg-bottom  col-sm-12 col-xs-14"">
+																	<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+																	<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+																	<p><a class=""link-more"" href=""#"">Read more</a></p>
+																</div>
+															</div>
+														</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class=""col-sm-8"">
+			<div class=""em-wrapper-area05"">
+				<div class=""em-wrapper-ads-11 em-line-01"">
+					<div class=""em-block-title"">
+						<h2><span>Testimonials</span></h2>
+					</div>
+					<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:1,&quot;dots&quot;:true,&quot;nav&quot;:false}}"">
+						<div class=""em-ads-grid-item"">
+							<div class=""em-ads-item"">
+								<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_09.png'}}"" alt=""em_ads_13.png"" /></a></div>
+								<div class=""em-ads-content"">
+									<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+									<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+								</div>
+							</div>
+							<div class=""em-ads-item"">
+								<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_10.png'}}"" alt=""em_ads_13.png"" /></a></div>
+								<div class=""em-ads-content"">
+									<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+									<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+								</div>
+							</div>
+						</div>
+						<div class=""em-ads-grid-item"">
+							<div class=""em-ads-item"">
+								<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_09.png'}}"" alt=""em_ads_13.png"" /></a></div>
+								<div class=""em-ads-content"">
+									<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+									<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+								</div>
+							</div>
+							<div class=""em-ads-item"">
+								<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_10.png'}}"" alt=""em_ads_13.png"" /></a></div>
+								<div class=""em-ads-content"">
+									<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+									<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>"
+"EM0144 Everything - Beauty - Footer Area 01 - Newsletter",em0144-beauty-footer-area-01-newsletter,"<div class=""em-wrapper-newsletter text-center em-background-parallax"">
+<div class=""em-maxwidth-content"">
+<div class=""row"">
+<div class=""col-sm-18 col-sm-push-3"">
+<div class=""newsletter-title"">
+<p class=""h2 em-text-upercase""><span>Sign Up For Newsletter</span></p>
+<p>Aliquam ultrices arcu in velit ultrices aliquam. Aliquam eget condimentum odio. Integer scelerisque, augue sed congue imperdiet, ex lectus euismod diam, et ornare lacus nisi at leo.</p>
+</div>
+<div class=""em-newsletter-style02 newsletter-boder-input-act"">
+<div class=""em-block-content em-newsletter"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Beauty - Footer Area 01 - Footer Links",em0144-beauty-footer-area-01-footer-links,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-4 first text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse01"">
+<p class=""h4 em-text-upercase""><span>What's hot</span></p>
+</div>
+<ul id=""collapse01"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Discount Voucher</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Spring Collection</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Trending</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Best Sellers</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse02"">
+<p class=""h4 em-text-upercase""><span>Brands</span></p>
+</div>
+<ul id=""collapse02"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jack &amp; Jones</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Calvin Klein</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Ray Ban</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>River Island</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse03"">
+<p class=""h4 em-text-upercase""><span>Men shop</span></p>
+</div>
+<ul id=""collapse03"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Top</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Bottoms</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Accessories</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse04"">
+<p class=""h4 em-text-upercase""><span>Women shop</span></p>
+</div>
+<ul id=""collapse04"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jeans</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Dresses</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Other</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse05"">
+<p class=""h4 em-text-upercase""><span>Help</span></p>
+</div>
+<ul id=""collapse05"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>F.A.Q.</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shipping</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store direct_url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 last text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse06"">
+<p class=""h4 em-text-upercase""><span>Nation Apps</span></p>
+</div>
+<ul id=""collapse06"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPhone</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPad</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Android</span></a></li>
+</ul>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Beauty - Area Footer 02 - Social",em0144-beauty-area-footer02-social,"<div class=""em-wrapper-social"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>"
+"EM0144 Everything - Beauty - Main Content Area 05 - Blog - Code - Testimonials",em0144-beauty-main-content-area-05-blog-code-testimonials,"<div class=""container"">
+<div class=""row"">
+<div class=""col-sm-16"">
+<div class=""em-wrapper-area04"">
+<div class=""em-wrapper-from-our-blog  em-line-01"">
+<div class=""em-block-title"">
+<h2><span>From Our Blog</span></h2>
+</div>
+<div class=""clearer"">{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style06.recent"" template=""post/list/recent_06.phtml""}}</div>
+</div>
+</div>
+</div>
+<div class=""col-sm-8"">
+<div class=""em-wrapper-area05"">
+<div class=""em-wrapper-ads-11 em-line-01"">
+<div class=""em-block-title"">
+<h2><span>Testimonials</span></h2>
+</div>
+<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:1,&quot;dots&quot;:true,&quot;nav&quot;:false}}"">
+<div class=""em-ads-grid-item"">
+<div class=""em-ads-item"">
+<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_09.png'}}"" alt=""em_ads_13.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_10.png'}}"" alt=""em_ads_13.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+</div>
+<div class=""em-ads-grid-item"">
+<div class=""em-ads-item"">
+<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_09.png'}}"" alt=""em_ads_13.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_beauty/home/em_ads_10.png'}}"" alt=""em_ads_13.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"

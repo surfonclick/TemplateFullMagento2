@@ -1,0 +1,55 @@
+//Clothing
+& when (@media-common = true){
+.cms-index-index .page-main{padding:0;}
+.em-header-01.page-header .panel.wrapper{
+	border-top: 3px solid @em-header-cart__background-color;
+}
+.page-bottom{
+	.lib-css(background-color, @em-body-title__background-color);
+	.block-static-block.widget{
+		margin-bottom:0;
+	}
+	.em-wrapper-ads-13{
+		.text-box{margin:30px 0;}
+		.icon-banner-left{
+			.lib-css(border, 2px solid @em-body-title__text-color);
+			.lib-style(@em-body-title__text-color, @em-body-title__text-color, @em-body-title__background-color);
+			&:after{
+				-webkit-box-shadow: 3px 3px rgba(255,255,255,1);
+				-moz-box-shadow: 3px 3px rgba(255,255,255,1);
+				box-shadow: 3px 3px rgba(255,255,255,1);
+			}
+			&:hover{
+				.lib-style(@em-body-title__text-color, @em-body-title__text-color, @em-body-title__background-color);
+			}
+		}		
+		.em-banner-right {
+			color:@em-body-title__text-color;
+			h5 {
+				a{
+					.lib-link(
+						@_link-color: @em-body-title__text-color,
+						@_link-color-visited: @em-body-title__text-color,
+						@_link-color-hover: @em-body-title__text-color,
+						@_link-color-active: @em-body-title__text-color,
+					)
+				}
+			}
+		}
+	}
+}
+}
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+	.em-wrapper-product-18 {
+		.em-best-products {
+			.products-grid .item .product-item {
+				.em-more-views{
+					padding:20px 0;
+					.more-view-img {
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+}

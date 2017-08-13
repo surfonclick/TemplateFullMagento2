@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.wrapper">
+            <container name="after.main.container" label="After Main Content" after="main.content" htmlTag="div" htmlClass="after-main-content"/>
+            <container name="before.main.container" label="Before Main Content" after="main.content" htmlTag="div" htmlClass="before-main-content"/>
+        </referenceContainer> 
+		<move element="before.main.container" destination="main_wrapper" before="-"/>
+		<move element="after.main.container" destination="main_wrapper" after="columns"/>
+        <referenceBlock name="blog.sidebar.recent" display="false" />
+        <move element="logo" destination="header-wrapper-container" before="-" />
+        <referenceContainer name="page.wrapper">
+            <container name="before.page.bottom.container.1" as="befoew_page_bottom_container_1" label="After Main Container 1" before="page.bottom.container" htmlTag="div" htmlClass="fullwidth-banner"/>
+            <container name="before.page.bottom.container.2" as="befoew_page_bottom_container_2" label="After Main Container 2" before="page.bottom.container" htmlTag="div" htmlClass="section-product"/>     
+            <container name="before.page.bottom.container.3" as="befoew_page_bottom_container_3" label="After Main Container 3" before="page.bottom.container" htmlTag="div" htmlClass="fullwidth-paralax"/>   
+            <container name="before.page.bottom.container.4" as="befoew_page_bottom_container_4" label="After Main Container 4" before="page.bottom.container" htmlTag="div" htmlClass="section-product"/>                        
+        </referenceContainer> 
+    </body>
+</page>
+

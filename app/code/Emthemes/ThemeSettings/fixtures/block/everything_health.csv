@@ -1,0 +1,278 @@
+title,identifier,content
+"EM0144 Everything - Health - Main Slideshow",em0144-health-main-slideshow,"<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""12""}}</div>"
+"EM0144 Everything - Health - Main Content 01 - Banners",em0144-health-main-content-01-banners,"<div class=""em-wrapper-banners space-block row hidden-xs"">
+<div class=""clearer col-sm-24"">
+<div class=""col2-set-nospace clearer"">
+<div class=""col-1 effect-img-hover"">
+<div class=""col-1""><a href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_01.jpg'}}"" alt=""em_ads_01.jpg"" /></a></div>
+<div class=""col-2 effect-container""><a href=""#""> <img class=""img-responsive hover"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_02.jpg'}}"" alt=""em_ads_02.jpg"" /><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_02_01.jpg'}}"" alt=""em_ads_02_01.jpg"" /> </a></div>
+</div>
+<div class=""col-2 effect-img-hover"">
+<div class=""col-1""><a href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_03.jpg'}}"" alt=""em_ads_03.jpg"" /></a></div>
+<div class=""col-2 effect-container""><a href=""#""> <img class=""img-responsive hover"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_04.jpg'}}"" alt=""em_ads_02.jpg"" /><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_04_01.jpg'}}"" alt=""em_ads_04_01.jpg"" /> </a></div>
+</div>
+</div>
+<div class=""col2-set-nospace clearer"">
+<div class=""col-1 effect-img-hover"">
+<div class=""col-1 effect-container""><a href=""#""> <img class=""img-responsive hover"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_05.jpg'}}"" alt=""em_ads_01.jpg"" /><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_05_01.jpg'}}"" alt=""em_ads_05_01.jpg"" /></a></div>
+<div class=""col-2""><a href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_06.jpg'}}"" alt=""em_ads_06.jpg"" /> </a></div>
+</div>
+<div class=""col-2 effect-img-hover"">
+<div class=""col-1 effect-container""><a href=""#""> <img class=""img-responsive hover"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_07.jpg'}}"" alt=""em_ads_01.jpg"" /><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_07_01.jpg'}}"" alt=""em_ads_07_01.jpg"" /></a></div>
+<div class=""col-2""><a href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_08.jpg'}}"" alt=""em_ads_08.jpg"" /> </a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Health - Main Content 02 - New Arrivals Slider",em0144-health-main-content-02-new-arrivals-slider,"<div class=""new-product-slider "">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""New Arrival"" display_type=""all_products"" show_slider=""1"" slider_item=""5"" products_count=""10"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`50`;]]""}}</div>"
+"EM0144 Everything - Health - Main Content 03 - Banners",em0144-health-main-content-03-banners,"<div class=""hidden-xs"">
+<div class=""col-sm-12 text-center em-clear-padding"">
+<div><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive em-clear-radius"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_09.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+<div class=""col-sm-12 text-center em-clear-padding"">
+<div><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive em-clear-radius"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_10.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Health - Main Content 04 - Ads Text",em0144-health-main-content-04-ads-text,"<div class=""em-wrapper-area05"">
+<div class=""em-maxwidth-content"">
+<div class=""row space-block"">
+<div class=""em-wrapper-ads-13 hidden-xs"">
+<div class=""text-box col-sm-8""><a class=""icon-banner-left pull-left"" title=""Tech Support 247"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""Tech Support 247"" href=""#"">RETURN &amp; EXCHANGE</a></h5>
+<p>Vintage pastel tucked t-shirt leather cami</p>
+</div>
+</div>
+<div class=""text-box col-sm-8""><a class=""icon-banner-left pull-left"" title=""Free shipping all order"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""Free shipping all order"" href=""#"">Free shipping</a></h5>
+<p>Get Free Shipping on all orders</p>
+</div>
+</div>
+<div class=""text-box col-sm-8""><a class=""icon-banner-left pull-left"" title=""30 days return"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""30 days return"" href=""#"">MEMBER DISCOUNT</a></h5>
+<p>The total billed is discount for member</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Health - Main Content 05 - Bestseller Products",em0144-health-main-content-05-bestseller,"<div class=""em-maxwidth-content"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-block-title"">
+<h2><span>Bestseller Products</span></h2>
+</div>
+</div>
+</div>
+<div class=""col-sm-24"">
+<div class=""em-wrapper-product-20 em-line-01 button-show01 button-hide-text except-case"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""5"" order_by=""entity_id DESC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""580"" thumb_height=""580"" filter_template=""custom"" custom_template=""em_grid_21.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`50`;]]""}}</div>
+</div>
+</div>"
+"EM0144 Everything - Health - Main Content 06 - Static Blog",em0144-health-main-content-06-static-blog,"<div class=""em-maxwidth-content"">
+<div class=""row space-block"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-slider em-slider-from-our-blog"">
+<div class=""widget block block-static-block"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-block-title"">
+<h2><span>From Our Blog</span></h2>
+</div>
+<div class=""em-slider em-slider-navigation-icon em-slider-from-our-blog"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:3,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:2},&quot;768&quot;:{&quot;items&quot;:3},&quot;1024&quot;:{&quot;items&quot;:3}}}}"">
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_11.jpg'}}"" alt=""em_ads_11.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_12.jpg'}}"" alt=""em_ads_12.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_13.jpg'}}"" alt=""em_ads_13.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_11.jpg'}}"" alt=""em_ads_11.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_12.jpg'}}"" alt=""em_ads_12.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_health/home/em_ads_13.jpg'}}"" alt=""em_ads_13.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Health - Main Content 06 - Blog Code",em0144-health-main-content-06-blog-code,"<div class=""em-maxwidth-content"">
+<div class=""row space-block"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01 space-block"">
+<div class=""em-slider em-slider-from-our-blog"">{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style03.recent"" template=""post/list/recent_03.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Health - Page Footer - Brands Slider",em0144-health-page-footer-brands-slider,"<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:2},&quot;320&quot;:{&quot;items&quot;:3},&quot;640&quot;:{&quot;items&quot;:4},&quot;768&quot;:{&quot;items&quot;:5},&quot;1024&quot;:{&quot;items&quot;:6}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_furniture/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Health - Area Footer 01 - Information - Footer 07",em0144-health-area-footer01-information-footer07,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class="" four-block-middle"">
+<div class=""row"">
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+<p class=""h4 em-text-upercase""><span>About Us</span></p>
+</div>
+<div id=""collapse01"" class=""em-block-content block-info"">
+<p class=""em-info"">Skort Maison Martin Margiela knot ponytail cami texture as tucked t-shirt. <em>Black skirt razor pleats plaited gold collar</em>. Crop 90s spearmint indigo seam luxe washed out.</p>
+<div class=""em-wrapper-social"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Newsletter</span></p>
+</div>
+<div id=""collapse02"" class=""em-block-content"">
+<div class=""newsletter-clearbutton"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Useful Links</span></p>
+</div>
+<div id=""collapse03"" class=""em-block-content"">
+<div class=""row"">
+<div class=""col-sm-12"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store url='customer/account/'}}""><span>My Account</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Order History</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Wishlist</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-12"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store url='customer/account/'}}""><span>My Account</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Order History</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Wishlist</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Tags</span></p>
+</div>
+<div id=""collapse04"" class=""em-block-content"">
+<ul class=""em-tags-list"">
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>awesome</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>nice</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>beautiful</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>love</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>like</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>emthemes</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"

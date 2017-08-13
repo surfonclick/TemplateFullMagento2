@@ -1,0 +1,6 @@
+title,page_layout,meta_keywords,meta_description,identifier,content_heading,content,is_active,sort_order,layout_update_xml,custom_theme,custom_root_template,custom_layout_update_xml,custom_theme_from,custom_theme_to
+"EM0144 Everything - All Categories",1column,,,everything-all-categories,,"<div>{{block class=""Magento\Theme\Block\Html\Topmenu"" name=""everything.all.categories"" template=""html/all_categories.phtml"" ttl=""3600""}}</div>",1,0,,,,,,
+"EM Everything Homepage Two Columns",2columns-left,,,everything-home,,&nbsp;,1,0,,,,,,
+"EM Everything Homepage - One Column",1column,,,everything-home-one-column,,"<div><p style=""display:none"">&nbsp;</p></div>",1,0,,,,,,
+"EM Everything Homepage Two Columns Left",2columns-left,,,everything-two-columns-left,,&nbsp;,1,0,,,,,,
+"EM Everything Homepage Two Columns Right",2columns-right,,,everything-two-columns-right,,&nbsp;,1,0,,,,,,

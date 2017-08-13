@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+		<referenceContainer name="header-wrapper-container">
+            <container name="header.wrapper.container.top" htmlTag="div" htmlClass="header-wrapper-container-top" before="-">
+                  <container name="header.area.1" htmlTag="div" label="Header Area 01" htmlClass="header-area-01 hidden-xs" before="-" />             
+            </container>
+            <container name="header.wrapper.container.bottom" htmlTag="div" htmlClass="header-wrapper-container-bottom" after="header.wrapper.container.top">
+                <block class="Magento\Theme\Block\Html\Header\Logo" name="smalllogo" template="html/header/smalllogo.phtml" before="-" />                   
+            </container>
+        </referenceContainer>
+        <move element="logo" destination="header.wrapper.container.top" after="header.area.1" />
+        <move element="navigation.sections" destination="header.wrapper.container.bottom" after="smalllogo" />
+		
+		
+		
+		<move element="top.links" destination="header.panel" before="-" />  
+		<move element="store_switcher" destination="header.panel" after="top.links" />	
+		<move element="header.area.1" destination="header.panel" before="-" />
+		
+		
+		
+        <referenceContainer name="page.wrapper">
+            <container name="after.main.container" label="After Main Content" after="main.content" htmlTag="div" htmlClass="after-main-content"/>
+			<container name="before.main.container" label="Before Main Content" after="main.content" htmlTag="div" htmlClass="before-main-content"/>
+        </referenceContainer> 
+		<move element="before.main.container" destination="main_wrapper" before="-"/>
+		<move element="after.main.container" destination="main_wrapper" after="columns"/>
+        <referenceBlock name="blog.sidebar.recent" display="false" />
+    </body>
+</page>
+

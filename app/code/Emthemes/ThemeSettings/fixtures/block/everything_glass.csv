@@ -1,0 +1,170 @@
+title,identifier,content
+"EM0144 Everything - Glass Store  - Main Slideshow",em0144-glass-main-slideshow,"<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""2""}}</div>"
+"EM0144 Everything - Glass Store - Three Banners",em0144-glass-tree-banners,"<div class=""row hidden-xs"">
+<div class=""em-wrapper-banners"">
+<div class=""effect col-sm-8 text-center em-clear-padding""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+<div class=""effect col-sm-8  text-center em-clear-padding""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+<div class=""effect col-sm-8 text-center em-clear-padding""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Glass Store - New Arrivals",em0144-glass-new-arrivals,"<div class=""row"">
+<div class=""col-sm-12"">
+<div class=""row"">
+<div class=""col-sm-20 col-sm-offset-2 em-wrapper-best em-line-01 text-center  button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""New arrivals"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_grid_01.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`46`;]]""}}</div>
+</div>
+</div>
+<div class=""col-sm-12 em-clear-padding effect-flip-book"">
+<div class=""banner-img""><a class=""effect"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>"
+"EM0144 Everything - Glass Store - Best Sales",em0144-glass-best-sales,"<div class=""row"">
+<div class=""col-sm-12 em-clear-padding effect-flip-book"">
+<div class=""banner-img""><a class=""effect"" title=""em-sample-title"" href=""#""> <img class=""img-responsive em-clear-radius"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-12"">
+<div class=""row"">
+<div class=""col-sm-20 col-sm-offset-2 em-wrapper-best em-line-01 text-center button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Best Sales"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""entity_id DESC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_grid_01.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`46`;]]""}}</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Glass Store - From Our Blogs",em0144-glass-from-our-blog,"<div class=""row em-background-parallax"">
+<div class=""col-sm-24"">
+<div class=""row"">
+<div class=""col-sm-18 col-sm-offset-3"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-block-title"">
+<h2><span>From Our Blog</span></h2>
+</div>
+<div class=""em-slider em-slider-navigation-icon em-slider-from-our-blog"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:3,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:1},&quot;640&quot;:{&quot;items&quot;:2},&quot;768&quot;:{&quot;items&quot;:3},&quot;1024&quot;:{&quot;items&quot;:3}}}}"">
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_07.jpg'}}"" alt=""em_ads_06.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_08.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_09.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_07.jpg'}}"" alt=""em_ads_06.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_08.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_09.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Glass Store - Banner Slider",em0144-glass-banners-slider,"<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class=""row"">
+<div class=""col-sm-18 col-sm-offset-3"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Glass Store - Area Footer 01 - Logo",em0144-glass-area-footer01-logo,"<p class=""em-logo-footer""><a href=""#""><img class=""img-responsive retina-img"" alt=""EM Everything"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_footer_logo.png'}}"" /></a></p>"
+"EM0144 Everything - Glass Store - Area Footer 01 - Newsletter",em0144-glass-area-footer02-newsletter,"<div class=""em-newsletter-style02 newsletter-boder-input-act"">
+<div class=""em-block-content em-newsletter"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>"
+"EM0144 Everything - Glass Store - Footer Bottom Links",em0144-glass-before-footer-bottom-links,"<ul class=""footer-bottom-link"">
+<li class=""first""><a href=""#"">Home</a></li>
+<li><a href=""#"">Women</a></li>
+<li><a href=""#"">Men</a></li>
+<li><a href=""#"">Uniors</a></li>
+<li><a href=""#"">Kids</a></li>
+<li><a href=""#"">Accessories</a></li>
+<li><a href=""#"">Blog</a></li>
+</ul>"
+"EM0144 Everything - Glass Store - From Our Blogs - Code",em0144-glass-from-our-blogs-code,"<div>{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style02.recent"" template=""post/list/recent_02.phtml""}}
+</div>"

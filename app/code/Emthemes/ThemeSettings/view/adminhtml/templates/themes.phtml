@@ -1,0 +1,37 @@
+<?php 
+	$themes = $block->getThemes();
+?>
+<ul class="themes-grid">
+<?php foreach($themes as $theme): ?>
+	<li class="theme-item">
+        <a class="theme-image" href="<?php echo $block->getCustomThemeUrl($theme->getThemeId()); ?>">
+            <span class="image-wrap move-long" style="background-image: url('<?php echo $block->getThemeReviewImageUrl($theme); ?>');"></span>
+        </a>
+        <div class="actions">
+            <div class="info">
+                <span class="theme-name"><?php echo $theme->getThemeTitle() ?></span>
+            </div>
+            <div class="buttons">
+            <?php if($theme->getThemeId() != $block->getCurrentThemeId()): ?>
+                <a class="button btn-active" href="<?php echo $block->getActiveThemeUrl($theme->getThemeId()); ?>">
+                    <span>
+                        <span><?php echo __('Activate') ?></span>
+                    </span>
+                </a>
+            <?php endif ?>
+                <a class="button btn-customize first" href="<?php echo $block->getCustomThemeUrl($theme->getThemeId()); ?>">
+                    <span>
+                        <span><?php echo __('Customize') ?></span>
+                    </span>
+                </a> 
+                <a class="button btn-active" href="<?php echo $block->getImportThemeUrl($theme->getThemeId()); ?>">
+                    <span>
+                        <span><?php echo __('Import Content') ?></span>
+                    </span>
+                </a>          
+            </div>
+        </div>
+    </li>
+<?php endforeach ?>
+</ul>
+

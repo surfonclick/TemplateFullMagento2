@@ -1,0 +1,391 @@
+<div class="edit">
+    <!-- Modal -->
+    <div class="modal" id="myModal" role="dialog" style="display:none;">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Edit Level 1 Item</h4>
+            </div>
+            <div class="modal-body">
+                <form id="editTabForm">
+        			<input type="hidden" name="check_tab" />	
+                    <input type="text" name="title" placeholder="Menu item name…"/>
+                    <input type="text" name="link" placeholder="Menu item link..."/>
+                    <select name="width">
+                        <option value="dropdown-1">dropdown-1</option>
+                        <option value="dropdown-2">dropdown-2</option>
+                        <option value="dropdown-3">dropdown-3</option>
+                        <option value="dropdown-4">dropdown-4</option>
+                        <option value="dropdown-5">dropdown-5</option>
+                        <option value="dropdown-6">dropdown-6</option>
+                    </select>
+                    <input type="text" name="custom_class" placeholder="Custom class ..."/>
+                    <button type="submit" class="btn" data-dismiss="modal" data-bind="click: saveEditTab">Save</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+    <!-- end Modal -->
+    <!-- Add Tab Modal -->
+    <div class="modal" id="addTabModal" role="dialog" style="display:none;">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Add New Level 1 Item</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-inline" data-bind="submit: addTab;">
+                    <input type="text" name="title" placeholder="Menu item name…">
+                    <input type="text" name="link" placeholder="Menu item link...">
+                    <select name="width">
+                        <option value="dropdown-1">dropdown-1</option>
+                        <option value="dropdown-2">dropdown-2</option>
+                        <option value="dropdown-3">dropdown-3</option>
+                        <option value="dropdown-4">dropdown-4</option>
+                        <option value="dropdown-5">dropdown-5</option>
+                        <option value="dropdown-6">dropdown-6</option>
+                    </select>
+                    <input type="text" name="custom_class" placeholder="Custom class ..."/>
+                    <button type="submit" class="btn">Add</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+    <!-- end Modal -->
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+          <div class="sidebar-nav">
+            <ul class="nav-list accordion-group">
+              <li class="nav-header">
+                <div class="pull-right popover-info"><i class="icon-question-sign "></i>
+                  <div class="popover fade right">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Features</h3>
+                    <div class="popover-content">Here you set the grid layout, grid defaults to the total number of 12, with a space division grid values ​​for each column, if you need more information, please visit the <a target="_blank" href="http://twitter.github.io/bootstrap/scaffolding.html#gridSystem">Bootstrap.</a></div>
+                  </div>
+                </div>
+                <i class="icon-plus icon-white"></i>Layout Settings</li>
+              <li style="display: list-item;" class="rows" id="estRows">
+                <div class="lyrow ui-draggable"> <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                  <div class="preview">
+                    <input value="12" type="text">
+                  </div>
+                  <div class="view">
+                    <div class="row-fluid clearfix">
+                      <div class="span12 column"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lyrow ui-draggable"> <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                  <div class="preview">
+                    <input value="6 6" type="text">
+                  </div>
+                  <div class="view">
+                    <div class="row-fluid clearfix">
+                      <div class="span6 column"></div>
+                      <div class="span6 column"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lyrow ui-draggable"> <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                  <div class="preview">
+                    <input value="8 4" type="text">
+                  </div>
+                  <div class="view">
+                    <div class="row-fluid clearfix">
+                      <div class="span8 column"></div>
+                      <div class="span4 column"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lyrow ui-draggable"> <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                  <div class="preview">
+                    <input value="4 4 4" type="text">
+                  </div>
+                  <div class="view">
+                    <div class="row-fluid clearfix">
+                      <div class="span4 column"></div>
+                      <div class="span4 column"></div>
+                      <div class="span4 column"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lyrow ui-draggable"> <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a>
+                  <span class="drag label" style="display: none;"><i class="icon-move"></i>Drag</span>
+                  <div class="preview">
+                    <input value="" type="text">
+                  </div>
+                  <div class="view">
+                    <div class="row-fluid clearfix">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul class="nav-list accordion-group">
+              <li class="nav-header"><i class="icon-plus icon-white"></i> Component
+                <div class="pull-right popover-info"><i class="icon-question-sign "></i>
+                  <div class="popover fade right">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Basic</h3>
+                    <div class="popover-content">Basic</div>
+                  </div>
+                </div>
+              </li>
+              <li style="display: list-item;" class="boxes" id="elmBase">
+
+                <div class="box box-element ui-draggable"> 
+                  <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a>
+                  <span class="drag label"><i class="icon-move"></i>Drag</span>
+                  <span class="configuration">
+                    <button type="button" class="btn btn-edit btn-mini" data-target="#editorModal" role="button" data-toggle="modal">Edit</button>
+                  </span>
+                  <div class="preview">Editor</div>
+                  <div class="view" contenteditable="true">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+                
+              </li>
+            </ul>
+            <ul class="nav-list accordion-group">
+              <li class="nav-header"><i class="icon-plus icon-white"></i> Sub Menu
+                <div class="pull-right popover-info"><i class="icon-question-sign "></i>
+                  <div class="popover fade right">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Basic</h3>
+                    <div class="popover-content">Basic</div>
+                  </div>
+                </div>
+              </li>
+              <li style="display: list-item;" class="boxes" id="elmBase">
+
+                <div class="box box-element ui-draggable"> 
+                  <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a>
+                  <span class="drag label"><i class="icon-move"></i>Drag</span>
+                  <span class="configuration">
+                    <button type="button" class="btn btn-edit btn-mini" data-target="#editorModal" role="button" data-toggle="modal">Edit</button>
+                  </span>
+                  <div class="preview">Editor</div>
+                  <div class="view" contenteditable="true">
+                    <p><a>Menu</a></p>
+                    <ul class="submenu em-submenu level1">
+                        <li><a>menu-level-1</a>
+                            <ul class="submenu em-submenu level2">
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a>menu-level-1</a>
+                            <ul class="submenu em-submenu level2">
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                            </ul>    
+                        </li>
+                        <li><a>menu-level-1</a>
+                            <ul class="submenu em-submenu level2">
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a>menu-level-1</a>
+                            <ul class="submenu em-submenu level2">
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                                <li><a>menu-level-2</a>
+                                    <ul class="submenu em-submenu level3">
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                        <li><a>menu-level-3</a></li>
+                                    </ul>            
+                                </li>
+                            </ul>    
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                
+              </li>
+            </ul>            
+          </div>
+
+        <!--/span-->
+        
+        <!-- ko if: content -->
+        <div id="tabs" class="tabbable" data-bind="html: content"></div>
+        <!-- /ko -->
+        <!-- ko ifnot: content -->
+        <div id="tabs" class="tabbable">
+            <ul class="nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Home <i class="icon-edit" data-toggle="modal" data-target="#myModal" data-bind="click: clickEditTab"></i><i class="icon-remove" data-bind="click: removeTab"></i></a></li>
+                <li id="addTabButton"><a href="#" data-toggle="modal" data-target="#addTabModal">Add Level 1 Item <i class="icon-plus"></i></a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="home" class="demo tab-pane active">
+                    <div class="lyrow ui-draggable" style="display: block;"> <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                      <div class="preview">
+                        <input value="12" type="text">
+                      </div>
+                      <div class="view">
+                        <div class="row-fluid clearfix">
+                          <div class="span12 column ui-sortable">
+                              <div class="box box-element ui-draggable"> 
+                                  <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Delete</a>
+                                  <span class="drag label"><i class="icon-move"></i>Drag</span>
+                                  <span class="configuration">
+                                    <button type="button" class="btn btn-edit btn-mini" >Edit</button>
+                                  </span>
+                                  <div class="preview">Text</div>
+                                  <div class="view" contenteditable="true">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+        <!-- end demo -->
+        <!--/span-->
+        <div id="download-layout">
+          <div class="container-fluid"></div>
+        </div>
+      </div>
+      <!--/row--> 
+    </div>
+</div>
+<div data-bind="afterRender: afterRender"></div>
+<!--/.fluid-container--> 

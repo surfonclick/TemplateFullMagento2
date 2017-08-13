@@ -1,0 +1,45 @@
+<?php 
+	$settingHelper=$this->helper('Emthemes\ThemeSettings\Helper\Data');
+	$url=$settingHelper->getBaseUrl();
+	$blockObj= $block->getLayout()->createBlock('Magento\Customer\Block\Account\AuthorizationLink');
+	$dataPostParam = '';
+	if ($blockObj->isLoggedIn()) {
+		$dataPostParam = sprintf(" data-post='%s'", $blockObj->getPostParams());
+	}
+?>
+<ul class="header links">
+
+	<?php if($blockObj->isLoggedIn()): ?>
+		<li class="myaccount-link">
+			<a title="<?php echo __('My Account'); ?>" class="link-account" href="<?php echo $url.'customer/account'; ?>">
+				<?php echo __('My Account'); ?>
+			</a>
+		</li>	  
+	<?php endif;?>
+	<li class="authorization-link <?php echo ($blockObj->isLoggedIn()) ? 'log-out' : 'log-in' ?>" data-label="<?php echo $blockObj->escapeHtml(__('or')); ?>" >
+		<a class="link-account" title="<?php echo $blockObj->escapeHtml($blockObj->getLabel()); ?>" <?php echo $blockObj->getLinkAttributes(); ?><?php echo $dataPostParam; ?> >
+			<?php echo $blockObj->escapeHtml($blockObj->getLabel()); ?>
+		</a>
+		<?php if(!$blockObj->isLoggedIn()): ?>
+			<?php echo $blockObj->getChildHtml() ?>
+		<?php endif ?> 
+	</li>
+	<li class="registration-link">
+		<a href="<?php echo $url.'customer/account/create' ?>" title="Register" >
+			<?php echo __("Register") ?>
+		</a>
+	</li>		
+	<li class="link wishlist" data-bind="scope: 'wishlist'">
+		<a href="<?php echo $url.'wishlist/'; ?>" title="Wishlist"><?php echo __("Wishlist") ?>        <!-- ko if: wishlist().counter -->
+			<span data-bind="text: wishlist().counter" class="counter qty"></span>
+			<!-- /ko -->
+		</a>
+	</li>	
+	<li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+		<a class="action compare no-display" title="Compare" data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}">
+			<?php echo __("Compare")  ?>      <!-- ko if: compareProducts().count -->
+			(<span class="counter qty" data-bind="text: compareProducts().countCaption"></span>)
+			 <!-- /ko -->
+		</a>
+	</li>
+</ul>

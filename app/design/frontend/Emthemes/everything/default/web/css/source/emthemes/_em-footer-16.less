@@ -1,0 +1,80 @@
+& when (@media-common = true) {
+	.em-footer-style16{
+		.footer-top{
+			padding-top: 1.5rem;
+			padding-bottom: 1rem;
+			.em-footer-info{
+				.em-block-title{
+					.h4{
+						font-size:100%;
+					}
+				}
+			}
+		}
+		.four-block-middle {
+			margin-bottom: 50px;
+		}
+		.em-block-content{
+			font-size:90%;
+		}
+		.em-social{
+			.em-social-icon{
+				.a-link(lighten(@em-footer__text-color, 60%), @em-footer-link__hover__text-color);
+			}
+		}
+		.top-brands {
+			text-align: center;
+			padding-top: 30px;
+			border-top: 1px solid @em-footer__border-color;
+			.em-links {
+				.em-links-item {
+					display: inline-block;
+					padding: 0 12px;
+					position: relative;
+					&:after{
+						content: "|";
+						right: -5px;
+						position: absolute;
+					}
+					&:last-child{
+						&:after{
+							content: "";
+						}
+					}
+				}
+			}
+		}
+		.footer-bottom{
+			.footer.content{
+				padding-top:0;
+				.copyright{
+					color: #ffffff;
+				}
+				.block.widget{
+					margin-bottom:0
+				}
+			}
+		}
+		.em-payment-icon{
+			&.em-mastercart{
+				.lib-icon(83px, 17px, icons, -315px -41px);
+			}
+			&.em-paypal{
+				.lib-icon(46px, 18px, icons, -410px -39px);
+			}
+
+			&.em-visa{
+				.lib-icon(41px, 20px, icons, -476px -41px);
+			}
+			&.em-DHL{
+				.lib-icon(100px, 24px, icons, -529px -42px);
+			}
+			&.em-american{
+				.lib-icon(44px, 22px, icons, -639px -41px);
+			}
+			&.em-fedex{
+				.lib-icon(49px, 24px, icons, -704px -41px);
+			}
+		}
+	}
+}

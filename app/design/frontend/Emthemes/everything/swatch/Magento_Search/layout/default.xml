@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="store.settings.wrapper">
+            <block class="Magento\Framework\View\Element\Template" name="top.search" as="topSearch" template="Magento_Search::form.mini.hover.phtml" before="minicart" />
+        </referenceContainer>
+        <referenceContainer name="header-wrapper-container">
+            <block class="Magento\Framework\View\Element\Template" name="mobile.top.search" as="mobileTopSearch" template="Magento_Search::form.mini.mobile.phtml" before="minicart" />
+        </referenceContainer>     
+    </body>
+</page>

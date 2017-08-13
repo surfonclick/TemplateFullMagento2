@@ -1,0 +1,728 @@
+title,identifier,content
+EM0144 Everything - Fashion Store - Home - Ads Text,em0144-fashion-home-ads-text,"<div class=""row em-wrapper-ads-13 hidden-xs"">
+<div class=""text-box col-sm-8 col-xs-8""><a class=""icon-banner-left pull-left"" title=""Tech Support 247"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""Tech Support 247"" href=""#"">RETURN &amp; EXCHANGE</a></h5>
+<p>Vintage pastel tucked t-shirt leather cami</p>
+</div>
+</div>
+<div class=""text-box col-sm-8 col-xs-8""><a class=""icon-banner-left pull-left"" title=""Free shipping all order"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""Free shipping all order"" href=""#"">Free shipping</a></h5>
+<p>Get Free Shipping on all orders</p>
+</div>
+</div>
+<div class=""text-box col-sm-8 col-xs-8""><a class=""icon-banner-left pull-left"" title=""30 days return"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""30 days return"" href=""#"">MEMBER DISCOUNT</a></h5>
+<p>The total billed is discount for member</p>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Sidebar Left - Home - Banner 01,em0144-fashion-sidebar-left-home-banner-01,"<div class=""em-wrapper-banners hidden-xs space-small-block"">
+<div class=""effect""><a class=""banner-img"" href=""#""><img class=""img-responsive retina-img"" src=""{{media url=""wysiwyg/em0144/layout_fashion/home/em_ads_01.jpg""}}"" alt=""em_ads_01.jpg"" /></a><span class=""effect-line"">&nbsp;</span></div>
+</div>"
+EM0144 Everything - Fashion Store - Sidebar Left - Home - Ads 02,em0144-fashion-sidebar-left-home-ads-02,"<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-15"">
+<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;items&quot;:1}}"">
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Sidebar Left 03 - Home - Recent Blog,em0144-fashion-sidebar-left03-home-recent-blog,"<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-block-title"">
+<h2><span>Blog</span></h2>
+</div>
+<div class=""em-from-our-blog"">
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_03.jpg'}}"" alt=""em_ads_03.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color...</p>
+<div><a class=""link-more"" href=""#"">Read more</a></div>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_04.jpg'}}"" alt=""em_ads_04.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers...</p>
+<div><a class=""link-more"" href=""#"">Read more</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Sidebar Left - Home - Banner 04,em0144-fashion-sidebar-left-home-banner-04,"<div class=""img-banner hidden-xs"">
+<div class=""effect-hover-text2""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_05.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>"
+EM0144 Everything - Fashion Store - Area Main 01 - Home - Banners,em0144-fashion-area-main01-home-banners,"<div class=""row hidden-xs space-small-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-8 col-xs-8  text-center"">
+<div class=""effect""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_06.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text effect-line"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_01.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-8 col-xs-8  img-banner text-center"">
+<div class=""effect""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_07.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text effect-line"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_02.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-8 col-xs-8 text-center"">
+<div class=""effect""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_08.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text effect-line"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_03.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Area Main 02 - Home - Tabs,em0144-fashion-area-main02-home-tabs,"<div class=""emtabs-ajaxblock-loaded"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""widget-title em-widget-title"">
+<h3><span>New Arrivals</span></h3>
+</div>
+<div class=""em-tabs-right"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-shirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-shirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#shirt-tab"" data-toggle=""switch"">Shirt</a></div>
+<div id=""shirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`41`;]]""}}</div>
+<div id=""tab-label-skirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-skirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#skirt-tab"" data-toggle=""switch"">Skirt</a></div>
+<div id=""skirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:10:`22, 27, 28`;]]""}}</div>
+<div id=""tab-label-dress-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-dress-tab-title"" class=""data switch"" tabindex=""-1"" href=""#dress-tab"" data-toggle=""switch"">Dress</a></div>
+<div id=""dress-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:18:`12, 14, 15, 16, 17`;]]""}}</div>
+<div id=""tab-label-outerwear-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-outerwear-tab-title"" class=""data switch"" tabindex=""-1"" href=""#outerwear-tab"" data-toggle=""switch"">Outerwear</a></div>
+<div id=""outerwear-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:10:`13, 18, 19`;]]""}}</div>
+</div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Area Main 03 - Home - Banner,em0144-fashion-area-main03-home-banner,"<div class=""em-wrapper-banners hidden-xs space-small-block"">
+<div class=""effect""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_10.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>"
+EM0144 Everything - Fashion Store - Main Bottom - Banners,em0144-fashion-main-bottom-banners,"<div class=""row hidden-xs"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-6 col-xs-6 first img-banner text-center"">
+<div class=""effect-hover-text""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_11.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_07.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-12 col-xs-12 img-banner text-center"">
+<div class=""effect-hover-text4""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_12.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_08.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-6 col-xs-6 last img-banner text-center"">
+<div class=""effect-hover-text3""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_13.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_09.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Main Bottom 02 - Ads,em0144-fashion-main-bottom02-ads,"<div class=""em-wrapper-ads-09 space-block"">
+<div class=""row"">
+<div class=""col-sm-6 text-center em-wrapper-ads-item"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-ads-content"">
+<h4 class=""primary em-text-upercase"">SUPER ONLINE STORES</h4>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+</div>
+</div>
+</div>
+<div class=""col-sm-6 text-center em-wrapper-ads-item  line-left line-right"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-ads-content"">
+<h4 class=""primary em-text-upercase"">RESPONSIVaE DESIGN</h4>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+</div>
+</div>
+</div>
+<div class=""col-sm-6 text-center  em-wrapper-ads-item  line-left line-right"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-ads-content"">
+<h4 class=""primary em-text-upercase"">FREE UPDATES</h4>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+</div>
+</div>
+</div>
+<div class=""col-sm-6 text-center  em-wrapper-ads-item"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-ads-content"">
+<h4 class=""primary em-text-upercase"">24/7 SUPPORT ONLINE</h4>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+</div>
+</div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Main Bottom 03 - Banner Slider,em0144-fashion-main-bottom03-banners-slider,"<div class=""em-wrapper-brands space-block"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Before Footer 01 - Links,em0144-fashion-before-footer01-links-,"<div class=""em-footer-info"">
+	<div class=""row"">
+		<div class=""col-sm-4 first text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>What's hot</span></p>
+			</div>
+			<ul id=""collapse01"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Discount Voucher</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Spring Collection</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Trending</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Best Sellers</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Brands</span></p>
+			</div>
+			<ul id=""collapse02"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jack &amp; Jones</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Calvin Klein</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Ray Ban</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>River Island</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Men shop</span></p>
+			</div>
+			<ul id=""collapse03"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Top</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Bottoms</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Accessories</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Women shop</span></p>
+			</div>
+			<ul id=""collapse04"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jeans</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Dresses</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Other</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse05&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Help</span></p>
+			</div>
+			<ul id=""collapse05"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>F.A.Q.</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shipping</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store direct_url='contacts'}}""><span>Contact Us</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 last text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse06&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Nation Apps</span></p>
+			</div>
+			<ul id=""collapse06"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPhone</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPad</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Android</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class=""em-footer-info-bottom"">
+		<div class=""row"">
+			<div class=""col-sm-12 col-md-12 col-lg-15 first"">
+				<div class=""em-wrapper-newsletter"">
+					<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse07&quot;}}"">
+						<p class=""h4 em-text-upercase""><span>Sign Up For Newsletter</span></p>
+					</div>
+					<div id=""collapse07"" class=""em-block-content em-newsletter"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style05"" template=""subscribe.phtml""}}</div>
+				</div>
+			</div>
+			<div class=""col-sm-12 col-md-12 col-lg-9 last"">
+				<div class=""em-wrapper-social f-right"">
+					<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse08&quot;}}"">
+						<p class=""h4 em-text-upercase""><span>Follow Us</span></p>
+					</div>
+					<div id=""collapse08"" class=""em-block-content"">
+						<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>"
+EM0144 Everything - Fashion Store - Footer Inner - Payment,em0144-fashion-area-footer-inner-payment,"<div class=""em-payment f-right""><a class=""em-payment-icon em-visa"" title=""em-sample-title"" href=""#"">visa</a> <a class=""em-payment-icon em-master"" title=""em-sample-title"" href=""#"">master</a> <a class=""em-payment-icon em-express "" title=""em-sample-title"" href=""#"">express</a><a class=""em-payment-icon em-paypal"" title=""em-sample-title"" href=""#"">paypal</a> <a class=""em-payment-icon em-other "" title=""em-sample-title"" href=""#"">other</a></div>"
+EM0144 Everything - Fashion Store - Area Main 04 - Home - Best Sale,em0144-fashion-area-main02-home-best-sale,"<div class=""em-wrapper-product-15"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Best Sales"" display_type=""bestseller_products"" products_count=""6"" order_by=""name ASC"" show=""thumb,name,review,price"" thumb_width=""110"" thumb_height=""110"" filter_template=""custom"" custom_template=""grid_custom_list.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`41`;]]""}}</div>"
+EM0144 Everything - Fashion Store - Area Main - Slideshow,em0144-fashion-main-area-main-slideshow,"<div class=""em-slideshow space-small-block"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""1""}}</div>"
+EM0144 Everything - Main Megamenu,em0144-main-megamenu,"<div class=""em-menu"">
+<ul class=""em-menu-content"">
+<li class=""level0 submenu""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{store direct_url='women.html'}}""><span>Home Store</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6"">
+<div class=""em-row"">
+<div class=""store-view"">
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Sport Store"" href=""{{store direct_url='?___store=sport_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/sport_store.jpg'}}"" alt=""Sport Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=sport_en'}}"">Sport Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Smartphone Store"" href=""{{store direct_url='?___store=sport_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/smartphone_store.jpg'}}"" alt=""Smartphone Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""#"">Smartphone Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Supermarket Store"" href=""{{store direct_url='?___store=supermarket_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/supermarket_store.jpg'}}"" alt=""Supermarket Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=supermarket_en'}}"">Supermarket Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Health Store"" href=""{{store direct_url='?___store=health_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/health_personal_care.jpg'}}"" alt=""Health Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=health_en'}}"">Health Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Garden Store"" href=""{{store direct_url='?___store=garden_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/garden_store.jpg'}}"" alt=""Garden Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=garden_en'}}"">Garden Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Computer Store"" href=""{{store direct_url='?___store=computer_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/computer_store.jpg'}}"" alt=""Computer Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=computer_en'}}"">Computer Store</a></p>
+</div>
+</div>
+<div class=""store-view"" style=""padding-top: 15px;"">
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Clothing Store"" href=""{{store direct_url='?___store=clothing_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/clothing_store.jpg'}}"" alt=""Clothing Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=clothing_en'}}"">Clothing Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Bicycle Store"" href=""{{store direct_url='?___store=bicycle_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/bicycle_store.jpg'}}"" alt=""Baby Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=bicycle_en'}}"">Bicycle Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Fashion Store"" href=""{{store direct_url='?___store=default'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/main_fashion_store.jpg'}}"" alt=""Fashion Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=default'}}"">Fashion Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Shoes Store"" href=""{{store direct_url='?___store=shoe_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/shoes_store.jpg'}}"" alt=""Shoes Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=shoe_en'}}"">Shoes Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Jewelry Store"" href=""{{store direct_url='?___store=jewelry_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/jewelry_store.jpg'}}"" alt=""Jewelry Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=jewelry_en'}}"">Jewelry Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Glass Store"" href=""{{store direct_url='?___store=glass_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/glass_store.jpg'}}"" alt=""Glass Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=glass_en'}}"">Glass Store</a></p>
+</div>
+</div>
+<div class=""store-view"" style=""padding-top: 15px;"">
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Furniture Store"" href=""{{store direct_url='?___store=furniture_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/furniture_store.jpg'}}"" alt=""Furniture Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=furniture_en'}}"">Furniture Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""FashionNova Store"" href=""{{store direct_url='?___store=nova_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/fashionnova_store.jpg'}}"" alt=""FashionNova Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=nova_en'}}"">FashionNova Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Swatch Store"" href=""{{store direct_url='?___store=swatch_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/swatch_store.jpg'}}"" alt=""Swatch Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=swatch_en'}}"">Swatch Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Baby Store"" href=""{{store direct_url='?___store=baby_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/baby_store.jpg'}}"" alt=""Baby Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=baby_en'}}"">Baby Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Lingerie Store"" href=""{{store direct_url='?___store=lingerie_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/lingerie_store.jpg'}}"" alt=""Lingerie Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=lingerie_en'}}"">Lingerie Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Beauty Store"" href=""{{store direct_url='?___store=beauty_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/beauty_store.jpg'}}"" alt=""Beauty Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=beauty_en'}}"">Beauty Store</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link""><span>Features</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-1"">
+<div class=""em-row"">
+<div class=""col-12"">
+<ul class=""ls-link"">
+<li><a href=""#"">Deals product <span class=""menu-label coming-soon"">&nbsp;</span></a></li>
+<li><a href=""#"">Product Label <span class=""menu-label coming-soon"">&nbsp;</span></a></li>
+<li><a href=""#"">ColorSwatch</a></li>
+<li><a href=""#"">Blog</a></li>
+<li><a href=""#"">Mega Menu</a></li>
+<li><a href=""#"">Quickshop</a></li>
+<li><a href=""#"">Emthemes Setting</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{store direct_url='women/tops-women.html'}}""><span class=""icon-menu"">&nbsp;</span><span>Categorys</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6 dropmenu-full-content"">
+<div class=""em-row"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>1 Column</span></div>
+<div class=""nav-text"">
+<p>Key features for an online market, such as Featured products, Promotions, Deals with Timing, are absolutely ready. It&rsquo;s no doubt that Titanshop will get traffic for your site, and also help boosting sales.</p>
+<p class=""view-more""><a href=""{{store direct_url='women/tops-women.html'}}"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu01.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>2 Columns</span></div>
+<div class=""nav-text"">
+<p>A friendly responsive design, adaptive screen with the new Bootstrap 3 is already very impressive. Besides that, Visual Content Editor allows you to edit content directly on front-end.</p>
+<p class=""view-more""><a href=""{{store direct_url='men/tops-men.html'}}"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu02.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>3 Columns</span></div>
+<div class=""nav-text"">
+<p>A friendly responsive design, adaptive screen with the new Bootstrap 3 is already very impressive. Besides that, Visual Content Editor allows you to edit content directly on front-end.</p>
+<p class=""view-more""><a href=""{{store direct_url='gear/bags.html'}}"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu03.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link""><span class=""icon-menu"">&nbsp;</span><span>Products</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-5"">
+<div class=""em-row"">
+<div class=""col-3"">
+<div class=""nav-title-link""><span>Product Types</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='compete-track-tote.html'}}"">Simple product</a></li>
+<li><a href=""{{store direct_url='beginner-s-yoga.html'}}"">Downloadable Product</a></li>
+<li><a href=""{{store direct_url='chaz-kangeroo-hoodie.html'}}"">Configurable Product</a></li>
+<li><a href=""{{store direct_url='set-of-sprite-yoga-straps.html'}}"">Grouped Product</a></li>
+<li><a href=""{{store direct_url='sprite-yoga-companion-kit.html'}}"">Bundle Product</a></li>
+</ul>
+</div>
+<div class=""col-3"">
+<div class=""nav-title-link""><span>Product Columns</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='aeon-capri.html'}}"">1 Column</a></li>
+<li><a href=""{{store direct_url='atlas-fitness-tank.html'}}"">2 Columns Left</a></li>
+<li><a href=""{{store direct_url='cronus-yoga-pant.html'}}"">2 Columns Right</a></li>
+<li><a href=""{{store direct_url='bardot-capri.html'}}"">Upsell</a></li>
+<li><a href=""{{store direct_url='breathe-easy-tank.html'}}"">Related Product</a></li>
+</ul>
+</div>
+<div class=""col-6"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu10.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{store direct_url='man.html'}}""><span class=""icon-menu"">&nbsp;</span><span>Fashion</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6"" style=""padding-bottom: 200px;"">
+<div class=""bg-dropmenu""><img src=""{{media url='wysiwyg/em0144/menu/bkg-menu.jpg'}}"" alt=""em-sample-alt"" /></div>
+<div class=""em-row"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Women</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='women/tops-women.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='women/tops-women/jackets-women.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='women/tops-women/hoodies-and-sweatshirts-women.html'}}"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tees-women.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tanks-women.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/pants-women.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/shorts-women.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Men</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Gear</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='gear.html'}}"">Gear</a></li>
+<li><a href=""{{store direct_url='gear/bags.html'}}"">Bags</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">Fitness Equipment</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">watches</a></li>
+<li><a href=""{{store direct_url='training.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='training/training-video.html'}}"">Video Download</a></li>
+<li><a href=""{{store direct_url='men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/shorts-men.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Women</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='women/tops-women.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='women/tops-women/jackets-women.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='women/tops-women/hoodies-and-sweatshirts-women.html'}}"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tees-women.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tanks-women.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/pants-women.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/shorts-women.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Men</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Gear</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='gear.html'}}"">Gear</a></li>
+<li><a href=""{{store direct_url='gear/bags.html'}}"">Bags</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">Fitness Equipment</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">watches</a></li>
+<li><a href=""{{store direct_url='training.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='training/training-video.html'}}"">Video Download</a></li>
+<li><a href=""{{store direct_url='men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/shorts-men.html'}}"">Shorts</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{store direct_url='men/tops-men.html'}}""><span class=""icon-menu"">&nbsp;</span><span>Sport</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6"">
+<div class=""em-row nav-flex"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Tenis</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu08.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Golf</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu04.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='women/tops-women.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='women/tops-women/jackets-women.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='women/tops-women/hoodies-and-sweatshirts-women.html'}}"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tees-women.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tanks-women.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/pants-women.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/shorts-women.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Basketball</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu05.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='gear.html'}}"">Gear</a></li>
+<li><a href=""{{store direct_url='gear/bags.html'}}"">Bags</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">Fitness Equipment</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">watches</a></li>
+<li><a href=""{{store direct_url='training.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='training/training-video.html'}}"">Video Download</a></li>
+<li><a href=""{{store direct_url='men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/shorts-men.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Trainning</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu07.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='women/tops-women.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='women/tops-women/jackets-women.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='women/tops-women/hoodies-and-sweatshirts-women.html'}}"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tees-women.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tanks-women.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/pants-women.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/shorts-women.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Football</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu06.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='gear.html'}}"">Gear</a></li>
+<li><a href=""{{store direct_url='gear/bags.html'}}"">Bags</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">Fitness Equipment</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">watches</a></li>
+<li><a href=""{{store direct_url='training.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='training/training-video.html'}}"">Video Download</a></li>
+<li><a href=""{{store direct_url='men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/shorts-men.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2 line-col-left"">
+<div class=""nav-title-link""><span>other sports</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Outdoor</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Tennis</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Golf</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu""><a class=""em-menu-link"" href=""{{store direct_url='blog'}}""><span class=""icon-menu"">&nbsp;</span><span>Blog</span></a></li>
+</ul>
+</div>"
+EM0144 Everything - Area Staic Block - Details Page - Ads,em0144-area-staticblock-detailspage-ads,"<div class=""em-wrapper-ads-09 space-small-block"">
+<div class=""row"">
+<div class=""col-sm-12 text-center em-wrapper-ads-item"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-banner-right em-ads-content"">
+<h4 class=""primary em-text-upercase"">free shipping</h4>
+</div>
+</div>
+</div>
+<div class=""col-sm-12 text-center em-wrapper-ads-item  line-left"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-banner-right em-ads-content"">
+<h4 class=""primary em-text-upercase"">same day dispatch</h4>
+</div>
+</div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Area Size Chart - Details - Size Chart,em0144-area-size-chart-details,"<p><a class=""em-info-size"" data-role=""action""><em class=""fa fa-fw""></em>Size Chart</a></p>
+<div class=""size-chart-wrapper"" data-mage-init=""{&quot;modal&quot;:{&quot;trigger&quot;:&quot;.em-info-size&quot;,&quot;wrapperClass&quot;: &quot;modals-wrapper size-chart&quot;}}"">
+<div id=""sizechartModal"" data-role=""content"">
+<div class=""modal-dialog"">
+<div class=""modal-content"">
+<h3 id=""sizechartModalLabel"" class=""modal-title"">Size Chart</h3>
+<div class=""box"">
+<p><a class=""em-eff06-04"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/details/em_ads_01.jpg'}}"" alt=""em_ads_01.jpg"" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>"
+EM0144 Everything - Fashion Store - Popup Advertising Block,em0144-fashion-popup-adsvertising-block,"<div class=""em-block-ads""><img class=""img-responsive"" src=""{{media url=""wysiwyg/em0144/layout_fashion/home/em_ads_popup.jpg""}}"" alt=""em_ads_popup.jpg"" /></div>"

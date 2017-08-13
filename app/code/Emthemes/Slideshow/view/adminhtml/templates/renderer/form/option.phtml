@@ -1,0 +1,132 @@
+<?php 
+	$option_layout=$block->optionLayout();
+	$option_slidetran=$block->optionSlidetran();
+	$option_slideskin=$block->optionSliderskin();
+	$id=$block->getId();
+	if(isset($id)&&$id!="")
+	{
+		$data=$block->optionData($id);
+		$dataencode=json_decode($data["configure"],true);
+	}
+?>
+
+<?php if(isset($id)&&$id!="") : ?>
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-autoplay" class="admin__field field field-autoplay ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-autoplay-label" for="item_autoplay" class="label admin__field-label"><span>Auto Play</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-autoplay" class=" select admin__control-select" title="Auto Play" name="autoplay" id="item_autoplay">
+           <?php if($dataencode["auto"]=="1") :?>
+			<option selected="selected" value="1">True</option>
+            <option value="0">False</option>
+			<?php else : ?>
+			<option  value="1">True</option>
+            <option selected="selected" value="0">False</option>			
+			<?php endif; ?>
+        </select>
+    </div>
+</div>
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-loop" class="admin__field field field-loop ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-loop-label" for="item_loop" class="label admin__field-label"><span>Loop</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-loop" class=" select admin__control-select" title="Auto Play" name="loop" id="item_loop">
+           <?php if($dataencode["loop"]=="1") :?>
+			<option selected="selected" value="1">True</option>
+            <option value="0">False</option>
+			<?php else : ?>
+			<option  value="1">True</option>
+            <option selected="selected" value="0">False</option>			
+			<?php endif; ?>
+        </select>
+    </div>
+</div>
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-layout" class="admin__field field field-layout ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-layout-label" for="item_layout" class="label admin__field-label"><span>Layout</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-layout" class=" select admin__control-select" title="Auto Play" name="layout" id="item_layout">
+			<?php foreach($option_layout as $label => $value) : ?>
+				<option <?php if($dataencode["layout"]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+			<?php endforeach; ?>
+        </select>
+    </div>
+</div>
+
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-change_trans" class="admin__field field field-change_trans ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-change_trans-label" for="item_change_trans" class="label admin__field-label"><span>Slide Changing Transitions</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-change_trans" class=" select admin__control-select" title="Auto Play" name="change_trans" id="item_change_trans">
+			<?php foreach($option_slidetran as $label => $value) : ?>
+				<option <?php if($dataencode["change_trans"]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+			<?php endforeach; ?>
+        </select>
+    </div>
+</div>
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-slider_skin" class="admin__field field field-slider_skin ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-slider_skin-label" for="item_slider_skin" class="label admin__field-label"><span>Slider Skins</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-slider_skin" class=" select admin__control-select" title="Auto Play" name="slider_skin" id="item_slider_skin">
+			<?php foreach($option_slideskin as $label => $value) : ?>
+				<option <?php if($dataencode["slider_skin"]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+			<?php endforeach; ?>
+        </select>
+    </div>
+</div>
+<?php else : ?>
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-autoplay" class="admin__field field field-autoplay ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-autoplay-label" for="item_autoplay" class="label admin__field-label"><span>Auto Play</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-autoplay" class=" select admin__control-select" title="Auto Play" name="autoplay" id="item_autoplay">
+			<option selected="selected" value="1">True</option>
+            <option value="0">False</option>
+        </select>
+    </div>
+</div>
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-loop" class="admin__field field field-loop ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-loop-label" for="item_loop" class="label admin__field-label"><span>Loop</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-loop" class=" select admin__control-select" title="Auto Play" name="loop" id="item_loop">
+			<option selected="selected" value="1">True</option>
+            <option value="0">False</option>
+        </select>
+    </div>
+</div>
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-layout" class="admin__field field field-layout ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-layout-label" for="item_layout" class="label admin__field-label"><span>Layout</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-layout" class=" select admin__control-select" title="Auto Play" name="layout" id="item_layout">
+			<?php foreach($option_layout as $label => $value) : ?>
+				<option value="<?php echo $value; ?>"><?php echo $label; ?></option>
+			<?php endforeach; ?>
+        </select>
+    </div>
+</div>
+
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-change_trans" class="admin__field field field-change_trans ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-change_trans-label" for="item_change_trans" class="label admin__field-label"><span>Slide Changing Transitions</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-change_trans" class=" select admin__control-select" title="Auto Play" name="change_trans" id="item_change_trans">
+			<?php foreach($option_slidetran as $label => $value) : ?>
+				<option  value="<?php echo $value; ?>"><?php echo $label; ?></option>
+			<?php endforeach; ?>
+        </select>
+    </div>
+</div>
+
+<div data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-slider_skin" class="admin__field field field-slider_skin ">
+    <label data-ui-id="slideshow-items-edit-form-fieldset-element-select-slider_skin-label" for="item_slider_skin" class="label admin__field-label"><span>Slider Skins</span></label>
+    <div class="admin__field-control control">
+        <select data-ui-id="slideshow-items-edit-form-fieldset-element-select-slider_skin" class=" select admin__control-select" title="Auto Play" name="slider_skin" id="item_slider_skin">
+			<?php foreach($option_slideskin as $label => $value) : ?>
+				<option  value="<?php echo $value; ?>"><?php echo $label; ?></option>
+			<?php endforeach; ?>
+        </select>
+    </div>
+</div>
+<?php endif; ?>

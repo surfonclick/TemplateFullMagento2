@@ -1,0 +1,700 @@
+title,identifier,content
+"EM0144 Everything - Sport Store - Area Navigation - Menu",em0144-sport-area-navigation-menu,"<div class=""em-menu"">
+<ul class=""em-menu-content"">
+<li class=""level0 submenu menu_custom""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link""><span>Category</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-1"">
+<div class=""em-row"">
+<div class=""col-12"">
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Outdoor</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Tennis</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Golf</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{store direct_url='women.html'}}""><span>Home Store</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6"">
+<div class=""em-row"">
+<div class=""store-view"">
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Supermarket Store"" href=""{{store direct_url='?___store=supermarket_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/supermarket_store.jpg'}}"" alt=""Supermarket Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=supermarket_en'}}"">Supermarket Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Health Store"" href=""{{store direct_url='?___store=health_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/health_personal_care.jpg'}}"" alt=""Health Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=health_en'}}"">Health Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Garden Store"" href=""{{store direct_url='?___store=garden_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/garden_store.jpg'}}"" alt=""Garden Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=garden_en'}}"">Garden Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Computer Store"" href=""{{store direct_url='?___store=computer_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/computer_store.jpg'}}"" alt=""Computer Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=computer_en'}}"">Computer Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Smartphone Store"" href=""#""><img src=""{{media url='wysiwyg/em0144/menu/store/smartphone_store.jpg'}}"" alt=""Smartphone Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""#"">Smartphone Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Sport Store"" href=""{{store direct_url='?___store=sport_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/sport_store.jpg'}}"" alt=""Sport Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=sport_en'}}"">Sport Store</a></p>
+</div>
+</div>
+<div class=""store-view"" style=""padding-top: 15px;"">
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Clothing Store"" href=""{{store direct_url='?___store=clothing_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/clothing_store.jpg'}}"" alt=""Clothing Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=clothing_en'}}"">Clothing Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Bicycle Store"" href=""{{store direct_url='?___store=bicycle_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/bicycle_store.jpg'}}"" alt=""Baby Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=bicycle_en'}}"">Bicycle Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Halloween Store"" href=""{{store direct_url='?___store=default'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/main_fashion_store.jpg'}}"" alt=""Halloween Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=default'}}"">Halloween Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Shoes Store"" href=""{{store direct_url='?___store=shoe_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/shoes_store.jpg'}}"" alt=""Shoes Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=shoe_en'}}"">Shoes Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Jewelry Store"" href=""{{store direct_url='?___store=jewelry_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/jewelry_store.jpg'}}"" alt=""Jewelry Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=jewelry_en'}}"">Jewelry Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Glass Store"" href=""{{store direct_url='?___store=glass_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/glass_store.jpg'}}"" alt=""Glass Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=glass_en'}}"">Glass Store</a></p>
+</div>
+</div>
+<div class=""store-view"" style=""padding-top: 15px;"">
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Furniture Store"" href=""{{store direct_url='?___store=furniture_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/furniture_store.jpg'}}"" alt=""Furniture Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=furniture_en'}}"">Furniture Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""FashionNova Store"" href=""{{store direct_url='?___store=nova_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/fashionnova_store.jpg'}}"" alt=""FashionNova Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=nova_en'}}"">FashionNova Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Swatch Store"" href=""{{store direct_url='?___store=swatch_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/swatch_store.jpg'}}"" alt=""Swatch Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=swatch_en'}}"">Swatch Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Baby Store"" href=""{{store direct_url='?___store=baby_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/baby_store.jpg'}}"" alt=""Baby Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=baby_en'}}"">Baby Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Lingerie Store"" href=""{{store direct_url='?___store=lingerie_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/lingerie_store.jpg'}}"" alt=""Lingerie Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=lingerie_en'}}"">Lingerie Store</a></p>
+</div>
+<div class=""col-sm-4"">
+<div class=""effect03"">
+<div><a title=""Beauty Store"" href=""{{store direct_url='?___store=beauty_en'}}""><img src=""{{media url='wysiwyg/em0144/menu/store/beauty_store.jpg'}}"" alt=""Beauty Store"" /></a></div>
+</div>
+<p class=""h5""><a href=""{{store direct_url='?___store=beauty_en'}}"">Beauty Store</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link""><span>Features</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-1"">
+<div class=""em-row"">
+<div class=""col-12"">
+<ul class=""ls-link"">
+<li><a href=""#"">Deals product <span class=""menu-label coming-soon"">&nbsp;</span></a></li>
+<li><a href=""#"">Product Label <span class=""menu-label coming-soon"">&nbsp;</span></a></li>
+<li><a href=""#"">ColorSwatch</a></li>
+<li><a href=""#"">Blog</a></li>
+<li><a href=""#"">Mega Menu</a></li>
+<li><a href=""#"">Quickshop</a></li>
+<li><a href=""#"">Emthemes Setting</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{store direct_url='women/tops-women.html'}}""><span class=""icon-menu"">&nbsp;</span><span>Categorys</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6 dropmenu-full-content"">
+<div class=""em-row"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>1 Column</span></div>
+<div class=""nav-text"">
+<p>Key features for an online market, such as Featured products, Promotions, Deals with Timing, are absolutely ready. It&rsquo;s no doubt that Titanshop will get traffic for your site, and also help boosting sales.</p>
+<p class=""view-more""><a href=""{{store direct_url='women/tops-women.html'}}"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu01.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>2 Columns</span></div>
+<div class=""nav-text"">
+<p>A friendly responsive design, adaptive screen with the new Bootstrap 3 is already very impressive. Besides that, Visual Content Editor allows you to edit content directly on front-end.</p>
+<p class=""view-more""><a href=""{{store direct_url='men/tops-men.html'}}"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu02.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>3 Columns</span></div>
+<div class=""nav-text"">
+<p>A friendly responsive design, adaptive screen with the new Bootstrap 3 is already very impressive. Besides that, Visual Content Editor allows you to edit content directly on front-end.</p>
+<p class=""view-more""><a href=""{{store direct_url='gear/bags.html'}}"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu03.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link""><span class=""icon-menu"">&nbsp;</span><span>Products</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-5"">
+<div class=""em-row"">
+<div class=""col-3"">
+<div class=""nav-title-link""><span>Product Types</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='compete-track-tote.html'}}"">Simple product</a></li>
+<li><a href=""{{store direct_url='beginner-s-yoga.html'}}"">Downloadable Product</a></li>
+<li><a href=""{{store direct_url='chaz-kangeroo-hoodie.html'}}"">Configurable Product</a></li>
+<li><a href=""{{store direct_url='set-of-sprite-yoga-straps.html'}}"">Grouped Product</a></li>
+<li><a href=""{{store direct_url='sprite-yoga-companion-kit.html'}}"">Bundle Product</a></li>
+</ul>
+</div>
+<div class=""col-3"">
+<div class=""nav-title-link""><span>Product Columns</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='aeon-capri.html'}}"">1 Column</a></li>
+<li><a href=""{{store direct_url='atlas-fitness-tank.html'}}"">2 Columns Left</a></li>
+<li><a href=""{{store direct_url='cronus-yoga-pant.html'}}"">2 Columns Right</a></li>
+<li><a href=""{{store direct_url='bardot-capri.html'}}"">Upsell</a></li>
+<li><a href=""{{store direct_url='breathe-easy-tank.html'}}"">Related Product</a></li>
+</ul>
+</div>
+<div class=""col-6"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu10.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{store direct_url='man.html'}}""><span class=""icon-menu"">&nbsp;</span><span>Fashion</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6"" style=""padding-bottom: 200px;"">
+<div class=""bg-dropmenu""><img src=""{{media url='wysiwyg/em0144/menu/bkg-menu.jpg'}}"" alt=""em-sample-alt"" /></div>
+<div class=""em-row"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Women</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='women/tops-women.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='women/tops-women/jackets-women.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='women/tops-women/hoodies-and-sweatshirts-women.html'}}"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tees-women.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tanks-women.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/pants-women.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/shorts-women.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Men</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Gear</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='gear.html'}}"">Gear</a></li>
+<li><a href=""{{store direct_url='gear/bags.html'}}"">Bags</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">Fitness Equipment</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">watches</a></li>
+<li><a href=""{{store direct_url='training.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='training/training-video.html'}}"">Video Download</a></li>
+<li><a href=""{{store direct_url='men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/shorts-men.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Women</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='women/tops-women.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='women/tops-women/jackets-women.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='women/tops-women/hoodies-and-sweatshirts-women.html'}}"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tees-women.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tanks-women.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/pants-women.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/shorts-women.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Men</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Gear</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='gear.html'}}"">Gear</a></li>
+<li><a href=""{{store direct_url='gear/bags.html'}}"">Bags</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">Fitness Equipment</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">watches</a></li>
+<li><a href=""{{store direct_url='training.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='training/training-video.html'}}"">Video Download</a></li>
+<li><a href=""{{store direct_url='men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/shorts-men.html'}}"">Shorts</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{store direct_url='men/tops-men.html'}}""><span class=""icon-menu"">&nbsp;</span><span>Sport</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6"">
+<div class=""em-row nav-flex"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Tenis</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu08.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Golf</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu04.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='women/tops-women.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='women/tops-women/jackets-women.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='women/tops-women/hoodies-and-sweatshirts-women.html'}}"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tees-women.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tanks-women.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/pants-women.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/shorts-women.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Basketball</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu05.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='gear.html'}}"">Gear</a></li>
+<li><a href=""{{store direct_url='gear/bags.html'}}"">Bags</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">Fitness Equipment</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">watches</a></li>
+<li><a href=""{{store direct_url='training.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='training/training-video.html'}}"">Video Download</a></li>
+<li><a href=""{{store direct_url='men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/shorts-men.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Trainning</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu07.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='women/tops-women.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='women/tops-women/jackets-women.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='women/tops-women/hoodies-and-sweatshirts-women.html'}}"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tees-women.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='women/tops-women/tanks-women.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/pants-women.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='women/bottoms-women/shorts-women.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Football</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu06.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='gear.html'}}"">Gear</a></li>
+<li><a href=""{{store direct_url='gear/bags.html'}}"">Bags</a></li>
+<li><a href=""{{store direct_url='gear/fitness-equipment.html'}}"">Fitness Equipment</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">watches</a></li>
+<li><a href=""{{store direct_url='training.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='training/training-video.html'}}"">Video Download</a></li>
+<li><a href=""{{store direct_url='men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/shorts-men.html'}}"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2 line-col-left"">
+<div class=""nav-title-link""><span>other sports</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{store direct_url='men/tops-men.html'}}"">Tops</a></li>
+<li><a href=""{{store direct_url='men/tops-men/jackets-men.html'}}"">Jackets</a></li>
+<li><a href=""{{store direct_url='men/tops-men/hoodies-and-sweatshirts-men.html'}}"">Hoodies </a></li>
+<li><a href=""{{store direct_url='men/tops-men/tees-men.html'}}"">Tees</a></li>
+<li><a href=""{{store direct_url='men/tops-men/tanks-men.html'}}"">Bras &amp; Tanks</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men.html'}}"">Bottoms</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/pants-men.html'}}"">Pants</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Shorts</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Training</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Outdoor</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Tennis</a></li>
+<li><a href=""{{store direct_url='men/bottoms-men/shorts-men.html'}}"">Golf</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu""><a class=""em-menu-link"" href=""{{store direct_url='blog'}}""><span class=""icon-menu"">&nbsp;</span><span>Blog</span></a></li>
+</ul>
+</div>"
+"EM0144 Everything - Sport Store - Main Slideshow",em0144-sport-main-slideshow,"<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""col-sm-16 em-clear-padding"">
+<div class=""slideshow-wrapper"">
+<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""16""}}</div>
+</div>
+</div>
+<div class=""col-sm-8 em-clear-padding"">
+<div class=""em-wrapper-banners"">
+<div class=""img-banner""><a class=""banner-img"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_01.jpg'}}"" alt=""em_ads_01.jpg"" /></a>
+<div class=""desc position1"">
+<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; margin: 0; color: #fff;"">coats &amp;</h1>
+<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; color: #fff;"">jackets</h1>
+<h6 style=""font: italic 100%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">29 Products</h6>
+</div>
+</div>
+<div class=""img-banner""><a class=""banner-img"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_02.jpg'}}"" alt=""em_ads_02.jpg"" /></a>
+<div class=""desc position2"">
+<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; margin: 0; color: #fff;"">Man&rsquo;s</h1>
+<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; color: #fff;"">accessories</h1>
+<h6 style=""font: italic 100%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">29 Products</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Sport Store - Area 02 - Banners",em0144-sport-area02-banners,"EM0144 Everything - Sport Store - Area 02 - Banners"
+"EM0144 Everything - Sport Store - Area Main 01 - Banners",em0144-sport-area-main01-banners,"<div class=""em-wrapper-banners"">
+	<div class=""col-sm-8 text-center em-clear-padding"">
+		<div class="" img-banner"">
+			<a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_03.jpg'}}"" /> </a>
+			<div class=""desc position3"">
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; color: #fff;"">handbags</h1>
+				<h6 style=""font: italic 100%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">15 Products</h6>
+			</div>
+		</div>
+	</div>
+	<div class=""col-sm-16 text-left em-clear-padding"">
+		<div class="" img-banner"">
+			<a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_04.jpg'}}"" /> </a>
+			<div class=""desc position2"">
+				<h6 style=""font: italic 120%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">Lookbook Fit Size Clothing</h6>
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; color: #fff;"">yoga exercises</h1>
+				<a class=""button-link"" href=""#""><span>shop now</span></a>
+			</div>
+		</div>
+	</div>
+</div>"
+"EM0144 Everything - Sport Store - Area Main 02 - Banners",em0144-sport-area-main02-banners,"<div class=""em-wrapper-banners"">
+	<div class=""col-sm-8 text-left em-clear-padding"">
+		<div class="" img-banner"">
+			<a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_05.jpg'}}"" /> </a>
+			<div class=""desc position4"">
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; margin: 0; color: #fff;"">running</h1>
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; color: #fff;"">shoes</h1>
+				<h6 style=""font: italic 100%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">18 Products</h6>
+			</div>
+		</div>
+	</div>
+	<div class=""col-sm-8 text-left em-clear-padding"">
+		<div class="" img-banner"">
+			<a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_06.jpg'}}"" /> </a>
+			<div class=""desc position2"">
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; margin: 0; color: #fff;"">shirts</h1>
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; color: #fff;"">&amp; tops</h1>
+				<h6 style=""font: italic 100%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">34 Products</h6>
+			</div>
+		</div>
+	</div>
+	<div class=""col-sm-8  text-center em-clear-padding"">
+		<div class=""img-banner"">
+			<a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_07.jpg'}}"" /> </a>
+			<div class=""desc position5"">
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; margin: 0; color: #fff;"">shorts</h1>
+				<h6 style=""font: italic 100%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">19 Products</h6>
+			</div>
+		</div>
+	</div>
+</div>"
+"EM0144 Everything - Sport Store - Area Main 03 - Banners",em0144-sport-area-main03-banners,"<div class=""em-wrapper-banners"">
+	<div class=""col-sm-16 text-left em-clear-padding"">
+		<div class="" img-banner"">
+			<a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_08.jpg'}}"" /> </a>
+			<div class=""desc position6"">
+				<h6 style=""font: italic 120%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">Rock High Gallery</h6>
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; color: #fff;"">biking tours</h1>
+				<a class=""button-link"" href=""#""><span>shop now</span></a>
+			</div>
+		</div>
+	</div>
+	<div class=""col-sm-8 text-left em-clear-padding"">
+		<div class="" img-banner"">
+			<a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_sport/home/em_ads_09.jpg'}}"" /> </a>
+			<div class=""desc position7"">
+				<h1 class=""em-text-upercase"" style=""font-size: 285%; line-height: 1; color: #fff;"">outdoors</h1>
+				<h6 style=""font: italic 100%/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;"">6 Products</h6>
+			</div>
+		</div>
+	</div>
+</div>"
+"EM0144 Everything - Sport Store - Area Main 04 - Brands Slider",em0144-sport-area-main04-brands-slider,"
+<div class=""em-wrapper-brands row"">
+	<div class=""col-sm-24"">
+		<div class="" slider-style02"">
+			<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:2},&quot;320&quot;:{&quot;items&quot;:3},&quot;640&quot;:{&quot;items&quot;:4},&quot;768&quot;:{&quot;items&quot;:5},&quot;1024&quot;:{&quot;items&quot;:6}}}}"">
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+				<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_sport/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+			</div>
+		</div>
+	</div>
+</div>"
+"EM0144 Everything - Sport Store - Area Footer 01 - Information",em0144-sport-area-footer01-footer-style08,"<div class=""em-footer-info"">
+<div class=""row em-footer-info-top"">
+<div class=""col-sm-16 col-sm-push-4 text-center"">
+<div class=""em-block-title"">
+<p class=""h4 em-text-upercase""><span>Sign Up For Newsletter</span></p>
+</div>
+<div class=""em-block-content em-newsletter em-newsletter-style02 newsletter-boder-input-act"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class="" four-block-middle"">
+<div class=""row"">
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-collapse-target=""#collapse02"">
+<p class=""h4 em-text-upercase""><span>About Us</span></p>
+</div>
+<div id=""collapse02"" class=""em-block-content block-info"">
+<p class=""em-info"">Skort Maison Martin Margiela knot ponytail cami texture as tucked t-shirt. <em>Black skirt razor pleats plaited gold collar</em>. Crop 90s spearmint indigo seam luxe washed out.</p>
+<p class=""em-address""><em class=""fa fa-fw""></em><span>{{config path=""general/store_information/street_line1""}}</span></p>
+<p class=""em-email""><em class=""fa fa-fw""></em><span>{{config path=""trans_email/ident_general/email""}}</span></p>
+<p class=""em-phone""><em class=""fa fa-fw""></em><span>{{config path=""general/store_information/phone""}}</span></p>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-collapse-target=""#collapse03"">
+<p class=""h4 em-text-upercase""><span>Useful Links</span></p>
+</div>
+<div id=""collapse03"" class=""em-block-content"">
+<div class=""row"">
+<div class=""col-sm-12"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>About Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Sitemap</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Term &amp; Conditions</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-12"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Orders</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Credit Slips</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Addresses</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-collapse-target=""#collapse04"">
+<p class=""h4 em-text-upercase""><span>from our blog</span></p>
+</div>
+<div id=""collapse04"" class=""em-block-content em-from-our-blog"">
+<div class=""em-container-ads row"">
+<div class=""box-date""><span class=""em-blog-date"">20</span> <span class=""em-blog-month"">Jan</span></div>
+<div class=""em-detail"">
+<h5 class=""em-blog-title""><a href=""#"">Donec gravida euismod</a></h5>
+<span class=""em-blog-comment""><span>20 Comments</span></span></div>
+</div>
+<div class=""em-container-ads row"">
+<div class=""box-date""><span class=""em-blog-date"">20</span> <span class=""em-blog-month"">Jan</span></div>
+<div class=""em-detail"">
+<h5 class=""em-blog-title""><a href=""#"">Donec gravida euismod</a></h5>
+<span class=""em-blog-comment""><span>20 Comments</span></span></div>
+</div>
+<div class=""em-container-ads row"">
+<div class=""box-date""><span class=""em-blog-date"">20</span> <span class=""em-blog-month"">Jan</span></div>
+<div class=""em-detail"">
+<h5 class=""em-blog-title""><a href=""#"">Donec gravida euismod</a></h5>
+<span class=""em-blog-comment""><span>20 Comments</span></span></div>
+</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-collapse-target=""#collapse05"">
+<p class=""h4 em-text-upercase""><span>Follow Us</span></p>
+</div>
+<div id=""collapse05"" class=""em-block-content"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Sport Store - Area Footer 02 - Payment Method",em0144-sport-area-footer02-payment-method,"<div class=""em-payment f-right""><a class=""em-payment-icon em-visa"" title=""em-sample-title"" href=""#"">visa</a> <a class=""em-payment-icon em-master"" title=""em-sample-title"" href=""#"">master</a> <a class=""em-payment-icon em-express "" title=""em-sample-title"" href=""#"">express</a><a class=""em-payment-icon em-paypal"" title=""em-sample-title"" href=""#"">paypal</a> <a class=""em-payment-icon em-other "" title=""em-sample-title"" href=""#"">other</a></div>"
+"EM0144 Everything - Sport Store - Area Footer 01 - Information - Code",em0144-sport-area-footer01-footer-code,"<div class=""em-footer-info"">
+<div class=""em-footer-info-top abs-add-clearfix"">
+<div class=""col-sm-16 col-sm-push-4 text-center"">
+<div class=""em-block-title"">
+<p class=""h4 em-text-upercase""><span>Sign Up For Newsletter</span></p>
+</div>
+<div class=""em-block-content em-newsletter em-newsletter-style02 newsletter-boder-input-act"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class="" four-block-middle"">
+<div class=""row"">
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-collapse-target=""#collapse02"">
+<p class=""h4 em-text-upercase""><span>About Us</span></p>
+</div>
+<div id=""collapse02"" class=""em-block-content block-info"">
+<p class=""em-info"">Skort Maison Martin Margiela knot ponytail cami texture as tucked t-shirt. <em>Black skirt razor pleats plaited gold collar</em>. Crop 90s spearmint indigo seam luxe washed out.</p>
+<p class=""em-address""><em class=""fa fa-fw""></em><span>{{config path=""general/store_information/street_line1""}}</span></p>
+<p class=""em-email""><em class=""fa fa-fw""></em><span>{{config path=""trans_email/ident_general/email""}}</span></p>
+<p class=""em-phone""><em class=""fa fa-fw""></em><span>{{config path=""general/store_information/phone""}}</span></p>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-collapse-target=""#collapse03"">
+<p class=""h4 em-text-upercase""><span>Useful Links</span></p>
+</div>
+<div id=""collapse03"" class=""em-block-content"">
+<div class=""row"">
+<div class=""col-sm-12"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>About Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Sitemap</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Term &amp; Conditions</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-12"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Orders</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Credit Slips</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Addresses</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-collapse-target=""#collapse04"">
+<p class=""h4 em-text-upercase""><span>from our blog</span></p>
+</div>
+<div id=""collapse04"" class=""em-block-content em-from-our-blog"">{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style03.recent"" template=""post/list/recent_07.phtml"" limit=""3""}}</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-collapse-target=""#collapse05"">
+<p class=""h4 em-text-upercase""><span>Follow Us</span></p>
+</div>
+<div id=""collapse05"" class=""em-block-content"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"

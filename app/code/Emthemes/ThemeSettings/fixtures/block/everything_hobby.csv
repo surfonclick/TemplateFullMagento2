@@ -1,0 +1,146 @@
+title,identifier,content
+"EM0144 Everything - Hobby Store - Main Slideshow",em0144-hobby-main-slideshow,"<div class=""em-slideshow space-block"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""36""}}</div>"
+"EM0144 Everything - Hobby Store - Main Content Area 01 - Left Menu - Products",em0144-hobby-main-content-area-01-left-menu-products,"<div class=""row space-block banner-product-01"">
+<div class=""col-sm-8"">
+<div>{{block class=""Magento\Theme\Block\Html\Topmenu"" name=""everything.catalog.leftnav"" template=""navigation/left.phtml"" ttl=""3600"" cate_count=""10""}}</div>
+</div>
+<div class=""col-sm-16"">
+<div class=""col-sm-24 space-block hidden-xs banner-wrapper"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hobby/home/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-24 product-wrapper"">
+<div class=""new-product-slider"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""New Arrival"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""10"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""400"" thumb_height=""400"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`98`;]]""}}</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Hobby Store - Main Content Area 03 - Banner-Products",em0144-hobby-main-content-area-03-banner-products,"<div class=""row space-small-block banner-product-02"">
+<div class=""col-sm-16"">
+<div class=""col-sm-24 space-block hidden-xs banner-wrapper"">
+<div class=""row"">
+<div class=""col-sm-12"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hobby/home/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-12"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hobby/home/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+</div>
+</div>
+<div class=""col-sm-24 product-wrapper"">
+<div class=""new-product-slider"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""New Arrivals"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""10"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""400"" thumb_height=""400"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`97`;]]""}}</div>
+</div>
+</div>
+<div class=""col-sm-8 hidden-xs"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hobby/home/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+</div>"
+"EM0144 Everything - Hobby Store - After Main Column 2 - Three Blocks Ads Text",em0144-hobby-after-main-column2-three-blocks-ads-text,"<div class=""row em-wrapper-ads-20"">
+<div class=""text-box col-sm-8"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-01""></div>
+<div class=""em-banner-right"">
+<h5><a title=""free to delivery"" href=""#"">free to delivery</a></h5>
+<p>Lorem ipsum dolor sit consectetur</p>
+</div>
+</div>
+</div>
+<div class=""text-box col-sm-8"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-02""></div>
+<div class=""em-banner-right"">
+<h5><a title=""Days free returns"" href=""#"">DAYS FREE RETURNS</a></h5>
+<p>Maecenas imperdiet sagittis enim</p>
+</div>
+</div>
+</div>
+<div class=""text-box col-sm-8"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-03""></div>
+<div class=""em-banner-right"">
+<h5><a title=""Support 24/7"" href=""#"">SUPPORT 24/7</a></h5>
+<p>Lorem ipsum dolor sit consectetur</p>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Hobby Store - After Main Column 2 - Feature Product",em0144-hobby-after-main-column2-feature-product,"<div class=""new-product-slider"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Feature Product"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""10"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`98`;]]""}}</div>"
+"EM0144 Everything - Hobby Store - Footer Area 01 - Newsletter",em0144-hobby-footer-area-01-newsletter,"<div class=""em-wrapper-newsletter text-center em-background-parallax"">
+<div class=""em-maxwidth-content"">
+<div class=""row"">
+<div class=""col-sm-18 col-sm-push-3"">
+<div class=""newsletter-title"">
+<p class=""h2 em-text-upercase""><span>Sign Up For Newsletter</span></p>
+<p class=""title-des"">Loafer Jil Sander Vasari oversized boots</p>
+</div>
+<div class=""em-newsletter-style02 newsletter-boder-input-act"">
+<div class=""em-block-content em-newsletter"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Hobby Store - Footer Area 01 - Footer Links",em0144-hobby-footer-area-01-footer-links,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class="" four-block-middle"">
+<div class=""row"">
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+<p class=""h4 em-text-upercase""><span>About Us</span></p>
+</div>
+<div id=""collapse02"" class=""em-block-content block-info"">
+<p class=""em-info"">Skort Maison Martin Margiela knot ponytail cami texture as tucked t-shirt. <em>Black skirt razor pleats plaited gold collar</em>. Crop 90s spearmint indigo seam luxe washed out.</p>
+<p class=""em-address""><em class=""fa fa-fw""></em><span>{{config path=""general/store_information/street_line1""}}</span></p>
+<p class=""em-email""><em class=""fa fa-fw""></em><span>{{config path=""trans_email/ident_general/email""}}</span></p>
+<p class=""em-phone""><em class=""fa fa-fw""></em><span>{{config path=""general/store_information/phone""}}</span></p>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Useful Links</span></p>
+</div>
+<div id=""collapse03"" class=""em-block-content"">
+<div class=""row"">
+<div class=""col-sm-12"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a href=""{{store url=""about-us""}}""><span>About Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Sitemap</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Term &amp; Conditions</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-12"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Orders</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Credit Slips</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>My Addresses</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+<p class=""h4 em-text-upercase""><span>from our blog</span></p>
+</div>
+<div id=""collapse04"" class=""em-block-content em-from-our-blog"">{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style03.recent"" template=""post/list/recent_07.phtml"" limit=""3""}}</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse05&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Follow Us</span></p>
+</div>
+<div id=""collapse05"" class=""em-block-content em-wrapper-social"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Hobby Store - Main Content Area 02 - Full Banner",em0144-hobby-main-content-area-02-full-banner,"<div class=""em-wrapper-banners container space-block"">
+<div class=""row"">
+<div class=""col-sm-24 text-center"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive animate01"" src=""{{media url='wysiwyg/em0144/layout_hobby/home/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /><span class=""effect-line"">&nbsp;</span></a></div>
+</div>
+</div>
+</div>"

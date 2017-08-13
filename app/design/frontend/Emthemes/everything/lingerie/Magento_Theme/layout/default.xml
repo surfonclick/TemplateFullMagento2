@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="header-wrapper-container">
+            <container name="header.wrapper.container.top" htmlTag="div" htmlClass="header-wrapper-container-top" before="-">
+                  <container name="header.area.1" htmlTag="div" label="Header Area 01" htmlClass="header-area-01 hidden-xs" before="-" />             
+            </container>
+            <container name="header.wrapper.container.bottom" htmlTag="div" htmlClass="header-wrapper-container-bottom" after="header.wrapper.container.top">
+				<container name="header.bottom.inner" htmlTag="div" htmlClass="header-bottom-inner">
+					<block class="Magento\Theme\Block\Html\Header\Logo" name="smalllogo" template="html/header/smalllogo.phtml" before="-" />                   
+            </container>
+            </container>
+        </referenceContainer>
+        <move element="logo" destination="header.wrapper.container.top" after="header.area.1" />
+        <move element="navigation.sections" destination="header.bottom.inner" after="smalllogo" />
+	  <move element="header.wrapper.container.bottom" destination="header-wrapper" after="-" />
+  
+      <referenceBlock name="footer_links" display="true" />                   
+
+        <move element="footer_links" destination="footer" after="copyright" />
+    </body>
+</page>

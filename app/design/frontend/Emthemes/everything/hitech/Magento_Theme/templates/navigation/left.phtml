@@ -1,0 +1,33 @@
+<?php $columnsLimit = $block->getColumnsLimit() ?: 0; ?>
+<?php $visible_category = $block->getData('cate_count') ? $block->getData('cate_count') : -1; ?>
+<?php $_menu = $block->getHtml('level-top', 'submenu', $columnsLimit) ?>
+
+<?php $setId	=	'em_leftmenu_default_'.rand(1,9999); ?>
+<div class="menu-wrapper hidden-xs">
+	<div id="menuleftText" class="all_categories">
+		<div class="menuleftText-title">
+			<div class="menuleftText"><span class="em-text-upercase"><?php echo __('Categories') ?></span></div>
+		</div>
+	</div>
+	<div class="menuleft">
+		<div id="menu-default" class="mega-menu em-menu-icon">
+			<div class="megamenu-wrapper <?php echo $setId ?>">
+				<div class="em_nav" id="<?php echo $setId ?>">
+					<ul class="vnav">
+						<li class=" menu-item-text menu-item-depth-0">
+							<ul class="em-catalog-navigation vertical" data-mage-init='{"emmenu":{"responsive":true, "expanded":true, "visible_item": <?php echo $visible_category ?>,"position":{"my":"left right","at":"left left"}}}'>
+								<?php echo $_menu ?>								<li class="level0 level-top additional-menu">
+									<a href="<?php /* @escapeNotVerified */ echo $block->getUrl('everything-all-categories') ?>" class="level-top additional-menu">
+										<span class="emmenu-icon-10 more-categories"></span>
+										<span><?php echo __('More Categories') ?></span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						
+					</ul> 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

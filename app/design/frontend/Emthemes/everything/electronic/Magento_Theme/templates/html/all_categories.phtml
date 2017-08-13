@@ -1,0 +1,15 @@
+<?php $columnsLimit = $block->getColumnsLimit() ?: 0; ?>
+<?php $_menu = $block->getHtml('level-top', 'submenu', $columnsLimit) ?>
+<div class="menu-wrapper hidden-xs">	
+	<div class="menuleft">
+		<div id="menu-default" class="mega-menu em-menu-icon">
+			<div class="megamenu-wrapper>
+				<div class="em_nav">
+					<ul class="all-categories-list">
+						<?php echo $_menu ?>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

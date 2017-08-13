@@ -1,0 +1,239 @@
+title,identifier,content
+"EM0144 Everything - Diamond Store - Main Content Top - Main Slideshow",em0144-diamond-main-content-top-main-slideshow,"<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""33""}}</div>"
+"EM0144 Everything - Diamond Store - Main Content Area - Tabs Categories",em0144-diamond-main-content-area-tabs-categories,"<div class=""em-wrapper-product-26 hidden-xs space-block row"">
+<div class=""container-fluid"">
+<div class=""em-tabs-widget tabs-widget "">
+<div class=""emtabs-ajaxblock-loaded"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""custom-tabfull"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-city-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-city-tab-title"" class=""data switch"" tabindex=""-1"" href=""#city-tab"" data-toggle=""switch"">charms</a></div>
+<div id=""city-tab"" class=""data item content"" data-role=""content"">
+<div class=""row"">
+<div class=""col-sm-12 text-center"">
+<div class=""img-banner content-left""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/cat-image/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-12 text-center"">
+<div class=""content-right"">
+<h3 class=""title"">Bracelets</h3>
+<span class=""des"">Aliquam quis risus viverra sum masset congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Dolor sit amet, consectetuer adipiscing elit. Donec eros tellus, scelerisque nec, honcus eget, laoreet sit amet, nunc. Ut sit amet turpis.</span> <a class=""button-link first"" href=""#""><span>see all charms</span></a> <a class=""button-link"" href=""#""><span>new in</span></a></div>
+</div>
+</div>
+</div>
+<div id=""tab-label-offroad-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-offroad-tab-title"" class=""data switch"" tabindex=""-1"" href=""#offroad-tab"" data-toggle=""switch"">bracelets</a></div>
+<div id=""offroad-tab"" class=""data item content"" data-role=""content"">
+<div class=""row"">
+<div class=""col-sm-12 text-center"">
+<div class=""img-banner content-left""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/cat-image/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-12 text-center"">
+<div class=""content-right"">
+<h3 class=""title"">Bracelets</h3>
+<span class=""des"">Aliquam quis risus viverra sum masset congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Dolor sit amet, consectetuer adipiscing elit. Donec eros tellus, scelerisque nec, honcus eget, laoreet sit amet, nunc. Ut sit amet turpis.</span> <a class=""button-link first"" href=""#""><span>see all charms</span></a> <a class=""button-link"" href=""#""><span>new in</span></a></div>
+</div>
+</div>
+</div>
+<div id=""tab-label-road-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-road-tab-title"" class=""data switch"" tabindex=""-1"" href=""#road-tab"" data-toggle=""switch"">Rings</a></div>
+<div id=""road-tab"" class=""data item content"" data-role=""content"">
+<div class=""row"">
+<div class=""col-sm-12 text-center"">
+<div class=""img-banner content-left""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/cat-image/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-12 text-center"">
+<div class=""content-right"">
+<h3 class=""title"">Bracelets</h3>
+<span class=""des"">Aliquam quis risus viverra sum masset congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Dolor sit amet, consectetuer adipiscing elit. Donec eros tellus, scelerisque nec, honcus eget, laoreet sit amet, nunc. Ut sit amet turpis.</span> <a class=""button-link first"" href=""#""><span>see all charms</span></a> <a class=""button-link"" href=""#""><span>new in</span></a></div>
+</div>
+</div>
+</div>
+<div id=""tab-label-accessories-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-accessories-tab-title"" class=""data switch"" tabindex=""-1"" href=""#accessories-tab"" data-toggle=""switch"">earrings</a></div>
+<div id=""accessories-tab"" class=""data item content"" data-role=""content"">
+<div class=""row"">
+<div class=""col-sm-12 text-center"">
+<div class=""img-banner content-left""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/cat-image/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-12 text-center"">
+<div class=""content-right"">
+<h3 class=""title"">Bracelets</h3>
+<span class=""des"">Aliquam quis risus viverra sum masset congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Dolor sit amet, consectetuer adipiscing elit. Donec eros tellus, scelerisque nec, honcus eget, laoreet sit amet, nunc. Ut sit amet turpis.</span> <a class=""button-link first"" href=""#""><span>see all charms</span></a> <a class=""button-link"" href=""#""><span>new in</span></a></div>
+</div>
+</div>
+</div>
+<div id=""tab-label-riding-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-riding-tab-title"" class=""data switch"" tabindex=""-1"" href=""#riding-tab"" data-toggle=""switch"">necklaces &amp; pendants</a></div>
+<div id=""riding-tab"" class=""data item content"" data-role=""content"">
+<div class=""row"">
+<div class=""col-sm-12 text-center"">
+<div class=""img-banner content-left""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/cat-image/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-12 text-center"">
+<div class=""content-right"">
+<h3 class=""title"">Bracelets</h3>
+<span class=""des"">Aliquam quis risus viverra sum masset congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Dolor sit amet, consectetuer adipiscing elit. Donec eros tellus, scelerisque nec, honcus eget, laoreet sit amet, nunc. Ut sit amet turpis.</span> <a class=""button-link first"" href=""#""><span>see all charms</span></a> <a class=""button-link"" href=""#""><span>new in</span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Diamond Store - Main Content Container - Banners",em0144-diamond-main-content-container-banners,"<div class=""hidden-xs row"">
+<div class=""em-wrapper-banners full-banner  space-block"">
+<div class=""diamond-effect"">
+<div class=""col-sm-24 text-center"">
+<div class=""illustration"">
+<div class=""i-large""></div>
+<div class=""i-medium""></div>
+<div class=""i-small""></div>
+</div>
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_07.jpg'}}"" alt=""em-sample-alt"" /> <span class=""effect-line"">&nbsp;</span></a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Diamond Store - Main Content Container - Feature Products",em0144-diamond-main-content-container-feature-products,"<div class=""em-maxwidth-content"">
+<div class=""em-wrapper-products em-grid-00 em-line-10  space-small-block button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Feature Products"" display_type=""all_products"" show_slider=""1"" slider_item=""6"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""em_grid_16.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`91`;]]"" cache_lifetime=""86400""}}</div>
+</div>"
+"EM0144 Everything - Diamond Store - After Main Content 03- Our Blogs",em0144-diamond-after-main-content-03-our-blogs,"<div class=""em-maxwidth-content"">
+<div class=""row"">
+<div class=""col-sm-12"">
+<div class=""em-wrapper-area04"">
+<div class=""em-wrapper-from-our-blog  em-line-01"">
+<div class=""blog-slider-item"">
+<div class=""em-blog-item em-effect-13 em-wrapper-ads-12"">
+<div class=""em-blog-content bkg-top  col-sm-12""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_11.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+</div>
+<div class=""em-box bkg-bottom  col-sm-12"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=""col-sm-12 info-box"">
+<div class=""info-box-inner"">
+<div class=""col-sm-12 em-clear-padding"">
+<div class=""img-banner ""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_12.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-12 info-right"">
+<p class=""em-address""><em class=""fa fa-home""></em><span>Address:0123xxx Dr Street Convender, Nan Amese City</span></p>
+<p class=""em-email""><em class=""fa fa-envelope-o""></em><span>Email:contactdiamond@com</span></p>
+<p class=""em-phone""><em class=""fa fa-phone""></em><span>Phone:0123-456-789-xx</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Diamond Store - Page Footer Before - Brand Slider",em0144-diamond-page-footer-before-brand-slider,"<div class=""em-maxwidth-content"">
+<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:6}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Diamond Store - Footer Area 01 - Footer Info",em0144-diamond-footer-area-01-footer-info-footer,"<div class=""row"">
+	<div class=""col-sm-24 text-center"">
+		<p class=""em-logo-footer""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_logo_footer.png'}}"" alt=""EM Everything"" /></a></p>
+		<p>© 2017 Everything. All rights reserved.</p>
+	</div>
+
+	<div class=""col-sm-18 col-sm-push-3"">
+		<div class=""em-newsletter-style02 newsletter-boder-input-act "">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""form.subscribe"" as=""subscribe"" before=""-"" template=""subscribe.phtml""}}</div>
+	</div>
+	<div class=""col-sm-24 text-center"">
+		<ul class=""effect-menu  footer-menu-links"">
+			<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Home </span> </a></li>
+			<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Men's Swatches </span> </a></li>
+			<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Lady's Swatches </span> </a></li>
+			<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Kid's Swatches </span> </a></li>
+			<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Brands </span> </a></li>
+			<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Blog </span> </a></li>
+		</ul>
+	</div>
+</div>"
+"EM0144 Everything - Diamond Store - Main Content Area 02 - Tabs Top of Weeks",em0144-diamond-main-content-top-of-week,"<div class=""em-maxwidth-content"">
+<div class=""emtabs-ajaxblock-loaded  em-line-10"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""widget-title em-widget-title"">
+<h3><span>Top of this week</span></h3>
+</div>
+<div class=""em-tabs-right"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-shirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-shirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#shirt-tab"" data-toggle=""switch"">Rings</a></div>
+<div id=""shirt-tab"" class=""data item content"" data-role=""content"">
+<div class=""col-sm-16"">
+<div class=""em-wrapper-products em-grid-00 em-line-10 style01 space-small-block button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""8"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`90`;]]"" cache_lifetime=""86400""}}</div>
+</div>
+<div class=""col-sm-8 img-banner text-center"">
+<div class=""img-banner-small""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_06.jpg'}}"" alt=""em-sample-alt"" /><span class=""effect-top"">&nbsp;</span></a></div>
+</div>
+</div>
+<div id=""tab-label-skirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-skirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#skirt-tab"" data-toggle=""switch"">Earrings</a></div>
+<div id=""skirt-tab"" class=""data item content"" data-role=""content"">
+<div class=""col-sm-16"">
+<div class=""em-wrapper-products em-grid-00 em-line-10 style01 space-small-block button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""8"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`91`;]]"" cache_lifetime=""86400""}}</div>
+</div>
+<div class=""col-sm-8 img-banner text-center"">
+<div class=""img-banner-small""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_06.jpg'}}"" alt=""em-sample-alt"" /><span class=""effect-top"">&nbsp;</span> </a></div>
+</div>
+</div>
+<div id=""tab-label-dress-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-dress-tab-title"" class=""data switch"" tabindex=""-1"" href=""#dress-tab"" data-toggle=""switch"">Gift</a></div>
+<div id=""dress-tab"" class=""data item content"" data-role=""content"">
+<div class=""col-sm-16"">
+<div class=""em-wrapper-products em-grid-00 em-line-10 style01 space-small-block button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""8"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`90`;]]"" cache_lifetime=""86400""}}</div>
+</div>
+<div class=""col-sm-8 img-banner text-center"">
+<div class=""img-banner-small""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_06.jpg'}}"" alt=""em-sample-alt"" /><span class=""effect-top"">&nbsp;</span> </a></div>
+</div>
+</div>
+<div id=""tab-label-outerwear-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-outerwear-tab-title"" class=""data switch"" tabindex=""-1"" href=""#outerwear-tab"" data-toggle=""switch"">Bracelets</a></div>
+<div id=""outerwear-tab"" class=""data item content"" data-role=""content"">
+<div class=""col-sm-16"">
+<div class=""em-wrapper-products em-grid-00 em-line-10 style01 space-small-block button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""8"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`91`;]]"" cache_lifetime=""86400""}}</div>
+</div>
+<div class=""col-sm-8 img-banner text-center"">
+<div class=""img-banner-small effect03""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_06.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Diamond - Header - Wellcome",em0144-diamond-header-wellcome,"<h2>Free Shipping All Order Over $200. <a href=""#"">shop now</a></h2>"
+"EM0144 Everything - Diamond Store - Main Content Container - Three Banners",em0144-diamond-main-content-container-three-banners,"<div class=""em-maxwidth-content"">
+<div class=""row hidden-xs"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-8 text-center"">
+<div class=""img-banner space-small-block effect03""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_08.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-8 text-center"">
+<div class=""img-banner space-small-block effect03""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_09.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-8 text-center"">
+<div class=""img-banner space-small-block effect03""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_diamond/home/em_ads_10.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+</div>
+</div>
+</div>"

@@ -1,0 +1,37 @@
+<?php
+$flyingcartHelper = $this->helper('Emthemes\FlyingEffectCart\Helper\Data');
+$flyingstatus = $flyingcartHelper->getConfig('flyingeffect/general/active');
+$flyingshow = $flyingcartHelper->getConfig('flyingeffect/general/cart_position');
+$flyingeffect = $flyingcartHelper->getConfig('flyingeffect/general/flying_effect');
+$flyingeffecttime = $flyingcartHelper->getConfig('flyingeffect/general/effect_times');
+?>
+<?php if($flyingstatus !=null && $flyingstatus ==1): ?>
+<?php if($flyingshow != null):?>
+<?php if($flyingshow == 0): ?>
+<?php echo $this->getLayout()->createBlock("Emthemes\FlyingEffectCart\Block\FlyingCartLeft")->setTemplate("Emthemes_FlyingEffectCart::flyingcartleft.phtml")->toHtml(); ?>
+<?php else: ?>
+<?php if($flyingshow == 1): ?>
+<?php echo $this->getLayout()->createBlock("Emthemes\FlyingEffectCart\Block\FlyingCartRight")->setTemplate("Emthemes_FlyingEffectCart::flyingcartright.phtml")->toHtml(); ?>
+<?php else: ?>
+<?php echo $this->getLayout()->createBlock("Emthemes\FlyingEffectCart\Block\FlyingCartBottom")->setTemplate("Emthemes_FlyingEffectCart::flyingcartbottom.phtml")->toHtml(); ?>
+<?php endif; ?>
+<?php endif; ?>
+<?php endif; ?>
+<?php endif; ?>
+<script type="text/javascript">
+	var $flyingcartValue = {};
+	$flyingcartValue.flyingstatus = <?php echo ($flyingstatus) ? $flyingstatus : 0; ?>;
+	$flyingcartValue.effect = <?php echo ($flyingeffect) ? $flyingeffect : 0; ?>;
+	$flyingcartValue.effecttime = <?php echo ($flyingeffecttime) ? $flyingeffecttime : 1500; ?>;
+	$flyingcartValue.flyingor = ".emthemes-flyingcart";
+</script>
+ <script type="text/x-magento-init">
+    {
+        "[data-block='emminicart']": {
+            "Magento_Ui/js/core/app": <?php /* @escapeNotVerified */ echo $block->getJsLayout();?>
+        },
+        "*": {
+            "Magento_Ui/js/block-loader": "<?php /* @escapeNotVerified */ echo $block->getViewFileUrl('images/loader-1.gif'); ?>"
+        }
+    }
+</script>

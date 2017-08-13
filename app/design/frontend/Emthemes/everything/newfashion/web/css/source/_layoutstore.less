@@ -1,0 +1,149 @@
+
+//New Fashion Layout
+.cms-index-index .page-main{
+	padding:0;
+	margin-top:-15px;
+}
+.em-wrapper-banners{
+	overflow:hidden;
+	margin:10px 0 50px;
+	.img-banner-small{margin-bottom:20px;}
+}
+.slider-style02 {margin:0;}
+
+.owl-carousel .owl-nav [class*='owl-'],
+.slider-style02 .owl-carousel .owl-nav [class*='owl-']{
+	.lib-style(@em-body-title-page__text-color,transparent,transparent);
+	&:hover{
+		.lib-style(@em-btn-cart__text-color,@em-btn-cart__border-color,@em-btn-cart__background-color);
+	}
+}
+
+/*===Slideshow===*/
+.emthemes-slideshow{
+	.ms-caption{
+		left:32% !important;
+		top:19% !important;
+		width:36% !important;
+		text-align:center;
+		h3{position:relative;}
+		h3:before {
+			height: 2px;
+			width: 50px;
+			background-color: #fff;
+			content: "";
+			position: absolute;
+			left: 46%;
+			bottom: 0px;
+		}
+	}
+	.button-link,
+	.button-link.first{
+		width:260px;border:2px solid;
+		margin-bottom:10px;
+		.lib-border-radius(0);
+		.lib-style(@em-btn-default__text-color,@em-btn-default__text-color,transparent);
+		&:hover{
+			.lib-style(@em-btn-cart__text-color,@em-btn-cart__border-color,@em-btn-cart__background-color);
+		}
+	}
+}
+.em-header-14.page-header .panel.wrapper{
+	border-bottom: 1px solid @em-header__border-color !important;
+}
+
+/*====Footer====*/
+.em-wrapper-brands{
+	padding:40px 0;
+	border-top:1px solid @em-footer__border-color;
+	border-bottom:1px solid @em-footer__border-color;
+}
+.em-footer-style07{
+	.footer-top{
+		padding-top: 0;
+		padding-bottom: 0;
+		.em-footer-info {
+			border-top:0;
+			border-bottom:1px dashed @em-footer__border-color;
+			padding-top:4rem;
+			padding-bottom:4rem;
+		}
+	}
+	.newsletter .content{
+		border:1px solid @em-body__border-color;
+		position:relative;
+	}
+	.newsletter-clearbutton .block.newsletter{
+		.actions{
+			margin:0;
+			.action.subscribe{
+				.lib-border-radius(0);
+				position:absolute;top:4px;right:4px;
+				.lib-style(@em-btn-default__text-color,@em-btn-default__border-color,@em-btn-default__background-color);
+				&:hover{
+					.lib-style(@em-btn-cart__text-color,@em-btn-cart__border-color,@em-btn-cart__background-color);
+				}
+			}
+		}
+	}
+	.block.newsletter input{height:50px;line-height:50px;}
+	.block.newsletter .field .control:before{line-height:50px;}
+	.em-tags-list li a{
+		&:hover{
+			.lib-style(@em-btn-cart__text-color,@em-btn-cart__border-color,@em-btn-cart__background-color);
+		}
+	}
+}
+
+/*==================*/
+/*====Banner====*/
+.em-wrapper-ads-13{
+	margin:30px -10px;
+	.box-inner {
+		border:2px solid @em-header__text-color;
+		text-align:center;
+		padding:20px 0 5px;
+		cursor:default;
+		-moz-transition: all 500ms ease;
+		-webkit-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+		h5{
+			text-transform:uppercase;font-weight:bold;margin:0;
+			a{
+				.lib-css(color,@em-header__text-color);
+			}
+		}
+		p{
+			.lib-css(color,@em-header__text-color);
+		}
+		&:hover{
+			.lib-transition();
+			border:2px solid;
+			.lib-allstyle(@em-btn-cart__text-color,@em-btn-cart__border-color,@em-btn-cart__background-color);
+			h5,p, h5 a{
+				.lib-css(color,@em-btn-cart__text-color);
+			}
+		}
+	}
+}
+
+/*====Ads14====*/
+.em-wrapper-ads-14{
+	&.style01{
+		background-image: url(../images/media/em_ads_05.jpg);
+	}
+	&.style02{
+		background-image: url(../images/media/em_ads_06.jpg);
+		margin-bottom:10px;
+	}
+}
+
+/*======MOBILE=========*/
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+	.emthemes-slideshow{
+		.ms-caption{
+			display:none !important;
+		}
+	}
+}

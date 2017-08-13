@@ -1,0 +1,69 @@
+<?php
+/**
+ * Copyright © 2015 Ihor Vansach (ihor@magefan.com). All rights reserved.
+ * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
+ *
+ * Glory to Ukraine! Glory to the heroes!
+ */
+?>
+<?php
+/**
+ * Blog sidebar recent posts template
+ *
+ * @var $block \Magefan\Blog\Block\Sidebar\Recent
+ */
+?>
+
+<?php
+	$_postCollection = $block->getPostCollection();
+	$_helper = $this->helper('Magefan\Blog\Helper\Image');
+	$_width = 290;
+	$_height = 225;
+	$_limit = 1;
+?>
+<?php if ($_postCollection->count()) { ?>
+<div class="widget block block-static-block">
+    <div class="row">
+		<div class="col-sm-24">
+			<div class="em-wrapper-ads-10 em-line-01">
+				<div class="em-from-our-blog">
+					<?php $i=0;foreach ($_postCollection as $_post) { ?>
+					<?php
+						$time = strtotime($_post->getData('publish_time'));
+						$img = $_helper->init($_post->getImage())->resize($_width,$_height);
+					?>
+					<div class="em-blog-item em-effect-13">
+						<div class="em-blog-content bkg-top em-clear-padding">
+							<?php if($img): ?>
+							<a href="<?php echo $_post->getPostUrl() ?>">
+								<img class="img-responsive" src="<?php echo $img ?>" alt="<?php echo $_post->getTitle() ?>">
+							</a>
+							<?php endif ?>
+							<div class="em-blog-time">
+								<p class="em-blog-date"><?php echo date('d',$time)?></p>
+								<p class="em-blog-month"><?php echo date('M',$time)?></p>
+							</div>
+							<div class="hov">&nbsp;</div>
+						</div>
+						<div class="em-box bkg-bottom">
+							<h4 class="em-blog-title"><a href="<?php echo $_post->getPostUrl() ?>"><?php echo $block->escapeHtml($_post->getTitle()) ?></a></h4>
+							<p class="em-blog-des">
+								<?php echo $block->short($_post->getShortDescription(),70) ?>
+							</p>
+							<p><a class="link-more" href="<?php echo $_post->getPostUrl() ?>"><?php echo __('Read more') ?></a></p>
+						</div>
+					</div>
+					<?php 
+					      $i++;
+					      if($i==$_limit) break;
+					
+					?>
+					<?php } ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<?php } ?>
+
+

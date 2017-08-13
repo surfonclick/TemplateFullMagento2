@@ -1,0 +1,56 @@
+
+//New Luxury Jewelry Layout
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	.em-header-27.page-header{
+		.header.content:not(.navbar-fixed-top){
+			.header-area-01 .em-phone,
+			.em-search-icon{
+				.lib-css(color,@em-topmenu__text-color);
+			}
+			.em-search-icon:hover{
+				.lib-css(color,@em-body__hover__text-color);
+			}
+			.header-wrapper-container-bottom{border:none !important;}
+		}
+		&:before{display:none;}
+		.em-menu-content .dropmenu-template{
+			text-align:left;
+			.em-rtl &{text-align:right;}
+		}
+	}
+}
+.em-wrapper-banners{
+	margin-bottom:50px;
+	overflow:hidden;
+	.banner-img{
+		margin-bottom:20px;
+		.em-wrapper-area02 &{margin-bottom:0;}
+	}
+	.top{margin-bottom:35px;}
+	&.group-middle-banner{
+		margin-bottom:70px;
+	}
+}
+
+.slider-style02 {margin:0;}
+.em-wrapper-brands{padding:20px 0 40px;}
+
+.owl-carousel .owl-nav [class*='owl-'],
+.slider-style02 .owl-carousel .owl-nav [class*='owl-']{
+	.lib-style(@em-body-title-page__text-color,transparent,transparent);
+	&:hover{
+		.lib-style(@em-btn-cart__text-color,@em-btn-cart__border-color,@em-btn-cart__background-color);
+	}
+}
+
+/*======MOBILE=========*/
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+	.em-menu{
+		.em-menu-content li.level0 a.arrow:before{
+			.lib-css(color,@em-topmenu__hover__text-color);
+		}
+		.em-menu-content li.level0:hover a.arrow:before{
+			.lib-css(color,@em-topmenu__text-color);
+		}
+	}
+}

@@ -1,0 +1,60 @@
+//Halloween Layout
+.menuleft{
+	background:#222021 url(../images/media/bg_menu_left.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	border:0;
+	.lib-border-radius(0 0 5px 5px);
+	.em-catalog-navigation.vertical li a{
+		&.level-top{background:transparent;}
+		&:hover{
+			.lib-css(border-bottom, 1px solid @em-vnav__border-color);
+		}
+	}
+}
+
+.em-wrapper-ads-15 .em-ads-item{
+	.lib-css(background,@em-header__background-color);
+	.em-ads-des{
+		.lib-css(color,@em-body__hover__text-color);
+	}
+	.em-ads-author{
+		.lib-css(color,@em-body__text-color);
+	}
+}
+.page-header .panel.wrapper{
+	.lib-css(border-top, 3px solid @em-body__hover__text-color);
+}
+
+.em-wrapper-ads-13 .icon-banner-left{
+	.lib-style(@em-body-title__border-color, lighten(@em-body-title__border-color,40%), lighten(@em-body-title__border-color,40%));
+}
+
+.em-header-01{
+	.minicart-wrapper .action.showcart{
+		&:before{
+			.lib-css(color,@em-header__background-color);
+		}
+		.counter.qty{
+			.lib-css(background,@em-header-cart__text-color);
+		}
+		&:hover{
+			.lib-css(background,@em-header-cart__background-color);
+			.lib-css(border,1px solid @em-header-cart__text-color);
+		}
+	}
+	.header.content:not(.navbar-fixed-top) .minicart-wrapper .action.showcart{
+		.lib-css(border,1px solid @em-header-cart__background-color);
+		&:hover{
+			.lib-css(background,@em-header-cart__background-color);
+			.lib-css(border,1px solid @em-header-cart__text-color);
+		}
+	}
+	.em-search-icon.mobile-search-icon{
+		.lib-css(color,@em-header__background-color);
+		&:hover{
+			.lib-css(background,@em-header-cart__background-color);
+			.lib-css(border,1px solid @em-header-cart__text-color);
+		}
+	}
+}

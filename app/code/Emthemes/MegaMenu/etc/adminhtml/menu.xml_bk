@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Emthemes_MegaMenu::MegaMenu" title="Emthemes Megamenu" module="Emthemes_MegaMenu" sortOrder="20"  resource="Emthemes_Settings::MegaMenu_elements"/>
+		<add id="Emthemes_MegaMenu::menus" title="List" module="Emthemes_MegaMenu" action="megamenu" sortOrder="10" parent="Emthemes_MegaMenu::MegaMenu" resource="Emthemes_Settings::em0141_settings"/>		
+    </menu>
+</config>

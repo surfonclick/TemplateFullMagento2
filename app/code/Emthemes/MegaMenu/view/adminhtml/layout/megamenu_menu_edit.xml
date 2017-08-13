@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Emthemes_MegaMenu::bootstrap/css/bootstrap-combined.min.css"/>
+        <css src="Emthemes_MegaMenu::bootstrap/css/layoutit.css"/>
+        <css src="Emthemes_MegaMenu::menu/css/emthememenu.css" />        
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <uiComponent name="megamenu_form"/>
+        </referenceContainer>
+        <referenceContainer name="js">
+            <block class="Magento\Framework\View\Element\Template" template="Emthemes_MegaMenu::menu_edit/wysiwyg/js.phtml" name="menu_edit.wysiwyg.js"/>
+        </referenceContainer>
+        <referenceBlock name="head.components">
+            <block class="Magento\Framework\View\Element\Js\Components" name="catalog_category_page_head_components" template="Magento_Catalog::js/components.phtml"/>
+        </referenceBlock>        
+    </body>
+</page>

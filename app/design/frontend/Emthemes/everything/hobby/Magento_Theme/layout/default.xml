@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+		<referenceContainer name="header-wrapper-container">
+            <container name="header.wrapper.container.top" htmlTag="div" htmlClass="header-wrapper-container-top" before="-">
+            </container>
+            <container name="header.wrapper.container.bottom" htmlTag="div" htmlClass="header-wrapper-container-bottom" after="header.wrapper.container.top">
+            </container>
+        </referenceContainer>
+        <move element="logo" destination="header.wrapper.container.top" after="header.area.1" />
+        <move element="navigation.sections" destination="header.wrapper.container.bottom" after="smalllogo" />
+        <referenceContainer name="page.wrapper">
+            <container name="before.page.bottom.container" as="before_page_bottom_container" label="After Main Container" before="page.bottom.container" htmlTag="div" htmlClass="fullwidth-banner"/>          
+        </referenceContainer>
+        <referenceContainer name="main.content">    
+            <container name="after.main.content" as="after_main_column" after="main_wrapper"  htmlTag="div" label="After Main column 1" htmlClass="fullwidth-banner"/>  
+            <container name="main.wrapper.after.2" htmlTag="div" htmlClass="main-wrapper" after="after.main.content" >
+                <container name="columns.after.2" htmlTag="div" htmlClass="columns" after="">
+                    <container name="main.after.2" label="After Main column 2" htmlTag="div" htmlClass="column main"/>
+                </container>  
+            </container>          
+       </referenceContainer>
+    </body>
+</page>
+

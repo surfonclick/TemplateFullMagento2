@@ -1,0 +1,29 @@
+<?php 
+    $data = $block->getMenu();
+?>
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+    <?php foreach($data as $item): ?>
+        <li  class="level0 nav-1 first level-top submenu">
+            <a href="<?php echo $item->parent->link ?>"  class="level-top em-menu-link" ><span><?php echo $item->parent->title ?></span></a>
+            <div class="dropmenu-template">
+                <div class="dropmenu-content">
+                <?php foreach($item->table as $row): ?>
+                    <div class="em-row">
+                        <?php foreach($row->row as $col): ?>
+                            <div class="col-sm-4">
+                                <?php foreach($col->data as $com): ?>
+                                    <?php if($com->type == 'te1') :?>
+                                    <?php echo $com->form[0]->value ?>
+                                    <?php endif ?>
+                                <?php endforeach ?>
+                            </div>
+                        <?php endforeach ?>
+                    </div>
+                <?php endforeach ?>
+                </div>
+            </div>
+        </li>
+    <?php endforeach ?>
+    </ul>
+</nav>

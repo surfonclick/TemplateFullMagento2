@@ -1,0 +1,83 @@
+/*.cms-index-index .page-main{padding-top:0;}
+.page-bottom{
+	.lib-css(background-color, @em-body-title__background-color);
+	.block-static-block.widget{margin:0;}
+}*/
+
+//Garden Layout
+& when (@media-common = true) {
+	.cms-index-index .page-main{padding-top:0;}
+	.page-header:before{    
+		box-shadow: none!important;
+		-moz-box-shadow: none!important;
+		-webkit-box-shadow: none!important;
+		-o-box-shadow: none!important;
+		-ms-box-shadow: none!important;
+	}
+	.new-product-slider{ margin-bottom:30px;}
+	.slider-style02{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin:0;
+		.lib-css(border-top, 1px solid @em-body__border-color);
+		.lib-css(border-bottom, 1px solid @em-body__border-color);
+	}
+
+	.em-wrapper-area05 .em-wrapper-ads-11{
+		background: transparent;
+		.lib-css(color, @em-body__text-color);
+		.em-ads-grid-item{
+			.lib-css(border, 1px solid @em-body__border-color);
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			padding: 3rem 2rem 4.4rem;
+			min-height: 442px;
+			.em-ads-item {
+				.lib-css(border-top, 1px dotted @em-body__border-color);
+				padding: 3rem 0 1rem;
+				&:first-child {
+					border-top-width: 0;
+					padding-top: 0rem;
+				}
+				.em-ads-des .fa{.lib-css(color, @em-body__text-color);}
+			}
+		}
+		.owl-carousel  .owl-dots {
+			position: absolute;
+			left: 10%;
+			bottom: 20px;
+			margin: 0;
+			.owl-dot span{
+				.lib-css(border-color, @em-body__border-color);
+				border-style:solid;
+			}
+			.owl-dot.active span, .owl-dot:hover span{
+				.lib-css(border-color, @em-body-title__border-color);
+			}
+		}
+	}
+
+	.em-footer-style07 .footer-top{
+		padding-top: 0rem;
+		padding-bottom: 3rem;
+		.em-footer-info{
+			border:none;    
+			padding-top: 10px;
+		}
+	}
+	
+	.em-footer-style07 .block.newsletter .action.subscribe{
+		.lib-css(color, @em-footer__text-color);
+	}
+	
+	.em-wrapper-ads-09.em-background-wrapper-ads{
+		background-image: url(../images/media/em_ads_05.jpg);
+		.lib-css(color, @em-body-title__text-color);
+		border-width: 0;
+		padding: 4rem 1rem 3rem;
+		.em-wrapper-ads-item h4{
+			.lib-css(color, @em-body-title__text-color);
+		}
+	}
+}

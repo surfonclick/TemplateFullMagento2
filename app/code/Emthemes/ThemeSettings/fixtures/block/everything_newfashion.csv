@@ -1,0 +1,206 @@
+title,identifier,content
+"EM0144 Everything - New Fashion Store - Area Maincontent 01 - Top Banners-1",em0144-newfashion-main-area01-top-banners-1,"<div class=""row em-wrapper-ads-13 hidden-xs"">
+<div class=""text-box col-sm-8"">
+<div class=""box-inner"">
+<h5><a href=""#"" title=""Tech Support 247"">Free Delivery</a></h5>
+<p>Maecenas imperdiet sagittis enim</p>
+</div>
+</div>
+<div class=""text-box col-sm-8"">
+<div class=""box-inner"">
+<h5><a href=""#"" title=""Free shipping all order"">DAYS FREE RETURNS</a></h5>
+<p>Maecenas imperdiet sagittis enim</p>
+</div>
+</div>
+<div class=""text-box col-sm-8"">
+<div class=""box-inner"">
+<h5><a href=""#"" title=""30 days return"">CASH ON DELIVERY</a></h5>
+<p>Maecenas imperdiet sagittis enim</p>
+</div>
+</div>
+</div>"
+"EM0144 Everything - New Fashion Store - Area Main 03 - Product-2 - Grid 12",em0144-newfashion-area-main03-product-2-grid12,"<div class=""em-wrapper-products em-grid-12 em-line-10  em-wrapper-product-13"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Shop For Women"" display_type=""all_products"" products_count=""9"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""480"" thumb_height=""480"" filter_template=""custom"" custom_template=""em_grid_12.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`58`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - New Fashion Store - Area Main 02 - Banner-2",em0144-newfashion-area-main02-banner-2,"<div class=""row hidden-xs"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-6 last img-banner text-center"">
+<div class=""effect-hover-text3""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/em_ads_text_01.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-12 img-banner"">
+<div class=""img-banner-small effect first""><a class=""em-eff06-04"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /></a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+<div class=""last effect""><a class=""em-eff06-04"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /></a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+<div class=""col-sm-6 last img-banner text-center"">
+<div class=""effect-hover-text3""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/em_ads_text_04.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - New Fashion Store - Area Main 01 - product-1 - Grid 00",em0144-newfashion-area-main01-product-1-grid00,"<div class=""em-wrapper-products em-grid-00 em-line-10 style01 space-small-block button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Top Of This Week"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""6"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""em_grid_00.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`58`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - New Fashion Store - Area Main 04 - Banner-3",em0144-newfashion-area-main04-banner-03,"<div class=""em-wrapper-ads-14 style01"">
+<div class=""em-wrapper-parallax"">
+<div class=""em-box-info"">
+<h1 class=""em-text-upercase title"">WOMEN&rsquo;s</h1>
+<h5 class=""des"">Vaccines accessibility medical supplies legitimize Bill and Melinda Gates. Ford Foundation sanitation effect planned giving expanding.</h5>
+<a class=""button-link first"" href=""#""><span>shop now</span></a></div>
+</div>
+</div>"
+"EM0144 Everything - New Fashion Store - Area 04 - From Our Blog - Ads 10",em0144-newfashion-area04-from-our-blog-ads10,"<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-block-title"">
+<h2><span>From Our Blog</span></h2>
+</div>
+<div class=""em-slider em-slider-navigation-icon em-slider-from-our-blog"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:3,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:1},&quot;640&quot;:{&quot;items&quot;:2},&quot;768&quot;:{&quot;items&quot;:2},&quot;1024&quot;:{&quot;items&quot;:2}}}}"">
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_jewelry/home/em_ads_05.jpg'}}"" alt=""em_ads_05.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_jewelry/home/em_ads_06.jpg'}}"" alt=""em_ads_06.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_jewelry/home/em_ads_05.jpg'}}"" alt=""em_ads_05.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_jewelry/home/em_ads_06.jpg'}}"" alt=""em_ads_06.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - New Fashion Store - Footer Banner Slider",em0144-newfashion-footer-banners-slider,"<div class=""em-wrapper-brands"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_newfashion/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - New Fashion Store - Area Footer 01 - Information - Footer 07",em0144-newfashion-area-footer01-information-footer07,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class="" four-block-middle"">
+<div class=""row"">
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+<p class=""h4 em-text-upercase""><span>About Us</span></p>
+</div>
+<div id=""collapse01"" class=""em-block-content block-info"">
+<p class=""em-info"">Skort Maison Martin Margiela knot ponytail cami texture as tucked t-shirt. <em>Black skirt razor pleats plaited gold collar</em>. Crop 90s spearmint indigo seam luxe washed out.</p>
+<div class=""em-wrapper-social"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Useful Links</span></p>
+</div>
+<div id=""collapse03"" class=""em-block-content"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store url='customer/account/'}}""><span>My Account</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Order History</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Wishlist</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Tags</span></p>
+</div>
+<div id=""collapse04"" class=""em-block-content"">
+<ul class=""em-tags-list"">
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>awesome</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>nice</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>beautiful</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>love</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>like</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>emthemes</span></a></li>
+</ul>
+</div>
+</div>
+<div class=""col-sm-8"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Newsletter</span></p>
+<p class=""text-des"">Be the first to know about new arrivals, exclusive offers and trend news. Plus, first time subscribers enjoy $15 off their first order.</p>
+</div>
+<div id=""collapse02"" class=""em-block-content"">
+<div class=""newsletter-clearbutton"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Jewelry  Store - Area 04 - From Our Blog - Ads 10 - Code",em0144-newfashion-area04-from-our-blog-ads10-code,"<div>{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style01.recent"" template=""post/list/recent_01.phtml""}}
+</div>
+"
+"EM0144 Everything - New Fashion Store  - Main Slideshow",em0144-newfashion-main-slideshow,"<p>{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""18""}}</p>"
+"EM0144 Everything - New Fashion Store - Area Main 06 - Product - 3 ",em0144-newfashion-area-main06-product3,"<div class=""em-wrapper-products em-grid-12 em-line-10 em-wrapper-product-13"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Shop For Men"" display_type=""all_products"" products_count=""9"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""480"" thumb_height=""480"" filter_template=""custom"" custom_template=""em_grid_12.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`58`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - New Fashion Store - Area Main 07 - Banner-4",em0144-newfashion-area-main07-banner-04,"<div class=""em-wrapper-ads-14 style02"">
+<div class=""em-wrapper-parallax"">
+<div class=""em-box-info"">
+<h1 class=""em-text-upercase title"">MEN's</h1>
+<h5 class=""des"">Vaccines accessibility medical supplies legitimize Bill and Melinda Gates. Ford Foundation sanitation effect planned giving expanding.</h5>
+<a class=""button-link first"" href=""#""><span>shop now</span></a></div>
+</div>
+</div>"

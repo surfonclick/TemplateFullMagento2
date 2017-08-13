@@ -1,0 +1,267 @@
+title,identifier,content
+"EM0144 Everything - Digital Store - Footer Top",em0144-digital-footer-top,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class="" four-block-middle"">
+<div class=""row"">
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+<p class=""h4 em-text-upercase""><span>About Us</span></p>
+</div>
+<div id=""collapse01"" class=""em-block-content block-info"">
+<p class=""em-info"">Skort Maison Martin Margiela knot ponytail cami texture as tucked t-shirt. <em>Black skirt razor pleats plaited gold collar</em>. Crop 90s spearmint indigo seam luxe washed out.</p>
+<div class=""em-wrapper-social"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Useful Links</span></p>
+</div>
+<div id=""collapse03"" class=""em-block-content"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store url='customer/account/'}}""><span>My Account</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Order History</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Wishlist</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=""col-sm-6"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Tags</span></p>
+</div>
+<div id=""collapse04"" class=""em-block-content"">
+<ul class=""em-tags-list"">
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>awesome</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>nice</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>beautiful</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>love</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>like</span></a></li>
+<li class=""em-tags-item""><a title=""em-sample-title"" href=""#""><span>emthemes</span></a></li>
+</ul>
+</div>
+</div>
+<div class=""col-sm-8"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Newsletter</span></p>
+<p class=""text-des"">Be the first to know about new arrivals, exclusive offers and trend news. Plus, first time subscribers enjoy $15 off their first order.</p>
+</div>
+<div id=""collapse02"" class=""em-block-content"">
+<div class=""newsletter-clearbutton"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Before Main Content 01 - Slideshow - Category",em0144-digital-before-main-content-01-slideshow-category,"<div class=""em-wrapper-top space-small-block"">
+<div class=""row"">
+<div class=""col-sm-6 em-clear-padding-right hidden-xs"">
+<div class=""menu-wrapper"">{{block class=""Magento\Theme\Block\Html\Topmenu"" name=""catalog.leftnav"" template=""navigation/left.phtml"" ttl=""3600"" cate_count=""9""}}</div>
+</div>
+<div class=""em-wrapper-slideshow col-sm-18 em-clear-padding-left"">
+<div class=""em-wrapper-area02"">
+<div class=""em-slideshow"">
+<div class=""illustration"">
+<div class=""i-large""></div>
+<div class=""i-medium""></div>
+<div class=""i-small""></div>
+</div>
+<div>{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""28""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Before Main Content 02 - Top Banners",em0144-digital-before-main-content-02-top-banners,"<div class=""row hidden-xs space-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-6"">
+<div class=""inner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-18 group-banner"">
+<div class=""row"">
+	<div class=""top-banner col-sm-24"">
+	<div class=""inner""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+	</div>
+	<div class=""bottom-banner col-sm-24"">
+		<div class=""row"">
+			<div class=""col-sm-12 first"">
+			<div class=""inner""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+			</div>
+			<div class=""col-sm-12"">
+			<div class=""inner""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Main Content Area 01 - Category Products",em0144-digital-main-content-area-01-category-products,"<div class=""emtabs-ajaxblock-loaded space-small-block"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""widget-title em-widget-title"">
+<h3><span>Top Category</span></h3>
+</div>
+<div class=""em-tabs-right"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-shirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-shirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#shirt-tab"" data-toggle=""switch"">Phone &amp; Tablet</a></div>
+<div id=""shirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""4"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`81`;]]""}}</div>
+<div id=""tab-label-skirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-skirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#skirt-tab"" data-toggle=""switch"">Electric Digital</a></div>
+<div id=""skirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""4"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`83`;]]""}}</div>
+<div id=""tab-label-dress-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-dress-tab-title"" class=""data switch"" tabindex=""-1"" href=""#dress-tab"" data-toggle=""switch"">Accessories</a></div>
+<div id=""dress-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""4"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""350"" thumb_height=""350"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`81`;]]""}}</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Main Content Area 02 - New Arrivals",em0144-digital-main-content-area-02-new-arrivals,"<div class=""new-product-slider space-small-block"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""New arrivals"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`83`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - Digital Store - Main Content Area 04 - Category Links",em0144-digital-main-content-area-04-category-links,"<div class=""em-wrapper-product-21 category-links row space-block"">
+<div class=""col-sm-12"">
+<div class=""em-box-item"">
+<div class=""group-links col-sm-12"">
+<div class=""em-block-title"">
+<p class=""h4 em-text-upercase""><span>Phone &amp; Tablet</span></p>
+</div>
+<div class=""em-block-content"">
+<ul>
+<li><a href=""#"">Phone Apple</a></li>
+<li><a href=""#"">Phone Android</a></li>
+<li><a href=""#"">Ipad</a></li>
+<li><a href=""#"">Tablet Android</a></li>
+<li><a href=""#"">Tablet Windows</a></li>
+<li><a href=""#"">Other OS</a></li>
+<li><a href=""#"">Accessories</a></li>
+</ul>
+</div>
+</div>
+<div class=""banner-right col-sm-12"">
+<div class=""em-wrapper-banners""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_07.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>
+<div class=""col-sm-12"">
+<div class=""em-box-item"">
+<div class=""group-links col-sm-12"">
+<div class=""em-block-title"">
+<p class=""h4 em-text-upercase""><span>Electric Digital</span></p>
+</div>
+<div class=""em-block-content"">
+<ul>
+<li><a href=""#"">Television</a></li>
+<li><a href=""#"">Music Player</a></li>
+<li><a href=""#"">DVD - Bluray</a></li>
+<li><a href=""#"">Karaoke</a></li>
+<li><a href=""#"">Amplifier</a></li>
+<li><a href=""#"">Speaker</a></li>
+<li><a href=""#"">Radiosion</a></li>
+</ul>
+</div>
+</div>
+<div class=""banner-right col-sm-12"">
+<div class=""em-wrapper-banners""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_08.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Main Content Area 03 - Banner",em0144-digital-main-content-area-03-banner,"<div class=""row hidden-xs space-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-24"">
+<div class=""inner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_06.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Main Content Area 05 - Bottom Banner",em0144-digital-main-05-bottom-banner,"<div class=""row space-block bottom-banner"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-24""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_10.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Area Footer 01 - Information - Footer Bottom",em0144-digital-area-footer01-information-footer-bottom,"<div class=""top-brands"">
+<div class=""em-block-title"" data-collapse-target=""#collapse05"">
+<p class=""h4 em-text-upercase""><span>Top Brands</span></p>
+</div>
+<div class=""em-block-content"" id=""collapse05"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Black</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Chanel</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Dior</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Gap</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Gray</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Green</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Hermes</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Lucci</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Sale Off</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Vintage</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>White</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Blue</span></a></li>
+</ul>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Brands Slider",em0144-digital-store-brands-slider,"<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Siderbar Main 01 - Sale Products",em0144-digital-sidebar-main-01-sale-products,"<div class=""em-sidebar-products hidden-xs space-block"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Sale Off"" display_type=""all_products"" products_count=""4"" order_by=""name ASC"" show=""thumb,name,sku,review,price"" thumb_width=""95"" thumb_height=""95"" filter_template=""custom"" custom_template=""em_list.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`83`;]]""}}</div>"
+"EM0144 Everything - Digital Store - Sidebar Main 02 - Banner",em0144-digital-sidebar-main02-banner,"<div class=""em-wrapper-banners first hidden-xs space-block"">
+<div class=""effect-flip-book"">
+<div class=""banner-img""><a class=""effect"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Sidebar Main 03 - Testimonials",em0144-digital-sidebar-main-03-testimonials,"<div class=""testimoniol-wrapper space-block hidden-xs"">
+<div class=""block-title""><strong>Testimoniol</strong></div>
+<div class=""block-content"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-15"">
+<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;items&quot;:1}}"">
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_11.jpg'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-author""><span class=""em-text-upercase"">John Doe </span><span>Designer</span></p>
+<p class=""em-ads-des""><em class=""fa fa-quote-left""></em>You can change the visual appearance of almost every element of the theme.</p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_11.jpg'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-author""><span class=""em-text-upercase"">John Doe </span><span>Designer</span></p>
+<p class=""em-ads-des""><em class=""fa fa-quote-left""></em>You can change the visual appearance of almost every element of the theme.</p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_11.jpg'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-author""><span class=""em-text-upercase"">John Doe</span><span>Designer</span></p>
+<p class=""em-ads-des""><em class=""fa fa-quote-left""></em>You can change the visual appearance of almost every element of the theme.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Digital Store - Sidebar Main 04 - Banner",em0144-digital-sidebar-main04-banner,"<div class=""em-wrapper-banners first hidden-xs  space-small-block"">
+<div class=""effect-flip-book"">
+<div class=""banner-img""><a class=""effect"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_digital/home/em_ads_09.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>"

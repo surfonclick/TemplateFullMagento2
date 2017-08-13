@@ -1,0 +1,109 @@
+<div id="subs_tmp" style="display:none">
+    <table class="subs">
+		<tbody>
+			<tr><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td></tr>
+		</tbody>
+	</table>
+</div>
+
+<div id="dialog" title="Parent menu data" style="display:none">
+  <form>
+    <fieldset class="ui-helper-reset">
+      <label for="tab_title">Title</label>
+      <input type="text" name="tab_title" id="tab_title" value="Parent Item" class="ui-widget-content ui-corner-all">
+      <label for="tab_link">Link</label>
+      <input type="text" name="tab_link" id="tab_link" value="#" class="ui-widget-content ui-corner-all">
+    </fieldset>
+  </form>
+</div>
+ 
+<button id="add_tab">Add Parent Item</button>
+     <!-- tables inside this DIV could have draggable content -->
+<div id="redips-drag">
+<table id="toolbox">
+	<tbody>
+		<tr>
+			<td>
+				<input type="button" value="Merge" class="button" onclick="redips.merge()" title="Merge marked table cells horizontally and verically"/>
+			</td>
+			<td>
+				<input type="button" value="Split H" class="button" onclick="redips.split('h')" title="Split marked table cell"/>
+				<input type="button" value="Split V" class="button" onclick="redips.split('v')" title="Split marked table cell vertically"/>
+			</td>
+			<td>
+				<input type="button" value="Row +" class="button" onclick="redips.row('insert')" title="Add table row"/>
+				<input type="button" value="Row -" class="button" onclick="redips.row('delete')" title="Delete table row"/>
+			</td>
+			<td>
+				<input type="button" value="Col +" class="button" onclick="redips.column('insert')" title="Add table column"/>
+				<input type="button" value="Col -" class="button" onclick="redips.column('delete')" title="Delete table column"/>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- left container -->
+	<div id="left">
+		<div class="instructions">
+		<strong>Building menu</strong>
+		<br/>
+		Drag items to the left to build your menu.
+		</div>
+		<table id="tblComponents">
+			<colgroup>
+				<col width="150"/>
+			</colgroup>
+			<tbody>
+				<tr><td class="redips-mark"><div class="redips-drag redips-clone" form="te1">Text</div></td></tr>
+				<tr><td class="redips-mark"><div class="redips-drag redips-clone" form="li1">Link</div></td></tr>
+				<tr><td class="redips-mark"><div class="redips-drag redips-clone" form="im1">Image</div></td></tr>
+			</tbody>
+		</table>
+	</div><!-- left container -->
+<div id="tabs">
+  <ul>
+  </ul>
+</div>
+    
+</div><!-- drag container -->
+<div style="display:none">
+    <div id="te1">
+        <form>
+	        <table class="redips-nolayout">
+		        <tr>
+			        <td>Content</td>
+			        <td>
+			            <textarea name="t1" class="editor"></textarea>
+			            <input type="button" value="WYSIWYG Editor" class="action-default scalable action-wysiwyg"/>
+			        </td>
+		        </tr>
+	        </table>
+        </form>
+    </div>
+    <div id="li1">
+        <form>
+	        <table class="redips-nolayout">
+		        <tr>
+			        <td>Text</td>
+			        <td><input type="text" name="l1"/></td>
+		        </tr>
+		        <tr>
+			        <td>Link</td>
+			        <td><input type="text" name="l2"/></td>
+		        </tr>
+	        </table>
+        </form>
+    </div>
+    <div id="im1">
+        <form>
+	        <table class="redips-nolayout">
+		        <tr>
+			        <td>Link</td>
+			        <td><input type="text" name="t1"/></td>
+		        </tr>
+	        </table>
+        </form>
+    </div>
+</div>
+<input type="button" value="Save" class="button sButton" id="btnSave" title="Save form"/><span id="sMessage"></span>

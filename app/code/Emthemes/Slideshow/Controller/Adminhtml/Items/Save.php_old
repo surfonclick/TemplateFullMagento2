@@ -1,0 +1,130 @@
+<?php
+/**
+ * Copyright © 2015 Emthemes. All rights reserved.
+ */
+
+namespace Emthemes\Slideshow\Controller\Adminhtml\Items;
+use Magento\Framework\App\Filesystem\DirectoryList;
+class Save extends \Emthemes\Slideshow\Controller\Adminhtml\Items
+{
+
+    public function execute()
+    {
+        if ($this->getRequest()->getPostValue()) {
+			$data = $this->getRequest()->getPostValue();
+			$model = $this->_objectManager->create('Emthemes\Slideshow\Model\Items');
+			$id = $this->getRequest()->getParam('id');
+			if ($id) {
+				$model->load($id);
+				if ($id != $model->getId()) {
+					throw new \Magento\Framework\Exception\LocalizedException(__('The wrong item is specified.'));
+				}
+			}			
+			// if(($model->getNumber())!="0"||($model->getNumber())!="")
+			// {
+				// $num=(int)$model->getNumber();
+				// for($i=0;$i<$num;$i++)
+				// {
+					// if($i==0){$name='image';}else{$name='image'.$i;}					
+					// try {
+						// $data[$name]=$this->uploadimage($name);
+					// } catch (\Exception $e) {
+						// if ($e->getCode() == 0) {
+							// $this->messageManager->addError($e->getMessage());
+						// }
+						// $data=$this->checkvalue($name,$data);
+					// }	
+				// }
+			// }
+				try {
+
+
+					$inputFilter = new \Zend_Filter_Input(
+						[],
+						[],
+						$data
+					);
+					$data = $inputFilter->getUnescaped();
+
+
+					$model->setData($data);
+					$session = $this->_objectManager->get('Magento\Backend\Model\Session');
+					$session->setPageData($model->getData());
+					$model->save();
+					$this->messageManager->addSuccess(__('You saved the item.'));
+					$session->setPageData(false);
+					if ($this->getRequest()->getParam('back')) {
+						$this->_redirect('emthemes_slideshow/*/edit', ['id' => $model->getId()]);
+						return;
+					}
+					if(($model->getNumber())!="0")
+					{
+						$this->_redirect('emthemes_slideshow/*/edit', ['id' => $model->getId()],'#emthemes_slideshow_items_edit_tabs_image_section_content');
+					}
+					else
+					{
+						$this->_redirect('emthemes_slideshow/*/');
+					}
+					return;
+				} catch (\Magento\Framework\Exception\LocalizedException $e) {
+					$this->messageManager->addError($e->getMessage());
+					$id = (int)$this->getRequest()->getParam('id');
+					if (!empty($id)) {
+						$this->_redirect('emthemes_slideshow/*/edit', ['id' => $id]);
+					} else {
+						$this->_redirect('emthemes_slideshow/*/new');
+					}
+					return;
+				} catch (\Exception $e) {
+					$this->messageManager->addError(
+						__('Something went wrong while saving the item data. Please review the error log.')
+					);
+					$this->_objectManager->get('Psr\Log\LoggerInterface')->critical($e);
+					$this->_objectManager->get('Magento\Backend\Model\Session')->setPageData($data);
+					$this->_redirect('emthemes_slideshow/*/edit', ['id' => $this->getRequest()->getParam('id')]);
+					return;
+				}
+        }
+        $this->_redirect('emthemes_slideshow/*/');
+    }
+	
+	
+	public function uploadimage($name)
+	{
+			$uploader = $this->_objectManager->create(
+				'Magento\MediaStorage\Model\File\Uploader',
+				['fileId' => $name]
+			);
+			$uploader->setAllowedExtensions(['jpg', 'jpeg', 'gif', 'png']);
+
+			/** @var \Magento\Framework\Image\Adapter\AdapterInterface $imageAdapter */
+			$imageAdapter = $this->_objectManager->get('Magento\Framework\Image\AdapterFactory')->create();
+
+			$uploader->addValidateCallback($name, $imageAdapter, 'validateUploadFile');
+			$uploader->setAllowRenameFiles(true);
+			$uploader->setFilesDispersion(true);
+
+			/** @var \Magento\Framework\Filesystem\Directory\Read $mediaDirectory */
+			$mediaDirectory = $this->_objectManager->get('Magento\Framework\Filesystem')
+								   ->getDirectoryRead(DirectoryList::MEDIA);
+			$result = $uploader->save($mediaDirectory->getAbsolutePath('Emthemes'));
+			$a= 'Emthemes'.$result['file'];
+			return $a;
+	
+	}
+	
+	public function checkvalue($name,$data){
+		if (isset($data[$name]) && isset($data[$name]['value'])) {
+			if (isset($data[$name]['delete'])) {
+				$data[$name] = null;
+				$data['delete_image'] = true;
+			} else if (isset($data['image1']['value'])) {
+				$data[$name] = $data[$name]['value'];
+			} else {
+				$data[$name] = null;
+			}
+		}
+		return $data;
+		
+	}
+}

@@ -1,0 +1,124 @@
+title,identifier,content
+"EM0144 Everything - Golf Store - Area Header 01 - Phone",em0144-golf-area-header-01-phone,"<p class=""em-phone""><em class=""fa fa-fw""></em><span>{{config path=""general/store_information/phone""}}</span></p>"
+"EM0144 Everything - Golf Store - Main Slideshow",em0144-golf-main-slideshow,"<div class=""em-slideshow space-small-block"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""31""}}</div>"
+"EM0144 Everything - Golf Store - Main Content 01 - Home - Banners",em0144-golf-main-content-01-home-banners,"<div class=""row hidden-xs space-large-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-8 img-banner text-center"">
+<div><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_golf/home/em-ads-01.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-8 img-banner text-center"">
+<div><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_golf/home/em-ads-02.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-8 img-banner text-center"">
+<div><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_golf/home/em-ads-03.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Golf Store - Main Content 02 - Home - New Products",em0144-golf-main-content-02-home-new-products,"<div class=""new-product-slider"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""New Products"" display_type=""all_products"" products_count=""4"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""360"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`86`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - Golf Store - Main Content Area 03 - Home - Banner Info",em0144-golf-main-content-area-03-home-bestseller-banner-info,"<div class=""hidden-xs banner-info-text space-large-block""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_golf/home/em-ads-04.jpg'}}"" alt=""em-sample-alt"" /></div>"
+"EM0144 Everything - Golf Store - Main Content Area 04 - Home - Featured Products",em0144-golf-main-content-area-04-home-featured-products,"<div class=""space-large-block"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Featured Product"" display_type=""all_products"" products_count=""8"" order_by=""entity_id DESC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""360"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`86`;]]""}}</div>"
+"EM0144 Everything - Golf Store - Main Content Area 05 - Blog - Code - Testimonials",em0144-golf-main-content-area-05-blog-code-testimonials,"<div class=""container space-small-block"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div>
+<div class=""em-wrapper-from-our-blog "">
+<div class=""clearer"">{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style06.recent"" template=""post/list/recent_08.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Golf - Main Content - Newsletter",em0144-golf-main-content-newsletter,"<div class=""em-newsletter-wrap"">
+<div class=""em-block-title"">
+<p class=""h2 em-text-upercase""><span>sign up for newsletter</span></p>
+</div>
+<p>Aliquam ultrices arcu in velit ultrices aliquam. Aliquam eget condimentum odio. Integer scelerisque, augue sed congue imperdiet, ex lectus euismod diam, et ornare lacus nisi at leo.</p>
+<div class=""newsletter-clearbutton"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>"
+"EM0144 Everything - Golf Store - Brand Slider",em0144-golf-brand-slider,"<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_01.jpg'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_02.jpg'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_03.jpg'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_04.jpg'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_05.jpg'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_02.jpg'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_03.jpg'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_04.jpg'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_01.jpg'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_gym/home/Brand/em_brand_05.jpg'}}"" alt=""em_brand_05.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Golf Store - Footer Area 1 - Links",em0144-golf-footer-area-1-links,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-4 first text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+<p class=""h4 em-text-upercase""><span>What's hot</span></p>
+</div>
+<ul id=""collapse01"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Discount Voucher</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Spring Collection</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Trending</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Best Sellers</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"""">
+<p class=""h4 em-text-upercase""><span>Brands</span></p>
+</div>
+<ul id=""collapse02"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jack &amp; Jones</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Calvin Klein</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Ray Ban</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>River Island</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"""">
+<p class=""h4 em-text-upercase""><span>Men shop</span></p>
+</div>
+<ul id=""collapse03"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Top</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Bottoms</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Accessories</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Women shop</span></p>
+</div>
+<ul id=""collapse04"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jeans</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Dresses</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Other</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse05&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Help</span></p>
+</div>
+<ul id=""collapse05"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>F.A.Q.</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shipping</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store direct_url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 last text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse06&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Nation Apps</span></p>
+</div>
+<ul id=""collapse06"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPhone</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPad</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Android</span></a></li>
+</ul>
+</div>
+</div>
+</div>"

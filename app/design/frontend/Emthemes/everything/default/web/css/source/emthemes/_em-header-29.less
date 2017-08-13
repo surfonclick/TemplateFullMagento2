@@ -1,0 +1,171 @@
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	.em-header-29.page-header{
+		.panel.wrapper{
+			border:0;
+		}
+		.switcher .options .action.toggle{
+			padding-left:0;
+			padding-right:0;
+			margin-right:25px;
+		}
+		.header.panel > .header.links > li > a{
+			padding-left:0;
+			padding-right:0;
+			margin-left:25px;
+		}
+		.header.content{
+			&:not(.navbar-fixed-top){
+				padding:0;
+				.header-area-01{
+					float:left;
+					width:25%;
+					margin: 40px 0 0;
+					font-size: 110%;
+					text-align:left;
+					.lib-css(color, @em-header__text-color);
+					.fa{.lib-css(color, @em-header__hover__text-color);}
+				}
+				.em-minicart{
+					position:absolute;
+					right:30px;
+					top:11px;
+					.minicart-wrapper .action.showcart{ 
+						display:inline-block;
+						padding-bottom:10px;
+						margin-bottom:-10px;
+						width: 40px;
+						height: 40px;
+						line-height: 40px;
+						&:before{
+							line-height: 46px;
+						}
+					}
+				}
+				.header-wrapper-container-top .logo{
+					float:left;
+					max-width: 100%;
+					margin:30px 0;
+					img{display:inline-block;}
+				}
+				.em-menu-hoz{
+					max-width:100%;
+					padding:0;
+					float:none!important;		
+					padding-right: 70px;
+					text-align:left;
+					.dropmenu-template{top:60px;}
+				}
+				.em-search-style02{
+					margin-top: 38px;
+					.control{
+						width:400px;
+					}
+					&.mobile-search-wrapper{display:none;}
+				}
+				.header-wrapper-container-bottom{
+					text-align:center;
+					width: 100%;
+					display:inline-block;
+					.lib-css(background-color, @em-topmenu__background-color);
+					position:relative;
+				}
+			}
+		}
+		.em-search-style02 .field.search input.input-text{
+			.lib-css(border-color, @em-header-search__background-color);
+		}
+		.header.content.navbar-fixed-top{
+			.header-area-01{
+				display:none
+			}
+			.em-search:not(.mobile-search-wrapper){display:none;}
+		}
+		
+		.em-menu-content{
+
+			li.level0{
+				margin:0;
+				float:none;
+				> a.level-top{
+					border-width:0px;
+					border-top-width:2px;
+					border-color:transparent;
+					padding: 20px 20px;	
+				}
+				&:hover{
+					> a.level-top{
+						.lib-css(border-color, @em-topmenu__hover__text-color);
+					}
+				}
+			}
+		}		
+	}
+}
+
+
+/*================= RTL Mobile====================*/
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+	.em-rtl{
+		.em-header-29.page-header{
+			.switcher .options .action.toggle{
+				margin-right:0px;
+				margin-left:25px;
+			}
+			.header.panel > .header.links > li > a{
+				margin-left:0px;
+				margin-right:25px;
+			}
+			.em-search .em-search-style01 .em-container-js-search{
+				right: auto;
+				left: 0;
+			}
+			.header.content:not(.navbar-fixed-top){
+				.minicart-wrapper .block-minicart{
+					right: 0px;
+					left: auto;
+				}
+				.header-wrapper-container-top .logo{float:right;}
+				.em-search-style02{
+					float:left;
+					.actions{position:absolute;left:0;top:0;}
+					.field.search input.input-text{padding:5px 10px 5px 50px;text-align:right;}
+				}
+				.em-minicart{right:auto;left:10px;}
+				.em-menu-hoz{padding:0 0 0 70px;}
+			}
+		}
+	}
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	.em-rtl{
+		.em-header-29.page-header{
+			.switcher .options .action.toggle{
+				margin-right:0px;
+				margin-left:25px;
+			}
+			.header.panel > .header.links > li > a{
+				margin-left:0px;
+				margin-right:25px;
+			}
+			.em-search .em-search-style01 .em-container-js-search{
+				right: auto;
+				left: 0;
+			}
+			.header.content:not(.navbar-fixed-top){
+				.minicart-wrapper .block-minicart{
+					right: 0px;
+					left: auto;
+				}
+				.header-wrapper-container-top .logo{float:right;}
+				.em-search-style02{
+					float:left;
+					.actions{position:absolute;left:0;top:0;}
+					.field.search input.input-text{padding:5px 10px 5px 50px;text-align:right;}
+				}
+				.em-minicart{right:auto;left:10px;}
+				.em-menu-hoz{padding:0 0 0 70px;}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <!--update handle="productlabels_label_new"/-->
+    <body>
+        <referenceBlock name="page.title">
+            <action method="setTitleClass">
+                <argument name="class" xsi:type="string">complex</argument>
+            </action>
+        </referenceBlock>
+        <referenceContainer name="page.main.actions">
+            <block class="Magento\Backend\Block\Store\Switcher" name="store_switcher">
+                <action method="setUseConfirm">
+                    <argument name="params" xsi:type="string">1</argument>
+                </action>
+            </block>
+        </referenceContainer>
+        <referenceContainer name="left">
+            <block class="Emthemes\ProductLabels\Block\Adminhtml\Label\Edit\Tabs" name="promo_catalog_edit_tabs">
+                <block class="Emthemes\ProductLabels\Block\Adminhtml\Label\Edit\Tab\Main" name="promo_catalog_edit_tab_main"/>
+                <block class="Emthemes\ProductLabels\Block\Adminhtml\Label\Edit\Tab\Conditions" name="promo_catalog_edit_tab_conditions"/>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">main_section</argument>
+                    <argument name="block" xsi:type="string">promo_catalog_edit_tab_main</argument>
+                </action>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">conditions_section</argument>
+                    <argument name="block" xsi:type="string">promo_catalog_edit_tab_conditions</argument>
+                </action>
+            </block>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Emthemes\ProductLabels\Block\Adminhtml\Label\Edit" name="promo_catalog_edit"/>
+        </referenceContainer>
+        <referenceContainer name="js">
+            <block class="Emthemes\ProductLabels\Block\Adminhtml\Label\Edit\Js" template="promo/js.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

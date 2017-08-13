@@ -1,0 +1,341 @@
+title,identifier,content
+"EM0144 Everything - Bicycle Store - Main Content Top - Main Slideshow",em0144-bicycle-main-content-top-main-slideshow,"<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""7""}}</div>"
+"EM0144 Everything - Bicycle - Main Content Area - Tabs Products",em0144-bicycle-main-content-area-tabs-products,"<div class=""em-wrapper-product-26 hidden-xs space-small-block row"">
+<div class=""container-fluid"">
+<div class=""em-tabs-widget tabs-widget "">
+<div class=""emtabs-ajaxblock-loaded"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""custom-tabfull"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-city-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-city-tab-title"" class=""data switch"" tabindex=""-1"" href=""#city-tab"" data-toggle=""switch"">City Bikes</a></div>
+<div id=""city-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""630"" thumb_height=""630"" filter_template=""custom"" custom_template=""em_grid_01.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`54`;]]""}}</div>
+<div id=""tab-label-offroad-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-offroad-tab-title"" class=""data switch"" tabindex=""-1"" href=""#offroad-tab"" data-toggle=""switch"">Offroad Bikes</a></div>
+<div id=""offroad-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""630"" thumb_height=""630"" filter_template=""custom"" custom_template=""em_grid_01.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`54`;]]""}}</div>
+<div id=""tab-label-road-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-road-tab-title"" class=""data switch"" tabindex=""-1"" href=""#road-tab"" data-toggle=""switch"">Road Bikes</a></div>
+<div id=""road-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""630"" thumb_height=""630"" filter_template=""custom"" custom_template=""em_grid_01.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`54`;]]""}}</div>
+<div id=""tab-label-accessories-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-accessories-tab-title"" class=""data switch"" tabindex=""-1"" href=""#accessories-tab"" data-toggle=""switch"">Bike Accessories</a></div>
+<div id=""accessories-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""630"" thumb_height=""630"" filter_template=""custom"" custom_template=""em_grid_01.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`54`;]]""}}</div>
+<div id=""tab-label-riding-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-riding-tab-title"" class=""data switch"" tabindex=""-1"" href=""#riding-tab"" data-toggle=""switch"">Riding Gear</a></div>
+<div id=""riding-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""630"" thumb_height=""630"" filter_template=""custom"" custom_template=""em_grid_01.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`54`;]]""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Bicycle Store - Main Content Container - Banners",em0144-bicycle-main-content-container-banners,"<div class=""em-wrapper-ads-19 em-background-parallax hidden-xs"">
+<div class=""em-maxwidth-content"">
+<div class=""row"">
+<div class=""col-sm-8""><a title=""banner"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_01.jpg'}}"" alt=""em_ads_01.jpg"" /><span class=""effect-line"">&nbsp;</span></a></div>
+<div class=""col-sm-8 wrapper-content"">
+<div class=""inner-content em-line-01"">
+<div class=""em-block-title"">
+<h3><span>Bicycles</span></h3>
+</div>
+<ul class=""items"">
+<li><a href=""#"">Office Bikes</a></li>
+<li><a href=""#"">City Bikes</a></li>
+<li><a href=""#"">Road Bikes</a></li>
+<li><a href=""#"">Fixed Gear</a></li>
+<li><a href=""#"">Premium Models</a></li>
+</ul>
+</div>
+</div>
+<div class=""col-sm-8""><a title=""banner"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_02.jpg'}}"" alt=""em_ads_02.jpg"" /><span class=""effect-line"">&nbsp;</span></a></div>
+</div>
+<div class=""row"">
+<div class=""col-sm-8 wrapper-content"">
+<div class=""inner-content em-line-01"">
+<div class=""em-block-title"">
+<h3><span>Accessories</span></h3>
+</div>
+<ul class=""items"">
+<li><a href=""#"">Office Bikes</a></li>
+<li><a href=""#"">City Bikes</a></li>
+<li><a href=""#"">Road Bikes</a></li>
+<li><a href=""#"">Fixed Gear</a></li>
+<li><a href=""#"">Premium Models</a></li>
+</ul>
+</div>
+</div>
+<div class=""col-sm-8""><a title=""banner"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_03.jpg'}}"" alt=""em_ads_03.jpg"" /><span class=""effect-line"">&nbsp;</span></a></div>
+<div class=""col-sm-8 wrapper-content"">
+<div class=""inner-content em-line-01"">
+<div class=""em-block-title"">
+<h3><span>Clothing</span></h3>
+</div>
+<ul class=""items"">
+<li><a href=""#"">Office Bikes</a></li>
+<li><a href=""#"">City Bikes</a></li>
+<li><a href=""#"">Road Bikes</a></li>
+<li><a href=""#"">Fixed Gear</a></li>
+<li><a href=""#"">Premium Models</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Bicycle Store - Main Content Container - Testimonials",em0144-bicycle-main-content-container-testimonials,"<div class=""space-block"">
+<div class=""em-wrapper-ads-11 hidden-xs"">
+<div class=""em-maxwidth-content"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads"">
+<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:1,&quot;dots&quot;:true,&quot;nav&quot;:false}}"">
+<div class=""em-ads-item"">
+<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_04.png'}}"" alt=""em_ads_04.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_04.png'}}"" alt=""em_ads_04.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img f-left""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_04.png'}}"" alt=""em_ads_04.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Bicycle Store - After Main Content 03- Our Blogs - Code",em0144-bicycle-after-main-content-03-our-blogs-code,"<div class=""em-maxwidth-content"">
+<div class=""row  space-block"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-slider em-slider-from-our-blog"">{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style03.recent"" template=""post/list/recent_03.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Bicycle Store - Page Footer Before - Brand Slider",em0144-bicycle-page-footer-before-brand-slider,"<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:8,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:8}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_shoes/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Bicycle Store - Footer Area 01 - Footer Info - Footer09",em0144-bicycle-footer-area-01-footer-info-footer09,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-4 first text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse01"">
+<p class=""h4 em-text-upercase""><span>What's hot</span></p>
+</div>
+<ul id=""collapse01"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Discount Voucher</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Spring Collection</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Trending</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Best Sellers</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse02"">
+<p class=""h4 em-text-upercase""><span>Brands</span></p>
+</div>
+<ul id=""collapse02"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jack &amp; Jones</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Calvin Klein</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Ray Ban</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>River Island</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse03"">
+<p class=""h4 em-text-upercase""><span>Men shop</span></p>
+</div>
+<ul id=""collapse03"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Top</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Bottoms</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Accessories</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse04"">
+<p class=""h4 em-text-upercase""><span>Women shop</span></p>
+</div>
+<ul id=""collapse04"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jeans</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Dresses</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Other</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse05"">
+<p class=""h4 em-text-upercase""><span>Help</span></p>
+</div>
+<ul id=""collapse05"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>F.A.Q.</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shipping</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store direct_url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 last text-center"">
+<div class=""em-block-title"" data-collapse-target=""#collapse06"">
+<p class=""h4 em-text-upercase""><span>Nation Apps</span></p>
+</div>
+<ul id=""collapse06"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPhone</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPad</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Android</span></a></li>
+</ul>
+</div>
+</div>
+<div class=""em-footer-info-bottom"">
+<div class=""row"">
+<div class=""col-sm-15 first"">
+<div class=""em-wrapper-newsletter"">
+<div class=""em-block-title"" data-collapse-target=""#collapse07"">
+<p class=""h4 em-text-upercase""><span>Sign Up For Newsletter</span></p>
+</div>
+<div id=""collapse07"" class=""em-block-content em-newsletter"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+<div class=""col-sm-9 last"">
+<div class=""em-wrapper-social f-right"">
+<div class=""em-block-title"" data-collapse-target=""#collapse08"">
+<p class=""h4 em-text-upercase""><span>Follow Us</span></p>
+</div>
+<div id=""collapse08"" class=""em-block-content"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Bicycle Store - After Main Content 03 - Our Blogs",em0144-bicycle-after-main-content-03-our-blogs,"<div class=""em-maxwidth-content"">
+<div class=""row space-block"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01 space-block"">
+<div class=""em-slider em-slider-from-our-blog"">
+<div class=""widget block block-static-block"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-block-title"">
+<h2><span>From Our Blog</span></h2>
+</div>
+<div class=""em-slider em-slider-navigation-icon em-slider-from-our-blog"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:3,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:1},&quot;640&quot;:{&quot;items&quot;:2},&quot;768&quot;:{&quot;items&quot;:3},&quot;1024&quot;:{&quot;items&quot;:3}}}}"">
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_05.jpg'}}"" alt=""em_ads_06.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_06.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_07.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_05.jpg'}}"" alt=""em_ads_06.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_06.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_bicycle/home/em_ads_07.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Bicycle Store - Main Content Area 02 - Best Sellers",em0144-bicycle-main-content-bestsellers,"<div class=""em-maxwidth-content"">
+<div class=""em-wrapper-products em-grid-00 em-line-01 space-small-block button-show01"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Best Sellers"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""10"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""280"" thumb_height=""280"" filter_template=""custom"" custom_template=""em_grid_23.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`54`;]]"" cache_lifetime=""86400""}}</div>
+</div>"

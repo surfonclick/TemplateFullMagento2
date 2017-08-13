@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!--move element="top.search" destination="header.wrapper.container.top" after="-" /-->
+		<referenceContainer name="header.wrapper.container.top">
+            <block class="Magento\Framework\View\Element\Template" name="top.search" as="topSearch" template="Magento_Search::form.mini.style02.phtml" after="-" />
+        </referenceContainer>
+        <move element="mobile.top.search" destination="header.wrapper.container.bottom" after="top.search" />
+      
+    </body>
+</page>

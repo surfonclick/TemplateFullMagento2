@@ -1,0 +1,71 @@
+
+<?php 
+	$id=(int)$this->getData('setId');
+	$collection=$block->getSlideshow($id);
+?>
+<?php if(isset($collection)&&$collection!="") : ?>
+<?php
+	$id_div=$collection['id'];
+	$w=(int)$collection['w'];
+	$h=(int)$collection['h'];
+	$data_image=json_decode($collection["slider"],true);
+	$data_configure=json_decode($collection["option"],true);
+	$data_effect=json_decode($collection["effect"],true);
+?>
+<?php 
+	foreach ($data_image as $key => $row) {
+		$volume[$key]  = $row['position'];
+	}
+	array_multisort($volume, SORT_ASC, $data_image);
+
+	foreach ($data_effect as $key => $row) {
+		$volume1[$key]  = $row['position'];
+	}
+	array_multisort($volume1, SORT_ASC, $data_effect);
+
+?>
+<div class="emthemes-slideshow <?php echo $data_configure["slider_skin"];  echo " layout-".$data_configure["layout"]; ?>" >
+	<div class="master-slider ms-skin-default" id="<?php echo $id_div; ?>">
+		<?php $i=0; ?>	
+		<?php foreach ($data_image as $image) : ?>
+			<div class="ms-slide">
+				<img src="pub/media/emthemes/style/blank.gif" data-src="<?php echo $block->imageResize($image["image"],$w,$h); ?>" alt=""/>   
+				<a href="<?php echo $image["url"] ?>">Agc</a>
+				<?php 
+					$number_description=(int)$image["number-description"];
+				?>
+				<?php for($j=1;$j<=$number_description;$j++) : ?>
+				<div class="ms-layer ms-caption" data-type="text" data-duration="<?php echo $data_effect[$i]["showduration".$j] ?>" data-delay="<?php echo $data_effect[$i]["showdelay".$j] ?>" data-ease="<?php echo $data_effect[$i]["showease".$j] ?>" data-effect="<?php echo $data_effect[$i]["showeffect".$j] ?>"  data-hide-effect="<?php echo $data_effect[$i]["hideeffect".$j] ?>"  data-hide-time="<?php echo $data_effect[$i]["hidetime".$j] ?>"  data-hide-duration="<?php echo $data_effect[$i]["hideduration".$j] ?>"  data-hide-ease="<?php echo $data_effect[$i]["hideease".$j] ?>"      data-offset-x = "<?php echo $data_effect[$i]["offset_x".$j] ?>"
+     data-offset-y="<?php echo $data_effect[$i]["offset_y".$j]?>"  data-origin="<?php echo $data_effect[$i]["origin".$j] ?>"   >
+					<?php 
+						$name="description".$j;
+						echo $image[$name];
+					?>
+				</div>
+				<?php endfor; ?>
+
+			</div>
+		<?php $i++; ?>
+		<?php endforeach;?>
+	</div>
+</div>
+
+<script type="text/x-magento-init">
+{
+	"*":{
+		"Emthemes_Slideshow/js/slideshow":{
+			"idlideshow": "<?php echo $id_div ?>",
+			"width": "<?php if($w!=""){ echo $w; } else { echo "0"; } ?>",
+			"height": "<?php if($h!=""){ echo $h; } else { echo "0"; } ?>",
+			"view": "<?php echo $data_configure["change_trans"]; ?>",
+			"loop": <?php if($data_configure["loop"]==1){ echo "true"; } else { echo "false"; } ?>,
+			"autoplay": <?php if($data_configure["auto"]==1){ echo "true"; } else { echo "false"; } ?>,
+			"layout":"<?php if($data_configure["layout"]) { echo $data_configure["layout"]; } else { echo "boxed"; } ?>",
+			"space":"5"
+			}
+	}
+}
+</script>
+<?php else : ?>
+<?php echo "There are not slideshow !!!" ?>
+<?php endif; ?>

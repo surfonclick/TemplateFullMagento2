@@ -1,0 +1,80 @@
+/////////////////Header
+
+& when (@media-common = true){
+	.header.links{
+        .lib-list-inline();
+		li{
+			> a{
+				position:relative;
+				&:before{
+					.lib-fontawesome("\f084", 14px);
+					margin-right:10px;
+					.em-rtl &{
+						margin-right:0px;
+						margin-left:10px;
+					}
+				}
+			}
+			&.wishlist > a:before{
+				content:"\f004";
+			}
+			&.log-in > a:before{
+				content:"\f13e";
+			}
+			&.myaccount-link > a:before{
+				content:"\f007";
+			}
+			&.compare{
+				.qty{
+					display:inline-block;
+				}
+				> a:before{
+					content:"\f079";
+				}
+			}
+		}
+	}
+}
+/*================= RTL ====================*/
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	.em-rtl{
+		.em-menu-content li.level0{
+			float:right !important;
+		}
+		.minicart-wrapper{
+			.block-minicart{
+				&:before, &:after{
+					right:auto;
+					left:10px
+				}
+			}
+		} 
+	}
+}
+.actions-toolbar{
+	.action.remind{
+		.lib-css(color, darken(@em-header__text-color, 30%));
+		&:hover{
+			.lib-css(color, @em-header__hover__text-color)
+		}
+	}
+} 
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+	.em-rtl{
+		.em-minicart{
+			right:auto;
+			left:15px
+		}
+		.em-search-icon.mobile-search-icon{
+			right:auto;
+			left:40px
+		}
+		.nav-toggle{
+			left:auto;
+			right:15px
+		}
+		.logo{
+			padding-right:50px
+		}
+	}
+}

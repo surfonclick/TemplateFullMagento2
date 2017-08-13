@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<css src="css/jquery.fullPage.css" media="print" />
+    	</head>
+    	
+    	<body>
+	    	<referenceContainer name="full.page">
+	    		<container name="section-container-1" label="EM Section 1" htmlTag="div" htmlId="em-section-01" htmlClass="section" before="-" />
+			<container name="section-container-2" label="EM Section 2" htmlTag="div" htmlId="em-section-02" htmlClass="section" after="section-container-1" />
+			<container name="section-container-3" label="EM Section 3" htmlTag="div" htmlId="em-section-03" htmlClass="section" after="section-container-2" />
+			<container name="section-container-4" label="EM Section 4" htmlTag="div" htmlId="em-section-04" htmlClass="section" after="section-container-3" />
+			<container name="section-container-5" label="EM Section 5" htmlTag="div" htmlId="em-section-05" htmlClass="section" after="section-container-4" />
+			<container name="section-container-6" label="EM Section 6" htmlTag="div" htmlId="em-section-06" htmlClass="section" after="section-container-5" />
+			<container name="section-container-7" label="EM Section 7" htmlTag="div" htmlId="em-section-07" htmlClass="section" after="section-container-6" />
+	    	</referenceContainer>
+    	</body>
+</page>
+

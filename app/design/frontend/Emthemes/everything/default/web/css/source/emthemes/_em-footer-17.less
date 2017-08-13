@@ -1,0 +1,115 @@
+& when (@media-common = true) {
+	.em-footer-style17{
+		.four-block-middle {
+			margin-top: @indent__xl;
+			margin-bottom: @indent__s;
+			border-bottom: 1px solid @em-footer__border-color;
+			padding-bottom: @indent__xl + 35;
+		}
+		.em-block-title{
+			margin-bottom: 20px;
+			> p{
+				font-weight:700;
+			}
+		}
+		.block.newsletter {
+			margin-top: 25px;
+			input[type="email"]{
+				padding-left: 20px;
+				color: darken(@em-footer__text-color, 50%);
+				height: 55px;
+				.lib-border-radius(0);
+				.abs-input-placeholder(darken(@em-footer__text-color, 50%));
+			}
+			.content{
+				position: relative;
+			}
+			.field .control:before{
+				display:none;
+			}
+			.actions{
+				position: absolute;
+				right: 10px;
+				top: 10px;
+				width: auto;
+				.action.subscribe{
+					padding: 7px 10px;
+				}
+			}
+			.field.newsletter {
+				margin-bottom: 10px
+			}
+		}
+		.em-wrapper-social .em-social .em-social-icon{
+			border:1px solid @em-footer__text-color;
+			color:@em-footer__text-color;
+			background:transparent;
+			padding: 3px 5px;
+			&:hover{
+				color:#ffffff;
+			}
+			&.em-facebook{
+				&:hover{
+					background:#3C5A99;
+					border-color:#3C5A99;
+				}
+			}
+			&.em-twitter{
+				&:hover{
+					background:#19BFE5;
+					border-color:#19BFE5;
+				}
+			}
+			&.em-pinterest{
+				&:hover{
+					background:#CB2027;
+					border-color:#CB2027;
+				}
+			}
+			&.em-instagram{
+				&:hover{
+					background:#A07657;
+					border-color:#A07657;
+				}
+			}
+			&.em-rss{
+				&:hover{
+					background:#F8991D;
+					border-color:#F8991D;
+				}
+			}
+		}
+		.em-links li {
+			padding: 4px 0;
+		}
+		.top-brands {
+			text-align: center;
+			padding-bottom: @indent__xl;
+			border-bottom: 1px solid @em-footer__border-color;
+			.em-block-content{
+				.em-links li{
+					display: inline-block;
+					padding: 3px 6px;
+					position: relative;
+					&:after{
+						content:"|";
+						position: absolute;
+						top: 2px;
+						right: -4px;
+					}
+				}
+			}
+			.em-block-title{
+				margin-bottom: 10px;
+				.h4{
+					.lib-font-size(20);
+					margin-bottom:0;
+				}
+			}
+		}
+		.footer-bottom{
+			padding-top:0;
+			margin-top: -20px;
+		}
+	}
+}

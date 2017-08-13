@@ -1,0 +1,3 @@
+title,page_layout,meta_keywords,meta_description,identifier,content_heading,content,is_active,sort_order,layout_update_xml,custom_theme,custom_root_template,custom_layout_update_xml,custom_theme_from,custom_theme_to
+"EM Everything Homepage Two Columns",2columns-left,,,everything-home,,&nbsp;,1,0,,,,,,
+"EM Everything Homepage - One Column",1column,,,everything-home-one-column,,"<div class=""std"" style=""display:none"">&nbsp;</div>",1,0,,,,,,

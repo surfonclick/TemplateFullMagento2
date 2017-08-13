@@ -1,0 +1,22 @@
+<?php 
+	$id=$block->getIdMenu();
+	$type=$block->getTypeMenu();
+	$enable=$block->getEnable();
+?>
+<?php if($enable==1) : ?>
+	<?php if($type==0) : ?>
+		<div class="em-menu" data-action="navigation">
+		    <ul class="em-menu-content">
+		    	<?php echo $block->getMenu(); ?>
+		    </ul>
+		</div>
+	<?php else :?>
+		<div class="em-menu-left" id="<?php echo $id ?>">
+			<ul class="em-menu-content">
+				<?php echo $block->getMenu(); ?>							
+			</ul> 
+		</div>
+	<?php endif; ?>
+<?php else : ?>
+	<div class="message"><?php echo __('this menu has been disalbe. Please enable this. ');?></div>
+<?php endif; ?>

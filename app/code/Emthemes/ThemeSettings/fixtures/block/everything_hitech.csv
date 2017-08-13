@@ -1,0 +1,265 @@
+title,identifier,content
+"EM0144 Everything - HiTech Store - Before Main Content 01 - Slideshow - Category",em0144-hitech-before-main-content-01-slideshow-category,"<div class=""em-wrapper-top space-small-block"">
+<div class=""row"">
+<div class=""col-sm-5  hidden-xs"">
+<div class=""menu-wrapper"">{{block class=""Magento\Theme\Block\Html\Topmenu"" name=""catalog.leftnav"" template=""navigation/left.phtml"" ttl=""3600"" cate_count=""7""}}</div>
+</div>
+<div class=""em-wrapper-slideshow col-sm-19"">
+<div class=""em-wrapper-area02"">
+<div class=""em-slideshow"">
+<div>{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""35""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Before Main Content 02 - Top Banners",em0144-hitech-before-main-content-02-top-banners,"<div class=""row hidden-xs space-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-5"">
+<div class=""effect-flip-book"">
+<div class=""banner-img""><a class=""effect"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+<div class=""col-sm-19 group-banner"">
+<div class=""row"">
+<div class=""top-banner col-sm-24"">
+<div class=""inner""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""bottom-banner col-sm-24"">
+<div class=""row"">
+<div class=""col-sm-12 first"">
+<div class=""inner""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-12"">
+<div class=""inner""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Main Content Area 01 - Product01",em0144-hitech-main-content-area-01-product01,"<div class=""emtabs-ajaxblock-loaded"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""widget-title em-widget-title"">
+<h3><span>Top of this week</span></h3>
+</div>
+<div class=""em-tabs-right"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-shirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-shirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#shirt-tab"" data-toggle=""switch"">Phone &amp; Tablet</a></div>
+<div id=""shirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`95`;]]""}}</div>
+<div id=""tab-label-skirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-skirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#skirt-tab"" data-toggle=""switch"">Electric Digital</a></div>
+<div id=""skirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`96`;]]""}}</div>
+<div id=""tab-label-dress-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-dress-tab-title"" class=""data switch"" tabindex=""-1"" href=""#dress-tab"" data-toggle=""switch"">Accessories</a></div>
+<div id=""dress-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`95`;]]""}}</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Main Content Area 03 - Product02",em0144-hitech-main-content-area-03-product02,"<div class=""row"">
+<div class=""em-col-left"">
+<div class=""new-product-slider"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Best Selling"" display_type=""all_products"" products_count=""3"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`96`;]]"" cache_lifetime=""86400""}}</div>
+</div>
+<div class=""em-col-right"">
+<div class=""new-product-slider"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Sale off"" display_type=""all_products"" products_count=""2"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`95`;]]"" cache_lifetime=""86400""}}</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Main Content Area 04 - Blog - Terminals",em0144-hitech-main-content-area-04-blog-terminal,"<div class=""row"">
+<div class=""em-col-left"">
+<div class=""em-wrapper-area04"">
+<div class=""em-wrapper-from-our-blog  em-line-01"">
+<div class=""blog-slider-item"">
+<div class=""em-blog-item em-effect-13 em-wrapper-ads-12"">
+<div class=""em-blog-content bkg-top  col-sm-12""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_08.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+</div>
+<div class=""em-box bkg-bottom  col-sm-12"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=""em-col-right info-box"">
+<div class=""em-wrapper-ads-15"">
+<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;items&quot;:1}}"">
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_01.png'}}"" alt=""em_ads_01.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-quote-left""></em>Aliquam quis risus viverra sum masset congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Quisque dapibus dignissim consectetur.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_01.png'}}"" alt=""em_ads_01.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-quote-left""></em>Aliquam quis risus viverra sum masset congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Quisque dapibus dignissim consectetur.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_01.png'}}"" alt=""em_ads_01.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-quote-left""></em>Aliquam quis risus viverra sum masset congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Quisque dapibus dignissim consectetur.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Main Content Area 02 - Banner",em0144-hitech-main-content-area-02-banner,"<div class=""row hidden-xs space-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-24"">
+<div class=""inner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_06.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Main Content Area 05 - Brands",em0144-hitech-main-05-brands,"<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Footer Area 1 - Links",em0144-hitech-footer-area-1-links,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-4 first text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+<p class=""h4 em-text-upercase""><span>What's hot</span></p>
+</div>
+<ul id=""collapse01"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Discount Voucher</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Spring Collection</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Trending</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Best Sellers</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Brands</span></p>
+</div>
+<ul id=""collapse02"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jack &amp; Jones</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Calvin Klein</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Ray Ban</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>River Island</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Men shop</span></p>
+</div>
+<ul id=""collapse03"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Top</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Bottoms</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Accessories</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Women shop</span></p>
+</div>
+<ul id=""collapse04"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jeans</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Dresses</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Other</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse05&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Help</span></p>
+</div>
+<ul id=""collapse05"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>F.A.Q.</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shipping</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store direct_url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 last text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse06&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Nation Apps</span></p>
+</div>
+<ul id=""collapse06"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPhone</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPad</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Android</span></a></li>
+</ul>
+</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Newlestters",em0144-hitech-store-newlestters,"<div class=""em-newsletter-wrap"">
+<div class=""em-block-title"">
+<p class=""h2 em-text-upercase""><span>sign up for newsletter</span></p>
+</div>
+<p>Aliquam ultrices arcu in velit ultrices aliquam. Aliquam eget condimentum odio. Integer scelerisque, augue sed congue imperdiet, ex lectus euismod diam, et ornare lacus nisi at leo.</p>
+<div class=""newsletter-clearbutton"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>"
+"EM0144 Everything - HiTech Store - Siderbar Main 01 - Featured Products",em0144-hitech-sidebar-main-01-featured-products,"<div class=""em-sidebar-products hidden-xs"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Featured"" display_type=""all_products"" products_count=""3"" order_by=""name ASC"" show=""thumb,name,sku,price"" thumb_width=""80"" thumb_height=""80"" filter_template=""custom"" custom_template=""em_list.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`96`;]]""}}</div>"
+"EM0144 Everything - HiTech Store - Sidebar Main 02 - Banner HotLine",em0144-hitech-sidebar-main02-banner-hotline,"<div class=""em-wrapper-banners hotline hidden-xs"">
+<div class=""effect-flip-book"">
+<div class=""banner-img""><a class=""effect"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Sidebar Main 03 - Banner",em0144-hitech-sidebar-main-03-Banner,"<div class=""em-wrapper-banners first hidden-xs  space-small-block"">
+<div class=""effect-flip-book"">
+<div class=""banner-img""><a class=""effect"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_hitech/home/em_ads_07.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>"
+"EM0144 Everything - HiTech Store - Sidebar Main 04 - Three Ads Texts",em0144-hitech-sidebar-main04-three-ads-text,"<div class=""row em-wrapper-ads-20 hidden-xs"">
+<div class=""text-box first"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-01""></div>
+<div class=""em-banner-right"">
+<h5><a title=""Tech Support 247"" href=""#"">free to delivery</a></h5>
+<p>Lorem ipsum dolor sit consectetur</p>
+</div>
+</div>
+</div>
+<div class=""text-box second"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-02""></div>
+<div class=""em-banner-right"">
+<h5><a title=""Free shipping all order"" href=""#"">DAYS FREE RETURNS</a></h5>
+<p>Maecenas imperdiet sagittis enim</p>
+</div>
+</div>
+</div>
+<div class=""text-box third"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-03""></div>
+<div class=""em-banner-right"">
+<h5><a title=""30 days return"" href=""#"">SUPPORT 24/7</a></h5>
+<p>Lorem ipsum dolor sit consectetur</p>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - HiTech - Area Footer 02 - Social",em0144-hitech-area-footer02-social,"<div class=""em-wrapper-social"">
+	<p class=""em-social"">
+		<a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-facebook""></span></a>
+		<a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-twitter""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-pinterest""></span></a> 
+		<a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-google-plus""></span></a> 
+		<a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-rss""></span></a>
+	</p>
+</div>"
+"EM0144 Everything - HiTech Store- Footer Bottom - Payment",em0144-hitech-footer-bottom-payment,"<div class=""em-payment f-right""><a class=""em-payment-icon em-visa"" title=""em-sample-title"" href=""#"">visa</a> <a class=""em-payment-icon em-master"" title=""em-sample-title"" href=""#"">master</a> <a class=""em-payment-icon em-express "" title=""em-sample-title"" href=""#"">express</a><a class=""em-payment-icon em-paypal"" title=""em-sample-title"" href=""#"">paypal</a> <a class=""em-payment-icon em-other "" title=""em-sample-title"" href=""#"">other</a></div>"

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Emthemes. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+		<!--add id="emthemes_slideshow::slideshow" title="EMTHEMES SLIDESHOW" module="Emthemes_Slideshow" sortOrder="22" parent="Emthemes_Settings::emthemes_settings" action="emthemes_slideshow/items/" resource="Emthemes_Slideshow::items"/-->
+    </menu>
+</config>

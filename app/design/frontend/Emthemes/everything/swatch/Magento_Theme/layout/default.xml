@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        
+        <!-- header area -->
+	<referenceContainer name="header.panel.wrapper" htmlClass="em-header-top em-fixed-top">
+		<container name="header.container.fluid" htmlClass="container-fluid em-menu-fix-pos" htmlTag="div" />
+
+	</referenceContainer>
+        <referenceBlock name="header.bottom" htmlClass="header menu wrapper" /> 
+        <referenceContainer name="header.panel">   
+            <container name="store.settings.wrapper" htmlClass="em-lan-cur-link-search" htmlTag="div">
+                <block class="Magento\Store\Block\Switcher" name="store_language" as="store_language" template="switch/languages.phtml"/>
+            </container>
+        </referenceContainer>
+        <move element="header.bottom" destination="header.container.fluid" before="-" />
+        <move element="header.panel" destination="header.bottom" />
+
+
+                	
+
+        <move element="store_switcher" destination="store.settings.wrapper" before="top.links" />
+        <move element="top.links" destination="store.settings.wrapper" before="top.search" />
+
+        <move element="logo" destination="header-wrapper-container" before="-" />
+        <move element="store.settings.wrapper" destination="header-wrapper-container" after="-" />
+        <move element="skip_to_content" destination="header-wrapper-container" before="-" />       
+
+      
+		
+    </body>
+</page>

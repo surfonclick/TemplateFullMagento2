@@ -1,0 +1,94 @@
+& when (@media-common = true) {
+	.em-footer-style08{
+		.footer-top{
+			padding-top:2rem;
+			.em-footer-info {
+				.lib-css(border-bottom, 1px solid @em-footer__border-color);
+			}
+			.em-footer-info-top{
+				.lib-css(border-bottom, 1px solid @em-footer__border-color);
+				padding-bottom: 20px;
+				margin-bottom: 40px;
+			}
+		}
+		&.page-footer .footer-bottom{
+			padding: 0px 0 @indent__s;
+		}
+		.em-links li{
+			margin-bottom:@indent__s;
+			padding: 0 0 10px;
+		}
+		.block.newsletter{
+			.action.subscribe{
+				.lib-css(background, transparent);
+				.lib-css(border, 2px solid @em-footer-link__hover__text-color);
+				.lib-css(color, @em-footer-link__hover__text-color);
+				&:hover{
+					.lib-allstyle(@em-btn-default__text-color, @em-btn-default__background-color);
+				}
+			}
+		}
+		.em-social{
+			.em-social-icon{
+				.lib-border-radius(100%);
+				padding: 6px 8px;
+				font-size:1.6rem;
+				.lib-css(background, lighten(@em-footer__background-color,10%));
+				.lib-css(color, @em-footer-title__text-color);
+				&:hover{
+					.lib-css(background, @em-footer-link__hover__text-color);
+				}
+			}
+		}
+		.em-container-ads{
+			margin-bottom:30px;
+			.box-date{
+				display:inline-block;
+				padding:8px 15px;
+				text-transform:uppercase;
+				margin:0 10px;
+				float:left;
+				text-align: center;
+				.lib-border-radius(100%);
+				.lib-css(background, @em-footer-link__hover__text-color);
+				.lib-css(color, @em-footer-title__text-color);
+				span{
+					display:block;
+					font-weight:bold;
+					&.em-blog-date{
+						font-size:140%;
+						line-height:1;
+					}
+					&.em-blog-month{
+						font-size:85%;
+					}
+				}
+				.em-rtl &{
+					float:right;
+				}
+			}
+			.em-detail{
+				overflow:hidden;
+				padding:0 10px;
+				.em-blog-title{
+					.lib-css(font, @em-h4__font);
+					font-weight:500;
+					a{
+						.lib-css(color, @em-footer-title__text-color);
+						&:hover{
+							.lib-css(color, @em-footer-link__hover__text-color);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px){
+	.em-footer-style08{
+		.four-block-middle .em-block-content{
+			margin-bottom:20px;
+		}
+	}
+}

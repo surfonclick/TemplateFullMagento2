@@ -1,0 +1,242 @@
+<?php 
+$uniq_id = uniqid('em-flyingcart-'); 
+$uniq_target = uniqid('em-flyingcart-target-');
+?>
+<?php 
+	$flyingcartHelper = $this->helper('Emthemes\FlyingEffectCart\Helper\Data');
+	$cartspeed = $flyingcartHelper->getConfig('flyingeffect/general/effect_times');
+	$cartsubtotal = $flyingcartHelper->getConfig('flyingeffect/general/show_subtotal');
+	$cartcount = $flyingcartHelper->getConfig('flyingeffect/general/show_product_number');
+	$mobileactive = $flyingcartHelper->getConfig('flyingeffect/general/mobile_active');
+?>
+<div data-block="emminicart" class="minicart-wrapper flyingcart-minicart-wrapper flyingcart-minicart-right <?php echo ($mobileactive) ? " " : "flyingcart-hidden-xs"; ?>">
+<div id="<?php echo $uniq_id; ?>" class="emthemes-flyingcart flyingcart-hidden">
+    <div class="action flyingcart-co flyingcart-close" 
+       data-bind="scope: 'emminicart_content'">
+        <a><span class="text"><?php /* @escapeNotVerified */ echo __('My Cart'); ?></span></a>
+		<?php if($cartcount != null && $cartcount == 1): ?>
+		<span class="counter qty empty"
+              data-bind="css: { empty: cart().summary_count == 0 }">
+            <span class="counter-number">
+			<!-- ko if: !cart().summary_count || cart().summary_count==0-->
+						<!-- ko i18n: '0' --><!-- /ko -->
+			<!-- /ko -->
+			<!-- ko if: cart().summary_count && cart().summary_count >0-->
+						<!-- ko text: cart().summary_count --><!-- /ko -->
+			<!-- /ko -->
+			</span>
+		</span>
+		<?php endif; ?>
+    </div>
+	<div id="<?php echo $uniq_target ?>" class="emthemes-flyingcart-full">
+	<div id="custom-minicart-content-wrapper" data-bind="scope: 'emminicart_content'">
+		<div class="block-title">
+			<strong>
+				<span class="text"><!-- ko i18n: 'My Cart' --><!-- /ko --></span>
+			</strong>
+			<div class="flyingcart-close-dialog">
+			</div>
+		</div>
+		<div class="block-content">
+			<div id="cart-target"></div>
+			<!-- ko if: cart().summary_count -->
+				<div class="items-total">
+					<span class="count"><!-- ko text: cart().summary_count --><!-- /ko --></span>
+					<!-- ko if: cart().summary_count == 1 -->
+						<!-- ko i18n: 'item' --><!-- /ko -->
+					<!-- /ko -->
+					<!-- ko if: cart().summary_count > 1 -->
+						<!-- ko i18n: 'items' --><!-- /ko -->
+					<!-- /ko -->
+				</div>
+			<!-- /ko -->
+			<!-- ko if: cart().summary_count -->
+			<strong class="subtitle"><!-- ko i18n: 'Recently added item(s)' --><!-- /ko --></strong>
+			<div class="flyingcart-items-wrapper">
+				<ol id="custom-mini-cart" class="minicart-items custom-minicart-items">
+					<!-- ko foreach: { data: cart().items, as: 'item' } -->
+					<li class="item product product-item" data-role="custom-product-item">
+						<div class="product">
+							<!-- ko if: product_has_url -->
+							 <span class="product-item-photo">
+								<a data-bind="attr: {href: product_url, title: product_name}" tabindex="-1" class="product-item-photo">
+										<span class="product-image-container">
+												<span class="product-image-wrapper">
+													<img data-bind="attr: {'src': product_image.src, 'width': product_image.width, 'height': product_image.height, 'alt' : product_image.alt }"/>
+												</span>
+										</span>
+								</a>
+							</span>
+							<!-- /ko -->
+							<!-- ko ifnot: product_has_url -->
+							<span class="product-item-photo">
+							   <span class="product-image-container">
+												<span class="product-image-wrapper">
+													<img data-bind="attr: {'src': product_image.src, 'width': product_image.width, 'height': product_image.height, 'alt' : product_image.alt }"/>
+												</span>
+								</span>
+							</span>
+							<!-- /ko -->
+							<div class="product-item-details">
+								<strong class="product-item-name">
+									<!-- ko if: product_has_url -->
+									<a data-bind="attr: {href: product_url}, text: product_name"></a>
+									<!-- /ko -->
+									<!-- ko ifnot: product_has_url -->
+										<!-- ko text: product_name --><!-- /ko -->
+									<!-- /ko -->
+								</strong>
+								<!-- ko if: options.length -->
+									<div class="product options em-detail" data-mage-init='{"collapsible":{"openedState": "active", "saveState": false}}'>
+										<span data-role="em-title" class="toggle flyingcart-toggle flyingcart-detail-show"><!-- ko i18n: 'See Details' --><!-- /ko --></span>
+										<div data-role="em-content" class="content flyingcart-details " style="display:none">
+											<strong class="subtitle"><!-- ko i18n: 'Options Details' --><!-- /ko --></strong>
+											<dl class="product options list">
+												<!-- ko foreach: { data: options, as: 'option' } -->
+												<dt class="label"><!-- ko text: option.label --><!-- /ko --></dt>
+												<dd class="values">
+													<!-- ko if: Array.isArray(option.value) -->
+														<span data-bind="html: option.value.join('<br>')"></span>
+													<!-- /ko -->
+													<!-- ko ifnot: Array.isArray(option.value) -->
+														<span data-bind="html: option.value"></span>
+													<!-- /ko -->
+												</dd>
+												<!-- /ko -->
+											</dl>
+										</div>
+									</div>
+								<!-- /ko -->
+								<div class="product-item-pricing">
+									<!-- ko if: canApplyMsrp -->
+									<div class="details-map">
+										<span class="label" data-bind="i18n: 'Price'"></span>
+										<span class="value" data-bind="i18n: 'See price before order confirmation.'"></span>
+									</div>
+									<!-- /ko -->
+									<!-- ko ifnot: canApplyMsrp -->
+									<!-- ko foreach: $parent.getRegion('priceSidebar') -->
+										<!-- ko template: {name: getTemplate(), data: item.product_price, as: 'price'} --><!-- /ko -->
+									<!-- /ko -->
+									<!-- /ko -->
+									<div class="details-qty qty">
+										<label class="label" data-bind="i18n: 'Qty', attr: {
+											   for: 'custom-cart-item-'+item_id+'-qty'}"></label>
+										<input data-bind="attr: {
+											   id: 'custom-cart-item-'+item_id+'-qty',
+											   'data-cart-item': item_id,
+											   'data-item-qty': qty
+											   }, value: qty"
+											   type="number"
+											   size="4"
+											   class="item-qty cart-item-qty"
+											   maxlength="12"/>
+										<button data-bind="attr: {
+											   id: 'custom-update-cart-item-'+item_id,
+											   'data-cart-item': item_id,
+											   title: $t('Update')
+											   }"
+												class="update-cart-item"
+												style="display: none">
+											<span data-bind="i18n: 'Update'"></span>
+										</button>
+									</div>
+								</div>
+								<div class="product actions">
+									<!-- ko if: is_visible_in_site_visibility -->
+									<div class="primary">
+										<a data-bind="attr: {href: configure_url, title: $t('Edit item')}" class="action edit">
+											<span data-bind="i18n: 'Edit'"></span>
+										</a>
+									</div>
+									<!-- /ko -->
+									<div class="secondary">
+										<a href="#" data-bind="attr: {'data-cart-item': item_id, title: $t('Remove item')}"
+										   class="action delete">
+											<span data-bind="i18n: 'Remove'"></span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				<!-- /ko -->
+				</ol>
+			</div>
+			<!-- /ko -->
+			<!-- ko ifnot: cart().summary_count -->
+				<strong class="subtitle empty" data-bind="visible: closeSidebar()">
+					<!-- ko i18n: 'You have no items in your shopping flyingcart.' --><!-- /ko -->
+				</strong>
+				<!-- ko if: cart().cart_empty_message -->
+					<p class="minicart empty text"><!-- ko text: cart().cart_empty_message --><!-- /ko --></p>
+
+					<div class="actions">
+						<div class="secondary">
+							<a class="action viewcart" data-bind="attr: {href: shoppingCartUrl}">
+								<span><!-- ko text: $t('View and edit cart') --><!-- /ko --></span>
+							</a>
+						</div>
+					</div>
+				<!-- /ko -->
+			<!-- /ko -->
+
+			<!-- ko if: cart().summary_count -->
+			<?php if($cartsubtotal != null && $cartsubtotal == 1): ?>
+				<!-- ko if: cart().possible_onepage_checkout -->
+					<!-- ko foreach: getRegion('subtotalContainer') -->
+								<!-- ko template: getTemplate() --><!-- /ko -->
+					<!-- /ko -->
+					<span class="amount">
+						<span data-bind="html: cart().subtotal"></span>
+					</span>
+				<!-- /ko -->
+				<?php endif; ?>
+				<!-- ko foreach: getRegion('extraInfo') -->
+					<!-- ko template: getTemplate() --><!-- /ko -->
+				<!-- /ko -->
+				<!-- ko if: cart().possible_onepage_checkout -->
+				<div class="actions flyingcart-checkout">
+					<div class="primary">
+						<button
+								id="custom-top-cart-btn-checkout"
+								type="button"
+								class="action primary checkout"
+								data-bind="attr: {title: $t('Go to Checkout')}">
+							<!-- ko i18n: 'Go to Checkout' --><!-- /ko -->
+						</button>
+						<div data-bind="html: cart().extra_actions"></div>
+					</div>
+				</div>
+				<!-- /ko -->
+				<div class="actions flyingcart-actions">
+				<div class="secondary">
+					<a class="action viewcart" data-bind="attr: {href: shoppingCartUrl}">
+						<span><!-- ko i18n: 'View and edit cart' --><!-- /ko --></span>
+					</a>
+				</div>
+			</div>
+			<!-- /ko -->
+			<div id="emthemes-flying-minicart-widgets" class="minicart-widgets">
+				<!-- ko foreach: getRegion('promotion') -->
+					<!-- ko template: getTemplate() --><!-- /ko -->
+				<!-- /ko -->
+			</div>
+		</div>
+		<!-- ko foreach: getRegion('sign-in-popup') -->
+		<!-- ko template: getTemplate() --><!-- /ko -->
+		<!-- /ko -->
+            </div>
+	</div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+			"Emthemes_FlyingEffectCart/js/flyingeffect":{
+			"speed": <?php echo ($cartspeed)?($cartspeed):1500; ?>,
+			"origin": "#<?php echo $uniq_id?>"
+			}
+        }
+    }
+</script>
+</div>

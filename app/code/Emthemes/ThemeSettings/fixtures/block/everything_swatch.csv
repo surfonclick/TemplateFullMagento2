@@ -1,0 +1,79 @@
+title,identifier,content
+"EM0144 Everything - Swatch Store - Section 01 - Banner 1",em0144-swatch-section01-banner-1,"<div id=""em-section-banner01"">
+<div>
+<div class=""em-owlcarousel-description"">
+<div class=""fadeInDown em-owlcarousel-des em-owlcarousel-des-1"">
+<h4 style=""font: 400 italic 3rem/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif; letter-spacing: 1px; margin-bottom: 2.3rem;"">Top of New Collection 15/16</h4>
+<p class=""line-40"">&nbsp;</p>
+<h2 class=""em-text-upercase"" style=""font: 700 6rem/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif; margin-bottom: 0.8rem;"">luxury watches</h2>
+<h4 class=""em-text-upercase"" style=""font: 500 2rem/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif; margin-bottom: 6rem;"">luxury watches</h4>
+<p class=""em-slideshow"" style=""display: inline-block;""><a class=""button-link first"" href=""#""><span>purchase now</span></a> <a class=""button-link"" href=""#""><span>shop now</span></a></p>
+</div>
+</div>
+<div class=""section-image""><a> <img class=""lazyOwl img-responsive"" style=""display: block;"" src=""{{media url='wysiwyg/em0144/layout_swatch/home/em_ads_01.jpg'}}"" alt="""" /> </a></div>
+</div>
+</div>"
+"EM0144 Everything - Swatch Store - Section 02 - Product 1",em0144-swatch-section02-product-1,"<div id=""em-section-product01"" class=""section-product section-product-01"">
+<div class=""container-fluid"">
+<div class=""row"">
+<div class=""col-sm-22 col-sm-offset-1"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""1"" order_by=""name ASC"" show=""thumb,name,sku,description,review,price,addtocart,addto"" thumb_width=""700"" thumb_height=""700"" filter_template=""custom"" custom_template=""em_list_custom_swatch.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`==`;s:5:`value`;s:6:`wat_14`;]]""}}</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Swatch Store - Section 04 - Banner 2",em0144-swatch-section04-banner-2,"<div id=""em-section-banner02"">
+<div>
+<div class=""em-owlcarousel-description em-slideshow"">
+<div class=""fadeInDown em-owlcarousel-des em-owlcarousel-des-1"">
+<h4 style=""font: 400 italic 3rem/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif; letter-spacing: 1px; margin-bottom: 3.5rem;"">Woman's Collection Love</h4>
+<h2 class=""em-text-upercase"" style=""font: 700 6rem/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif; margin-bottom: 2.7rem;"">Sale up 70% off</h2>
+<h4 class=""em-text-upercase"" style=""font: 500 2rem/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;"">only over orders on $99.99</h4>
+</div>
+</div>
+<div class=""section-image""><a> <img class=""lazyOwl img-responsive"" style=""display: block;"" alt="""" src=""{{media url='wysiwyg/em0144/layout_swatch/home/em_ads_02.jpg'}}"" /> </a></div>
+</div>
+</div>"
+"EM0144 Everything - Swatch Store - Section 03 - Product 2",em0144-swatch-section03-product-2,"<div id=""em-section-product02"" class=""section-product section-product-02"">
+<div class=""container-fluid"">
+<div class=""row"">
+<div class=""col-sm-22 col-sm-offset-1"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""1"" order_by=""name ASC"" show=""thumb,name,sku,description,review,price,addtocart,addto"" thumb_width=""700"" thumb_height=""700"" filter_template=""custom"" custom_template=""em_list_custom_swatch.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`==`;s:5:`value`;s:6:`wat_01`;]]""}}</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Swatch Store - Section 07 - Banner 3",em0144-swatch-section07-banner-3,"<div id=""em-section-banner03"" >
+<div class=""em-owlcarousel-description em-owlcarousel-description03"">
+<div class=""fadeInDown em-owlcarousel-des em-owlcarousel-des-1"">
+<h4 style=""font: 400 italic 3rem/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif; letter-spacing: 1px; margin-bottom: 2.3rem;"">Top of New Collection 15/16</h4>
+<p class=""line-40"">&nbsp;</p>
+<h2 class=""em-text-upercase"" style=""font: 700 6rem/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif; margin-bottom: 0.8rem;"">luxury watches</h2>
+<h4 class=""em-text-upercase"" style=""font: 500 2rem/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif; margin-bottom: 6rem;"">luxury watches</h4>
+<p class=""em-slideshow"" style=""display: inline-block;""><a class=""button-link first"" href=""#""><span>purchase now</span></a> <a class=""button-link"" href=""#""><span>shop now</span></a></p>
+</div>
+</div>
+<div class=""section-image""><a> <img class=""lazyOwl img-responsive"" style=""display: block;"" src=""{{media url='wysiwyg/em0144/layout_swatch/home/em_ads_03.jpg'}}"" alt="""" /> </a></div>
+</div>"
+"EM0144 Everything - Swatch Store - Section 05 - Product 3",em0144-swatch-section05-product-3,"<div id=""em-section-product01"" class=""section-product section-product-03"">
+<div class=""container-fluid"">
+<div class=""row"">
+<div class=""col-sm-22 col-sm-offset-1"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""1"" order_by=""name ASC"" show=""thumb,name,sku,description,review,price,addtocart,addto"" thumb_width=""700"" thumb_height=""700"" filter_template=""custom"" custom_template=""em_list_custom_swatch.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`==`;s:5:`value`;s:6:`wat_02`;]]""}}</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Swatch Store - Section 06 - Product 4",em0144-swatch-section06-product-4,"<div id=""em-section-product01"" class=""section-product section-product-04"">
+<div class=""container-fluid"">
+<div class=""row"">
+<div class=""col-sm-22 col-sm-offset-1"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""1"" order_by=""name ASC"" show=""thumb,name,sku,description,review,price,addtocart,addto"" thumb_width=""700"" thumb_height=""700"" filter_template=""custom"" custom_template=""em_list_custom_swatch.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`==`;s:5:`value`;s:6:`wat_03`;]]""}}</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Swatch Store - Footer Area 01 - Logo",em0144-swatch-footer-area-01-logo,"<div class=""text-center"">
+<p class=""em-logo-footer""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_swatch/home/em_footer_logo.png'}}"" alt=""EM Everything"" /></a></p>
+<ul class=""effect-menu  footer-menu-links"">
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Home </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Men's Swatches </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Lady's Swatches </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Kid's Swatches </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Brands </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Blog </span> </a></li>
+</ul>
+</div>"
+"EM0144 Everything - Swatch Store - Footer Area 01 - Newsletter",em0144-swatch-footer-area01-newsletter,"<div class=""row""><div class=""col-sm-18 col-sm-push-3""><div class=""em-newsletter-style02 newsletter-boder-input-act "">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""form.subscribe"" as=""subscribe"" before=""-"" template=""subscribe.phtml""}}</div></div></div>"

@@ -1,0 +1,4 @@
+<?php
+	$idwidget=$this->helper('Emthemes\MegaMenu\Helper\Data')->getConfig('megamenu/general/menu_name');
+	echo $this->getLayout()->createBlock("Emthemes\MegaMenu\Block\Widget\MegaMenu")->setMenuId($idwidget)->setTemplate("/widget/megamenu_auto.phtml")->toHtml();
+?>

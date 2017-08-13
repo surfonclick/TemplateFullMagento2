@@ -1,0 +1,188 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<em0144>
+			<name>everything</name>
+		</em0144>
+		<em0144_general_section>
+			<em0144_layout>
+				<disable_responsive>0</disable_responsive>
+				<box_wide>0</box_wide>
+				<wideslide_full>0</wideslide_full>
+				<sticky_menu>1</sticky_menu>
+			</em0144_layout>
+			<em0144_general_blocks_settings>
+				<handle_login_form>2</handle_login_form>
+				<show_popup>2</show_popup>
+			</em0144_general_blocks_settings>
+		</em0144_general_section>
+		<css>
+			<em0144_custom_css_group>
+				<additional_css_file></additional_css_file>
+				<custom_css>0</custom_css>
+			</em0144_custom_css_group>				
+		</css>
+		<fonts>
+			<em0144_fonts_group>
+				<google_font_key>AIzaSyCZ6wqklkyJFXWvoxvA5Zv0SGzHTd6JbbI</google_font_key>
+				<google_fonts>Lato,Lora,Raleway</google_fonts>
+				<google_fonts_weights>200,300,400,500,600,700,800</google_fonts_weights>
+				<general_font>500 14px/1.55 Lato,Helvetica Neue, Helvetica, Arial, sans-serif</general_font>
+				<h1_font>500 30px/1.15 Raleway, Helvetica Neue, Helvetica, Arial, sans-serif</h1_font>
+				<h2_font>700 20px/1.35 Raleway, Helvetica Neue, Helvetica, Arial, sans-serif</h2_font>
+				<h3_font>700 18px/1.35 Raleway, Helvetica Neue, Helvetica, Arial, sans-serif</h3_font>
+				<h4_font>700 16px/1.35 Raleway, Helvetica Neue, Helvetica, Arial, sans-serif</h4_font>
+				<h5_font>500 14px/1.35 Raleway, Helvetica Neue, Helvetica, Arial, sans-serif</h5_font>
+				<h6_font>600 11px/1.35 Lato,Helvetica, Arial, sans-serif</h6_font>
+			</em0144_fonts_group>				
+		</fonts>
+		<page>
+			<em0144_page_group>
+				<page_bg_color>#fbe2de</page_bg_color>
+				<page_bg_image></page_bg_image>
+				<page_bg_file></page_bg_file>
+				<page_bg_position>0 0</page_bg_position>
+				<page_bg_repeat>repeat</page_bg_repeat>
+				<page_bg_attachment>fixed</page_bg_attachment>
+				<box_shadow>0 0 5px #ffffff</box_shadow>
+				<rounded_corner>5px</rounded_corner>
+			</em0144_page_group>				
+		</page>
+		<header>
+			<em0144_header_group>
+				<header_bg_color>#ec6a54</header_bg_color>
+				<header_top_bg_color>#ffffff</header_top_bg_color>
+				<header_cart_bg_color>#ffffff</header_cart_bg_color>
+				<header_search_bg_color>#ffffff</header_search_bg_color>
+				<header_dropdown_bg_color>#ffffff</header_dropdown_bg_color>
+				<header_bg_image></header_bg_image>
+				<header_bg_file></header_bg_file>
+				<header_bg_position>0 0</header_bg_position>
+				<header_bg_repeat>repeat</header_bg_repeat>
+			</em0144_header_group>
+			<em0144_header_color_group>
+				<header_text_color>#a1a1a1</header_text_color>
+				<header_text_hover_color>#ec6a54</header_text_hover_color>
+				<header_cart_text_color>#ec6a54</header_cart_text_color>
+				<header_dropdown_text_color>#282828</header_dropdown_text_color>
+				<header_search_text_color>#808080</header_search_text_color>
+				<header_line_color>#e1e1e1</header_line_color>
+			</em0144_header_color_group>
+		</header>
+		<menu>
+			<em0144_top_menu_group>
+				<topmenu_bg_color>#ec6a54</topmenu_bg_color>
+				<topmenu_item_bg_color>#ec6a54</topmenu_item_bg_color>
+				<topmenu_item_hover_bg_color>#ffffff</topmenu_item_hover_bg_color>
+				<topmenu_text_color>#ffffff</topmenu_text_color>
+				<topmenu_hover_text_color>#ec6a54</topmenu_hover_text_color>
+				<topmenu_line_color>#ec6a54</topmenu_line_color>
+				<topmenu_font>700 14px/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif</topmenu_font>
+			</em0144_top_menu_group>
+			<em0144_vnav_menu_group>
+				<vnav_title_bg_color>#464646</vnav_title_bg_color>
+				<vnav_title_text_color>#ffffff</vnav_title_text_color>
+				<vnav_bg_color>#f8f8f8</vnav_bg_color>
+				<vnav_hover_bg_color>#fedabf</vnav_hover_bg_color>
+				<vnav_text_color>#434343</vnav_text_color>
+				<vnav_hover_text_color>#ec6a54</vnav_hover_text_color>
+				<vnav_line_color>#e8e8e8</vnav_line_color>
+				<vnav_font>500 14px/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif</vnav_font>
+			</em0144_vnav_menu_group>
+			<em0144_dropdown_menu_group>
+				<dropmenu_bg_color>#ffffff</dropmenu_bg_color>
+				<dropmenu_text_color>#434343</dropmenu_text_color>
+				<dropmenu_hover_text_color>#ec6a54</dropmenu_hover_text_color>
+				<dropmenu_title_text_color>#282828</dropmenu_title_text_color>
+				<dropmenu_line_color>#e8e8e8</dropmenu_line_color>
+				<dropmenu_font>500 14px/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif</dropmenu_font>
+			</em0144_dropdown_menu_group>
+		</menu>
+		<body>
+			<em0144_body_group>
+				<body_bg_color>#ffffff</body_bg_color>
+				<body_box_bg_color>#ffffff</body_box_bg_color>
+				<body_title_bg_color>#ec6a54</body_title_bg_color>
+				<body_title_block_bg_color>#f1f1f1</body_title_block_bg_color>
+				<body_tab_bg_color>#ffffff</body_tab_bg_color>
+				<body_tab_hover_bg_color>#ffffff</body_tab_hover_bg_color>
+				<body_label_new_bg_color>#1585c7</body_label_new_bg_color>
+				<body_label_hot_bg_color>#ff9301</body_label_hot_bg_color>
+				<body_label_special_bg_color>#f60000</body_label_special_bg_color>
+				<body_bg_image></body_bg_image>
+				<body_bg_file></body_bg_file>
+				<body_bg_position>0 0</body_bg_position>
+				<body_bg_repeat>repeat</body_bg_repeat>
+			</em0144_body_group>
+			<em0144_body_color_group>
+				<body_text_color>#a1a1a1</body_text_color>
+				<body_title_page_text_color>#000000</body_title_page_text_color>
+				<body_title_block_text_color>#434343</body_title_block_text_color>
+				<body_box_title_text_color>#ffffff</body_box_title_text_color>
+				<body_product_name_text_color>#434343</body_product_name_text_color>
+				<body_price_text_color>#434343</body_price_text_color>
+				<body_hover_text_color>#ec6a54</body_hover_text_color>
+				<body_tab_text_color>#434343</body_tab_text_color>
+				<body_tab_hover_text_color>#ec6a54</body_tab_hover_text_color>
+				<body_label_text_color>#ffffff</body_label_text_color>
+				<body_line_color>#e1e1e1</body_line_color>
+				<body_tilte_line_color>#ec6a54</body_tilte_line_color>
+			</em0144_body_color_group>
+		</body>
+		<footer>
+			<em0144_footer_group>
+				<footer_bg_color>#f1f1f1</footer_bg_color>
+				<footer_bottom_bg_color>#222222</footer_bottom_bg_color>
+				<footer_newsletter_bg_color>#ffffff</footer_newsletter_bg_color>
+				<footer_bg_image></footer_bg_image>
+				<footer_bg_file></footer_bg_file>
+				<footer_bg_position>0 0</footer_bg_position>
+				<footer_bg_repeat>repeat</footer_bg_repeat>
+			</em0144_footer_group>
+			<em0144_footer_color_group>
+				<footer_text_color>#a1a1a1</footer_text_color>
+				<footer_title_text_color>#434343</footer_title_text_color>
+				<footer_link_color>#434343</footer_link_color>
+				<footer_link_hover_color>#ec6a54</footer_link_hover_color>
+				<footer_line_color>#dbdbdb</footer_line_color>
+			</em0144_footer_color_group>
+		</footer>
+		<buttons>
+			<em0144_button1_group>
+				<btn1_bg_color>#ec6a54</btn1_bg_color>
+				<btn1_text_color>#ffffff</btn1_text_color>
+				<btn1_line_color>#ec6a54</btn1_line_color>
+				<btn1_font>700 14px/1.35 Lato, Helvetica, Arial, sans-serif</btn1_font>
+			</em0144_button1_group>
+			<em0144_button2_group>
+				<btn2_bg_color>#f1f1f1</btn2_bg_color>
+				<btn2_text_color>#a1a1a1</btn2_text_color>
+				<btn2_line_color>#f1f1f1</btn2_line_color>
+				<btn2_font>700 14px/1.35 Lato, Helvetica, Arial, sans-serif</btn2_font>
+			</em0144_button2_group>
+			<em0144_button3_group>
+				<btn3_bg_color>#ec6a54</btn3_bg_color>
+				<btn3_text_color>#ffffff</btn3_text_color>
+				<btn3_line_color>#ec6a54</btn3_line_color>
+				<btn3_font>700 14px/1.35 Lato, Helvetica, Arial, sans-serif</btn3_font>
+			</em0144_button3_group>
+			<em0144_button4_group>
+				<btn4_bg_color>#ffa000</btn4_bg_color>
+				<btn4_text_color>#ffffff</btn4_text_color>
+				<btn4_line_color>#ffa000</btn4_line_color>
+				<btn4_font>700 16px/1.35 Lato, Helvetica, Arial, sans-serif</btn4_font>
+			</em0144_button4_group>
+			<em0144_button5_group>
+				<btn5_bg_color>#ffffff</btn5_bg_color>
+				<btn5_text_color>#ec6a54</btn5_text_color>
+				<btn5_line_color>#ec6a54</btn5_line_color>
+				<btn5_font>700 14px/1.35 Lato, Helvetica, Arial, sans-serif</btn5_font>
+			</em0144_button5_group>
+			<!--<em0144_button6_group>
+				<btn6_bg_color>#ffffff</btn6_bg_color>
+				<btn6_text_color>#ec6a54</btn6_text_color>
+				<btn6_line_color>#ec6a54</btn6_line_color>
+				<btn6_font>700 14px/1.35 Lato, Helvetica, Arial, sans-serif</btn6_font>
+			</em0144_button6_group>-->
+		</buttons>
+	</default>
+</config>

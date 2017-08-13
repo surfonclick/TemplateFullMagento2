@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Emthemes. All rights reserved.
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+	<head><css src="Emthemes_Slideshow::css/style/masterslider.css"/>    </head>
+    <body>
+        <referenceContainer name="left">
+            <block class="Emthemes\Slideshow\Block\Adminhtml\Items\Edit\Tabs" name="emthemes_slideshow_items_edit_tabs">
+                <block class="Emthemes\Slideshow\Block\Adminhtml\Items\Edit\Tab\Main" name="emthemes_slideshow_items_edit_tab_main"/>
+                <block class="Emthemes\Slideshow\Block\Adminhtml\Items\Edit\Tab\Image" name="emthemes_slideshow_items_edit_tab_image"/>	
+				<block class="Emthemes\Slideshow\Block\Adminhtml\Items\Edit\Tab\Option" name="emthemes_slideshow_items_edit_tab_option"/>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">main_section</argument>
+                    <argument name="block" xsi:type="string">emthemes_slideshow_items_edit_tab_main</argument>
+                </action>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">image_section</argument>
+                    <argument name="block" xsi:type="string">emthemes_slideshow_items_edit_tab_image</argument>
+                </action>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">option_section</argument>
+                    <argument name="block" xsi:type="string">emthemes_slideshow_items_edit_tab_option</argument>
+                </action>			
+            </block>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Emthemes\Slideshow\Block\Adminhtml\Items\Edit" name="slideshow_items_edit"/>
+        </referenceContainer>
+    </body>
+</page>

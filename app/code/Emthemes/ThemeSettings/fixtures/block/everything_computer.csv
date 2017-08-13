@@ -1,0 +1,238 @@
+title,identifier,content
+"EM0144 Everything - Computer Store - Before Main Content 01 - Slideshow - Category",em0144-computer-before-main-content-01-slideshow-category,"<div class=""em-wrapper-top"">
+<div class=""row"">
+<div class=""col-sm-6"">
+<div class=""menu-wrapper"">{{block class=""Magento\Theme\Block\Html\Topmenu"" name=""catalog.leftnav"" template=""navigation/left.phtml"" ttl=""3600"" cate_count=""6""}}</div>
+</div>
+<div class=""em-wrapper-slideshow col-sm-18"">
+<div class=""em-wrapper-area02"">
+<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""15""}}</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Computer Store - Before Main Content 02 - Banners",em0144-computer-before-main-content-02-banners,"<div class=""row hidden-xs space-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-8  text-center"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_01.jpg'}}"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+<div class=""col-sm-8  text-center"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_02.jpg'}}"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+<div class=""col-sm-8 text-center"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_03.jpg'}}"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Computer Store - Before Main Content 03 - Home - New Arrivals",em0144-computer-before-main-content-03-home-new-arrivals,"<div class=""new-product-slider"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""New arrivals"" display_type=""all_products"" show_slider=""1"" slider_item=""5"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`53`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - Computer Store - Main Content Area 01 - Two Banners",em0144-computer-main-content-area-01-two-banners,"<div class=""row hidden-xs space-small-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-12"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+<div class=""col-sm-12"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Computer Store - Main Content Area 02 - Bestsellers",em0144-computer-main-content-area-02-bestsellers,"<p>{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Bestsellers"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_grid_00.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`53`;]]""}}</p>"
+"EM0144 Everything - Computer Store - Main Content Area 03 - Fullwidth Banners",em0144-computer-main-content-area-03-fullwidth-banner,"<div class=""img-banner space-small-block"">
+<div class=""em-effect06""><a class=""em-eff06-04"" href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_07.jpg'}}"" alt=""em_ads_07.jpg"" /></a></div>
+</div>"
+"EM0144 Everything - Computer Store - Main Content Area 04 - Sale Products",em0144-computer-main-content-area-04-sale-products,"<p>{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Sale Products"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""5"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_grid_00.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`53`;]]""}}</p>"
+"EM0144 Everything - Computer Store - Sidebar Main - Banner",em0144-computer-sidebar-main-banner,"<div class=""img-banner hidden-xs space-small-block""><a class=""banner-img"" href=""#""><img class=""img-responsive"" alt=""em_ads_06.jpg"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_06.jpg'}}"" /></a>
+<div class=""effect-line"">&nbsp;</div>
+</div>"
+"EM0144 Everything - Computer Store - Sidebar Main 02 - Testimonials",em0144-computer-sidebar-main-02-testimonials,"<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-15"">
+<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;items&quot;:1}}"">
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Computer Store - Sidebar Main 03 - Banners",em0144-computer-sidebar-main-03-banners,"<div class=""img-banner hidden-xs space-small-block""><a class=""banner-img"" href=""#""><img class=""img-responsive"" alt=""em_ads_08.jpg"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_08.jpg'}}"" /></a>
+<div class=""effect-line"">&nbsp;</div>
+</div>"
+"EM0144 Everything - Computer Store - Sidebar Main 04 - Services",em0144-computer-sidebar-main-04-services,"<div class=""em-wrapper-ads-13 hidden-xs"">
+<div class=""box"">
+<div class=""text-box""><a class=""icon-banner-left pull-left"" title=""Tech Support 247"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""Tech Support 247"" href=""#"">RETURN &amp; EXCHANGE</a></h5>
+<p>Vintage pastel tucked</p>
+</div>
+</div>
+<div class=""text-box""><a class=""icon-banner-left pull-left"" title=""Free shipping all order"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""Free shipping all order"" href=""#"">Free shipping</a></h5>
+<p>Get Free Shipping</p>
+</div>
+</div>
+<div class=""text-box""><a class=""icon-banner-left pull-left"" title=""30 days return"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""30 days return"" href=""#"">MEMBER DISCOUNT</a></h5>
+<p>The total billed is discount</p>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Computer Store - After Main Content 01 - Banners",em0144-computer-after-main-content-01-banners,"<div class=""row hidden-xs space-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-12"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_09.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+<div class=""col-sm-12"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/em_ads_10.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Cpmputer Store - Main Content Bottom 02 - Our Blogs - Code",em0144-computer-main-content-bottom-02-our-blog-code,"<div class=""row"">
+<div class=""col-sm-24 space-block"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-slider em-slider-from-our-blog"">{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style03.recent"" template=""post/list/recent_03.phtml""}}</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Computer Store - Before Footer 01 - Links",em0144-computer-before-footer01-links-,"<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-4 first text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+<p class=""h4 em-text-upercase""><span>What's hot</span></p>
+</div>
+<ul id=""collapse01"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Discount Voucher</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Spring Collection</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Trending</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Best Sellers</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Brands</span></p>
+</div>
+<ul id=""collapse02"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jack &amp; Jones</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Calvin Klein</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Ray Ban</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>River Island</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Men shop</span></p>
+</div>
+<ul id=""collapse03"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Top</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Bottoms</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Accessories</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Women shop</span></p>
+</div>
+<ul id=""collapse04"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jeans</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Dresses</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Other</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse05&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Help</span></p>
+</div>
+<ul id=""collapse05"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>F.A.Q.</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shipping</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store direct_url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 last text-center"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse06&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Nation Apps</span></p>
+</div>
+<ul id=""collapse06"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPhone</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPad</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Android</span></a></li>
+</ul>
+</div>
+</div>
+<div class=""em-footer-info-bottom"">
+<div class=""row"">
+<div class=""col-sm-12 col-md-12 col-lg-15 first"">
+<div class=""em-wrapper-newsletter"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse07&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Sign Up For Newsletter</span></p>
+</div>
+<div id=""collapse07"" class=""em-block-content em-newsletter"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style05"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+<div class=""col-sm-12 col-md-12 col-lg-9 last"">
+<div class=""em-wrapper-social f-right"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse08&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Follow Us</span></p>
+</div>
+<div id=""collapse08"" class=""em-block-content"">
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Computer Store - Brands Slider",em0144-computer-store-brands-slider,"<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_computer/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>"

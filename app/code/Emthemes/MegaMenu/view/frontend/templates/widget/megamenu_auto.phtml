@@ -1,0 +1,9 @@
+<?php if($block->getEnable()) : ?>
+<nav class="navigation" data-action="navigation">
+    <ul class="em-menu-horizone" data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left-5 top","at":"left bottom"}}}'>
+    <?php echo $block->getMenu(); ?>
+    </ul>
+</nav>
+<?php else : ?>
+	<div class="message"><?php echo __('this menu has been disalbe. Please enable this. ');?></div>
+<?php endif; ?>

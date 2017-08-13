@@ -1,0 +1,143 @@
+title,identifier,content
+"EM0144 Everything - Dennis Store  - Main Slideshow",em0144-dennis-main-slideshow,"<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""21""}}</div>"
+"EM0144 Everything - Dennis Store - Three Banners",em0144-dennis-tree-banners,"<div class=""row hidden-xs"">
+<div class=""em-wrapper-banners"">
+<div class=""effect col-sm-8 text-center em-clear-padding""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+<div class=""effect col-sm-8  text-center em-clear-padding""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+<div class=""effect col-sm-8 text-center em-clear-padding""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Dennis Store - Trending Product",em0144-dennis-trending,"<div class=""new-product-slider button-show04 "">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Trending"" display_type=""all_products"" show_slider=""1"" slider_item=""4"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""em_grid_00.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`63`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - Dennis Store - New Arrivals",em0144-dennis-new-arrivals,"<div class=""emtabs-ajaxblock-loaded button-show04 em-tab-style-001"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""widget-title em-widget-title"">
+<h3><span>New Arrivals</span></h3>
+</div>
+<div class=""em-tabs-right"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-shirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-shirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#shirt-tab"" data-toggle=""switch"">Men</a></div>
+<div id=""shirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`63`;]]""}}</div>
+<div id=""tab-label-skirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-skirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#skirt-tab"" data-toggle=""switch"">Women</a></div>
+<div id=""skirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`64`;]]""}}</div>
+<div id=""tab-label-dress-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-dress-tab-title"" class=""data switch"" tabindex=""-1"" href=""#dress-tab"" data-toggle=""switch"">Couple</a></div>
+<div id=""dress-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`63`;]]""}}</div>
+<div id=""tab-label-outerwear-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-outerwear-tab-title"" class=""data switch"" tabindex=""-1"" href=""#outerwear-tab"" data-toggle=""switch"">Trending</a></div>
+<div id=""outerwear-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""300"" thumb_height=""300"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`64`;]]""}}</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Dennis Store - Parallax Ads",em0144-dennis-from-parallax-ads,"<div class=""em-background-parallax em-wrapper-ads-17 space-small-block"">
+<div class=""em-wrapper-parallax"">
+<div class=""em-box-info"">
+<h1 class=""em-text-upercase"" style=""font: 700 4.2rem/1 Playfair Display,Helvetica Neue, Helvetica, Arial, sans-serif; margin-bottom: 2.5rem;"">Winter Fashion show 2017</h1>
+<h3 class=""em-text-upercase"" style=""font: 2rem/1 OpenSans,Helvetica Neue, Helvetica, Arial, sans-serif; padding-bottom: 3.4rem; margin-bottom: 2.2rem; "">We Make Your Dream Came True</h3>
+<a class=""button-link first"" href=""#""><span>purchase now</span></a></div>
+</div>
+</div>"
+"EM0144 Everything - Dennis Store - Banner Slider",em0144-dennis-banners-slider,"<div class=""em-wrapper-brands row"">
+<div class=""col-sm-24"">
+<div class=""row"">
+<div>
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_dennis/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Dennis Store - Area Footer 01 - Information",em0144-dennis-area-footer01-information,"<div class=""em-footer-info"">
+<div class="" four-block-middle"">
+<div class=""row"">
+<div class=""col-sm-12"">
+<div class=""em-block-title"" data-collapse-target=""#collapse01"">
+<p class=""h4 em-text-upercase""><span>About Us</span></p>
+</div>
+<div class=""em-block-content block-info"" id=""collapse01"">
+<p class=""em-info"">Curabitur lobortis porta justos et eget malesuada. Mauris bibendum, nulla accumsan pretium lorem eros vulputate lacus aliquet felis lacus vel metus. Aliquam erat volutpat. Quisque vehicula egestas viverra. 234 Fake address name, Fake city name, Country, 01234 (000) 123 456 xxxx support@designshopify.com.</p>
+<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" href=""#"" title=""em-sample-title""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" href=""#"" title=""em-sample-title""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" href=""#"" title=""em-sample-title""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" href=""#"" title=""em-sample-title""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" href=""#"" title=""em-sample-title""><span class=""fa fa-fw""></span></a></p>
+</div>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-collapse-target=""#collapse02"">
+<p class=""h4 em-text-upercase""><span>CUSTOMER SERVICES</span></p>
+</div>
+<div class=""em-block-content"" id=""collapse02"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>FAQ</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Size Guide</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>My Credit Slips</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>My Addresses</span></a></li>
+</ul>
+</div>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-collapse-target=""#collapse03"">
+<p class=""h4 em-text-upercase""><span>DELIVERY &amp; RETURNS</span></p>
+</div>
+<div class=""em-block-content"" id=""collapse03"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Delivery</span></a></li>
+<li class=""em-links-item""><a href=""{{store url='contacts'}}"" title=""em-sample-title""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>About Us</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Sitemap</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Term &amp; Conditions</span></a></li>
+</ul>
+</div>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-collapse-target=""#collapse04"">
+<p class=""h4 em-text-upercase""><span>CARDS &amp; DISCOUNTS</span></p>
+</div>
+<div class=""em-block-content"" id=""collapse04"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>About Us</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Promotions </span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Affiliate Program</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Term &amp; Conditions</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=""top-brands"">
+<div class=""em-block-title"" data-collapse-target=""#collapse05"">
+<p class=""h4 em-text-upercase""><span>Top Brands</span></p>
+</div>
+<div class=""em-block-content"" id=""collapse05"">
+<ul class=""em-links"">
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Black</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Chanel</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Dior</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Gap</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Gray</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Green</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Hermes</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Lucci</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Sale Off</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Vintage</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>White</span></a></li>
+<li class=""em-links-item""><a href=""#"" title=""em-sample-title""><span>Blue</span></a></li>
+</ul>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Dennis Store - Footer Inner - Payment",em0144-dennis-area-footer-inner-payment,"<div class=""em-payment f-right""><a class=""em-payment-icon em-mastercart"" title=""em-sample-title"" href=""#"">visa</a> <a class=""em-payment-icon em-paypal"" title=""em-sample-title"" href=""#"">master</a> <a class=""em-payment-icon em-visa "" title=""em-sample-title"" href=""#"">express</a><a class=""em-payment-icon em-DHL"" title=""em-sample-title"" href=""#"">paypal</a> <a class=""em-payment-icon em-american "" title=""em-sample-title"" href=""#"">other</a><a class=""em-payment-icon em-fedex "" title=""em-sample-title"" href=""#"">other</a></div>"

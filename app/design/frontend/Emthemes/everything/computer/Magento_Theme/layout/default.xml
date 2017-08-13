@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+        <referenceContainer name="page.wrapper">
+            <container name="after.main.container" label="After Main Content" after="main.content" htmlTag="div" htmlClass="after-main-content"/>
+			<container name="before.main.container" label="Before Main Content" after="main.content" htmlTag="div" htmlClass="before-main-content"/>
+        </referenceContainer> 
+		<move element="before.main.container" destination="main_wrapper" before="-"/>
+		<move element="after.main.container" destination="main_wrapper" after="columns"/>
+        <referenceBlock name="blog.sidebar.recent" display="false" />
+    </body>
+</page>
+

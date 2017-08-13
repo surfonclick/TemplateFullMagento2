@@ -1,0 +1,40 @@
+<?php 
+	$id=$block->getIdMenu();
+	$type=$block->getTypeMenu();
+	$enable=$block->getEnable();
+?>
+<?php if($enable==1) : ?>
+	<?php if($type==0) : ?>
+		<div class="em-menu" data-action="navigation">
+		    <ul class="em-menu-content">
+		    	<?php echo $block->getMenu(); ?>
+		    </ul>
+		</div>
+	<?php else :?>
+		<div class="menu-wrapper hidden-xs">
+			<div id="menuleftText" class="all_categories">
+				<div class="menuleftText-title">
+					<div class="menuleftText"><span class="em-text-upercase"><?php echo __('Categories') ?></span></div>
+				</div>
+			</div>
+			<div class="menuleft">
+				<div id="menu-default" class="mega-menu em-menu-icon">
+					<div class="megamenu-wrapper <?php echo $id ?>">
+						<div class="em_nav" id="<?php echo $id ?>">
+							<ul class="vnav">
+								<li class=" menu-item-text menu-item-depth-0">
+									<ul class="em-catalog-navigation vertical" data-mage-init='{"menu":{"responsive":true, "expanded":true,"position":{"my":"left top","at":"left bottom"}}}'>
+	    								<?php echo $block->getMenu(); ?>							
+									</ul>
+								</li>
+								
+							</ul> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<?php endif; ?>
+<?php else : ?>
+	<div class="message"><?php echo __('this menu has been disalbe. Please enable this. ');?></div>
+<?php endif; ?>

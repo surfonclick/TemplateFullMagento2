@@ -1,0 +1,526 @@
+<?php 
+	$id= $block->getId();  
+	$optionEase=$block->optionEase();
+	$optionEffect=$block->optionEffect();	
+	$origin=$block->originData();
+?>
+<div class="content-all-effect-image" id="content_all_effect_image">
+	<div class="content-effect-lable" id="content_effect_lable" style="display:none;">Effect Transition</div>
+</div>
+<?php if($id!=0) : ?>
+<?php
+	$data= $block->numberImage($id);
+	$num=(int)$data["number"];
+	$dataimage=json_decode($data["slider_param"],true); 
+	$dataeffect=json_decode($data["effect"],true);
+?>
+
+<input id="item_number" name="number" data-ui-id="slideshow-items-edit-form-fieldset-element-hidden-number" value="<?php echo $num; ?>" type="hidden">
+<table class="data-grid" id="emthemes_slideshow_slideshow_setting" style="margin-bottom:15px;">
+	<thead>             
+			<th data-sort="image" data-direction="asc" class="data-grid-th" style="text-align:center;"><span>Image</span></th>
+			<th data-sort="insert" data-direction="asc" class="data-grid-th" style="text-align:center;"><span>Choose Image</span></th>		
+			<th data-sort="description" data-direction="asc" class="data-grid-th" style="text-align:center;"><span>Description</span></th>                                      
+			<th data-sort="url" data-direction="asc" class="data-grid-th" style="text-align:center;"><span>URL</span></th>      
+			<th data-sort="id" data-direction="asc" class="data-grid-th" style="text-align:center;"><span>Position</span></th>  	
+			<th data-sort="delete" data-direction="asc" class="data-grid-th" style="text-align:center;"><span>Delete</span></th>		
+			
+		</tr>
+	</thead>
+<tbody class="data-image-wrap" id="data_image_wrap">
+<?php $i=1; ?>
+<?php foreach ($dataimage as $datacontent) : ?>
+
+	<tr class="data-image" id="<?php echo "data_image_".$i; ?>">
+		<td class="td-image" >
+			<?php if($datacontent['image']!="") : ?>
+				<a href="#"  class="a-image" data-ui-id="slideshow-items-edit-form-fieldset-element-file-image-link"><img src="<?php echo $block->imageResize($datacontent['image'],70,70); ?>" id="<?php echo "item_image_image_".$i; ?>" title="" alt="" height="70" width="70" class="small-image-preview v-middle" data-ui-id="slideshow-items-edit-form-fieldset-element-file-image"></a>
+			<?php endif; ?>
+		</td>
+		<td class="">
+			<div class="admin__field-control control">
+				<input id="<?php echo "item_image_".$i; ?>" name="<?php echo "image_".$i; ?>" data-ui-id="slideshow-items-edit-form-fieldset-element-file-image" value="" title="Image" type="file" class="input-file new-image">
+				<input type="hidden" name="<?php echo "image_".$i."[value]"; ?>" value="<?php echo $datacontent['image']; ?>" class="hidden">				
+				<div class="note" id="image-note">File types: jpg, jpeg, gif, png</div>
+			</div>
+			
+		</td>
+		<td class="td-desc" >	
+
+				<?php 
+					$number_des=(int)$datacontent["number-description"];
+					// var_dump($number_des);
+				?>
+				<div class="wrap-desciption" id="wrap_desciption_<?php echo $i ?>">	
+				<input type="hidden" class="number-description" name="number-description-<?php echo $i ?>"  value="<?php echo $number_des ?>"/>			
+				<input type="hidden" class="number-index" name="number-index-<?php echo $i ?>"  value="<?php echo $number_des ?>"/>		
+				<?php for($j=1;$j<=$number_des;$j++) : ?>	
+				<?php $a="description".$j; ?>		
+					<div class="wrap-desciption-content" id="wrap_desciption_content_<?php echo $j ?>">
+						<div class="admin__field-control control">
+							<textarea id="item_description_<?php echo $i ?>_<?php echo $j ?>" name="description_<?php echo $i ?>_<?php echo $j ?>" value="" title="Description" type="text" class="input-text-large input-description" innerHTML><?php echo $datacontent[$a] ?></textarea>	
+						</div>	
+						<div class="admin__field-control control">
+							<a id="item_transition_<?php echo $i?>_<?php echo $j ?>" name="transition_<?php echo $i ?>_<?php echo $j ?>"  title="Edit Effect/Transation" class="show-transition">Show</a>
+						</div>	
+						<!--new code --->
+						<div class="effect-wrap" style="display:none" id="effect_wrap_<?php echo $i ?>_<?php echo $j ?>">
+							<div class="options-show" id="options_show_<?php echo $i ?>_<?php echo $j ?>">
+								<div class="options-show-content">
+								<div class="group-1">
+									<div class="options-title">Show Transition</div>
+									<div class="options-cont-show"> 
+										<label>Delay(ms)</label><input type="text" value="<?php echo $dataeffect[$i]["showdelay".$j] ?>" id="show_delay_<?php echo $i ?>_<?php echo $j ?>" name="show-delay-<?php echo $i ?>-<?php echo $j ?>" class="show-delay-class" />
+										<div style="clear:both"> </div>
+										<label>Duration(ms)</label><input type="text" value="<?php echo $dataeffect[$i]["showduration".$j] ?>" id="show_duration_<?php echo $i ?>_<?php echo $j ?>" name="show-duration-<?php echo $i ?>-<?php echo $j ?>" class="show-duration-class"/>
+										<div style="clear:both"> </div>
+										<div class="Ease-wrap">
+											<label>Ease</label>
+											<select id="show_ease_<?php echo $i ?>_<?php echo $j ?>" name="show-ease-<?php echo $i ?>-<?php echo $j ?>" class="show-ease-class">
+												<?php foreach($optionEase as $label => $value) : ?>
+													<option <?php if($dataeffect[$i]["showease".$j]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+												<?php endforeach; ?>
+											</select>
+										</div>
+										<div class="options-effect"><div class="options-title">Show Effect</div>
+											<select id="show_effect_<?php echo $i ?>_<?php echo $j ?>" name="show-effect-<?php echo $i ?>-<?php echo $j ?>" class="show-effect-class">
+												<?php foreach($optionEffect as $label => $value) : ?>
+													<option <?php if($dataeffect[$i]["showeffect".$j]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+												<?php endforeach; ?>
+											</select>					
+										</div>						
+									</div>
+								</div>
+								<div class="group-2">
+									<div class="options-title">Hide Transition</div>
+									<div class="options-cont-hide"> 
+										<label>Start(ms)</label><input type="text" value="<?php echo $dataeffect[$i]["hidetime".$j] ?>" id="hide_time_<?php echo $i ?>_<?php echo $j ?>" name="hide-time-<?php echo $i ?>-<?php echo $j ?>" class="hide-time-class"/>
+										<div style="clear:both"> </div>
+										<label>Duration(ms)</label><input type="text" value="<?php echo $dataeffect[$i]["hideduration".$j] ?>" id="hide_duration_<?php echo $i ?>_<?php echo $j ?>" name="hide-duration-<?php echo $i ?>-<?php echo $j ?>" class="hide-duration-class"/>
+										<div style="clear:both"> </div>
+										<div class="Ease-wrap">
+											<label>Ease</label>
+											<select id="hide_ease_<?php echo $i ?>_<?php echo $j ?>" name="hide-ease-<?php echo $i ?>-<?php echo $j ?>" class="hide-ease-class">
+												<?php foreach($optionEase as $label => $value) : ?>
+													<option <?php if($dataeffect[$i]["hideease".$j]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+												<?php endforeach; ?>
+											</select>
+										</div>
+										<div class="opttion-effect"><div class="options-title">Hide Effect</div>
+											<select id="hidden_effect_<?php echo $i ?>_<?php echo $j ?>" name="hidden-effect-<?php echo $i ?>-<?php echo $j ?>" class="hidden-effect-class" value="">
+												<?php foreach($optionEffect as $label => $value) : ?>
+													<option <?php if($dataeffect[$i]["hideeffect".$j]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+												<?php endforeach; ?>
+											</select>					
+										</div>
+									</div>
+								</div>
+								<div class="group-3">
+										<div class="options-title">Position</div>
+										<div class="x-wrap">
+											<label>Data-offset-x</label>
+											<input type="text" name="offset-x-<?php echo $i ?>-<?php echo $j ?>" class="offset-x-class" value="<?php echo $dataeffect[$i]["offset_x".$j]; ?>"/>
+										</div>
+										<div class="y-wrap">
+											<label>Data-offset-y</label>
+											<input type="text" name="offset-y-<?php echo $i ?>-<?php echo $j ?>" class="offset-y-class" value="<?php  echo $dataeffect[$i]["offset_y".$j];  ?>" />
+										</div>
+										<div class="origin-wrap">
+											<label>Origin</label>
+											<select id="origin_<?php echo $i ?>_<?php echo $j ?>" name="origin-<?php echo $i ?>-<?php echo $j ?>" class="origin-class" value="">
+												<?php foreach($origin as $label => $value) : ?>
+													<option <?php if($dataeffect[$i]["origin".$j]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+												<?php endforeach; ?>
+											</select>	
+										</div>
+								</div>
+								<div class="documentlink"><a <a onclick="window.open('http://www.masterslider.com/transition-gallery/')">Document about Transition Effect</a></div>
+								<a id="close_<?php echo $i ?>_<?php echo $j ?>" class="effect-close" data-direct="#effect_wrap_<?php echo $i ?>_<?php echo $j ?>">x</a>
+								<div class="submit-wrap">
+									<a id="submit_<?php echo $i ?>_<?php echo $j ?>" class="submit-effect" data-direct="#effect_wrap_<?php echo $i ?>_<?php echo $j ?>">Ok</a>
+								</div>
+							</div>		
+							</div>		
+						</div>		
+					<!------------------------------------------------------->
+						<div class="delete-data-direction-wrap">
+							<a class="delete-desciption" id="delete_desciption_<?php echo $i ?>_<?php echo $j ?>" onclick="">-</a>
+						</div>
+					</div>	
+				<?php endfor; ?>
+					<div class="button-wrap-desciption" id="button_wrap_desciption_<?php echo $i ?>">
+						<a class="create-desciption" id="create_desciption_<?php echo $i ?>">Add more Desciption</a>				
+					</div>					
+				</div>				
+		</td>
+		<td class="td-link">
+				<input id="<?php echo "item_url_".$i; ?>" name="<?php echo "link_url_".$i; ?>"  value="<?php echo $datacontent["url"]; ?>" title="URL" type="text" class="input-text  input-url"> 		
+		</td>
+		<td class="td-pos">
+			<div><input id="<?php echo "item_position_".$i; ?>" name="<?php echo "position_".$i; ?>" value="<?php echo $datacontent["position"]; ?>" title="Item Position" type="text" class="input-text-small position-new"></div>
+		</td>		
+		<td class="td-delete">
+				<input type="checkbox" name="<?php echo "delete_image_".$i ?>" value="1" class="checkbox" id="<?php echo "delete_image_".$i; ?>" />	
+		</td>		
+	</tr>
+	<?php $i=$i+1; ?>
+<?php endforeach; ?>
+<?php else: ?>
+<input id="item_number" name="number" data-ui-id="slideshow-items-edit-form-fieldset-element-hidden-number" value="1" type="hidden">
+<table class="data-grid" id="emthemes_slideshow_slideshow_setting">
+	<thead>
+		<tr>	                                       
+			<th data-sort="image" data-direction="asc" class="" style="text-align:center;"><span>Image</span></th>
+			<th data-sort="insert" data-direction="asc" class="" style="text-align:center;"><span>Choose Image</span></th>
+			<!--th data-sort="delete" data-direction="asc" class="" style="text-align:center;"><span>Delete Image</span></th-->			
+			<th data-sort="description" data-direction="asc" class="" style="text-align:center;"><span>Description</span></th>                                      
+			<th data-sort="url" data-direction="asc" class="" style="text-align:center;"><span>URL</span></th>      
+			<th data-sort="id" data-direction="asc" class="" style="text-align:center;"><span>Position</span></th>  	
+			<th data-sort="delete" data-direction="asc" class="" style="text-align:center;"><span>Delete</span></th>				
+		</tr>
+	</thead>
+<tbody class="data-image-wrap" id="data_image_wrap">
+	<tr class="data-image" id="data_image_1" style="">
+		<td></td>
+		<td class="" >
+			<div class="admin__field-control control">
+				<input id="item_image_1" name="image_1" data-ui-id="slideshow-items-edit-form-fieldset-element-file-image" value="" title="Image" type="file" class="input-file new-image">
+				<div class="note" id="image-note">Allowed file types: jpg, jpeg, gif, png</div>
+			</div>
+		</td>
+				
+		<td class="" >	
+			<div class="wrap-desciption" id="wrap_desciption_1">
+				<input type="hidden" class="number-description" name="number-description-1"  value="1"/>		
+				<input type="hidden" class="number-index" name="number-index-1"  value="1"/>					
+				<div class="wrap-desciption-content" id="wrap_desciption_content_1">
+					<div class="admin__field-control control">
+						<textarea id="item_description_1_1" name="description_1_1" data-ui-id="slideshow-items-edit-form-fieldset-element-text-description" value="" title="Description" type="text" class="input-text-large input-description" innerHTML></textarea>	
+					</div>	
+					<div class="admin__field-control control">
+						<a id="item_transition_1_1" name="transition_1_1"  title="Edit Effect/Transation" class="show-transition">Show</a>	
+					</div>	
+					<!--new code --->
+					<div class="effect-wrap" style="display:none" id="effect_wrap_1_1">
+						<div class="options-show" id="options_show_1_1">
+							<div class="group-1">
+								<div class="options-title">Show Transition</div>
+								<div class="options-cont-show"> 
+									<label>Delay(ms)</label><input type="text" value="0" id="show_delay_1_1" name="show-delay-1-1" class="show-delay-class" />
+									<div style="clear:both"> </div>
+									<label>Duration(ms)</label><input type="text" value="1800" id="show_duration_1_1" name="show-duration-1-1" class="show-duration-class"/>
+									<div style="clear:both"> </div>
+									<div class="Ease-wrap">
+										<label>Ease</label>
+										<select id="show_ease_1_1" name="show-ease-1-1" class="show-ease-class">
+											<?php foreach($optionEase as $label => $value) : ?>
+												<option <?php //if($dataencode["change_trans"]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+											<?php endforeach; ?>
+										</select>
+									</div>
+									<div class="opttion-effect"><div class="options-title">Show Effect</div>
+										<select id="show_effect_1_1" name="show-effect-1-1" class="show-effect-class">
+											<?php foreach($optionEffect as $label => $value) : ?>
+												<option <?php //if($dataencode["change_trans"]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+											<?php endforeach; ?>
+										</select>					
+									</div>						
+								</div>
+							</div>
+							<div class="group-2">
+								<div class="options-title">Hide Transition</div>
+								<div class="options-cont-hide"> 
+									<label>Start(ms)</label><input type="text" value="0" id="hide_time_1_1" name="hide-time-1-1" class="hide-time-class"/>
+									<div style="clear:both"> </div>
+									<label>Duration(ms)</label><input type="text" value="800" id="hide_duration_1_1" name="hide-duration-1-1" class="hide-duration-class"/>
+									<div style="clear:both"> </div>
+									<div class="Ease-wrap">
+										<label>Ease</label>
+										<select id="hide_ease_1_1" name="hide-ease-1-1" class="hide-ease-class">
+											<?php foreach($optionEase as $label => $value) : ?>
+												<option <?php //if($dataencode["change_trans"]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+											<?php endforeach; ?>
+										</select>
+									</div>
+									<div class="opttion-effect"><div class="options-title">Hide Effect</div>
+										<select id="hidden_effect_1_1" name="hidden-effect-1-1" class="hidden-effect-class" value="">
+											<?php foreach($optionEffect as $label => $value) : ?>
+												<option <?php //if($dataencode["change_trans"]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+											<?php endforeach; ?>
+										</select>					
+									</div>
+								</div>
+							</div>
+							<div class="group-3">
+									<div class="options-title">Position</div>
+									<div class="x-wrap">
+										<label>Data-offset-x</label>
+										<input type="text" name="offset-x-1-1" class="offset-x-class" value="1"/>
+									</div>
+									<div class="y-wrap">
+										<label>Data-offset-y</label>
+										<input type="text" name="offset-y-1-1" class="offset-y-class" value="1" />
+									</div>
+									<div class="origin-wrap">
+										<label>Origin</label>
+										<select id="origin_1_1" name="origin-1-1" class="origin-class" value="">
+											<?php foreach($origin as $label => $value) : ?>
+												<option <?php //if($dataencode["change_trans"]==$value) { echo "selected=selected";} ?> value="<?php echo $value; ?>"><?php echo $label; ?></option>
+											<?php endforeach; ?>
+										</select>	
+									</div>
+							</div>
+							<div class="documentlink"><a onclick="window.open('http://www.masterslider.com/transition-gallery/')">Document about Transition Effect</a></div>							
+							<a id="close_1_1" class="effect-close" data-direct="#effect_wrap_1_1">x</a>
+							<div class="submit-wrap">
+								<a id="submit_1_1" class="submit-effect" data-direct="#effect_wrap_1_1">Ok</a>
+							</div>
+						</div>		
+					</div>					
+					<!-------------->
+					<div class="delete-data-direction-wrap">
+						<a class="delete-desciption" id="delete_desciption_1_1" onclick="">-</a>
+					</div>
+				</div>
+				<div class="button-wrap-desciption" id="button_wrap_desciption_1">
+					<a class="create-desciption" id="create_desciption_1">Add more Desciption</a>
+				</div>
+			</div>
+		</td>	
+		<td class=" " data-ui-id="">
+			<div class="admin__field-control control">	
+				<input id="item_url_1" name="link_url_1"  value="" title="URL" type="text" class="input-text input-url"> 	
+			</div>	
+		</td>
+		<td class="" data-ui-id="" >
+			<div class="admin__field-control control">
+				<input id="item_position_1" name="position_1"  value="1" title="Item Position" type="text" class="input-text-small position-new"> 
+			</div>
+		</td>	
+		<td class="">
+				<input type="checkbox" name="delete_image_1" value="1" class="checkbox" id="delete_image_1" />	
+		</td>		
+	</tr>
+
+<?php endif ;?>
+</tbody>
+</table>
+<div class="admin__field field field-width " data-ui-id="slideshow-items-edit-form-fieldset-element-form-field-width" style="margin-top:15px;">
+	<button id="create_new_image" title="create_new" type="button" class="action-default scalable save primary ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" data-ui-id="#" role="button" aria-disabled="false"><span class="ui-button-text">
+    <span>Add More Banner</span>
+	</span></button>
+</div>
+<script type="text/javascript">
+	require([
+        "jquery",
+		"jquery/ui"
+		],function($){
+			 // $("#content_all_effect_image" ).dialog({
+			  // autoOpen: false,
+			  // show: {
+				// effect: "blind",
+				// duration: 1000
+			  // },
+			  // hide: {
+				// effect: "explode",
+				// duration: 1000
+			  // }
+			// });
+				$( "a.create-desciption,a.delete-desciption, button,a.show-transition,a.effect-close,a.submit-effect" )
+			  .click(function( event ) {
+				a=$(this).attr("id");
+				b=$(this).attr("class");
+				if(a=="create_new_image")
+				{
+					var $div = $('tr[id^="data_image"]:last');
+					var id= parseInt( $div.prop("id").match(/\d+/g), 10 );
+					var num = id +1;
+					// alert($div.attr("id"));
+					var $klon = $div.clone(true).prop('id', 'data_image_'+num ).insertAfter($('tr[id^="data_image"]:last'));
+					// position
+					$klon.find('.position-new').prop('id', 'item_position_'+num);
+					$klon.find('.position-new').prop('name', 'position_'+num);
+					$klon.find('.position-new').prop('value', '1');
+					//image
+					$klon.find('.small-image-preview').remove();
+					$klon.find('.delete-image').remove();
+					$klon.find('.new-image').prop('id','item_image_'+num);
+					$klon.find('.new-image').prop('name','image_'+num);
+					$klon.find('.new-image').prop('value',"");
+					$klon.find('.hidden').remove();								
+					//url
+					$klon.find('.input-url').prop('name','link_url_'+num);
+					$klon.find('.input-url').prop('id','item_url_'+num);		
+					$klon.find('.input-url').prop('value','');	
+					//delete
+					$klon.find('.checkbox').prop('name','delete_image_'+num);
+					$klon.find('.checkbox').prop('id','delete_image_'+num);		
+					$klon.find('.checkbox').prop('value','0');		
+					$klon.find('.create-desciption').prop('id','create_desciption_'+num);
+					//index
+					$klon.find('.number-index').prop('name','number-index-'+num);
+					$klon.find('.number-index').prop('value',1);			
+					$klon.find('.create-desciption').prop('id','create_desciption_'+num);					
+					//button show-transition
+					$klon.find(".wrap-desciption").prop("id","wrap_desciption_"+num);
+					//remove some element				
+					$numdes=$klon.find('.number-description').val();
+					$klon.find(".number-description").prop("name","number-description-"+num);						
+					$klon.find(".number-description").prop("value",1);	
+					//description
+					$klon.find('.input-description').prop('id','item_description_'+num+"_1");
+					$klon.find('.input-description').prop('name','description_'+num+"_1");		
+					$klon.find('.input-description').prop('value','');	
+				//show 
+				$klon.find('.options-show').prop('id','options_show_'+num+"_1");
+				$klon.find('.show-delay-class').prop('name','show-delay-'+num+"-1");
+				$klon.find('.show-delay-class').prop('id','show_delay_'+num+"_1");	
+				$klon.find('.show-duration-class').prop('name','show-duration-'+num+"-1");		
+				$klon.find('.show-duration-class').prop('id','show_duration_'+num+"_1");		
+				$klon.find('.show-ease-class').prop('name','show-ease-'+num+"-1");
+				$klon.find('.show-ease-class').prop('id','show_ease_'+num+"_1");	
+				$klon.find('.show-effect-class').prop('name','show-effect-'+num+"-1");		
+				$klon.find('.show-effect-class').prop('id','show_effect_'+num+"_1");		
+
+				//hide
+				$klon.find('.hide-time-class').prop('name','hide-time-'+num+"-1");
+				$klon.find('.hide-time-class').prop('id','hide_time_'+num+"_1");	
+				$klon.find('.hide-duration-class').prop('name','hide-duration-'+num+"-1");		
+				$klon.find('.hide-duration-class').prop('id','hide_duration_'+num+"_1");		
+				$klon.find('.hide-ease-class').prop('name','hide-ease-'+num+"-1");
+				$klon.find('.hide-ease-class').prop('id','hide_ease_'+num+"_1");	
+				$klon.find('.hidden-effect-class').prop('name','hidden-effect-'+num+"-1");	
+				$klon.find('.hidden-effect-class').prop('id','hidden_effect_'+num+"_1");	
+				//position
+				$klon.find('.offset-x-class').prop('name',"offset-x-"+num+"-1");
+				$klon.find('.offset-y-class').prop('name',"offset-y-"+num+"-1");
+				$klon.find('.origin-class').prop('name',"origin-"+num+"-1");
+				$klon.find('.origin-class').prop('id',"origin_"+num+"_1");
+				//close 
+				$klon.find('.effect-close').prop('id','close_'+num+"_1");		
+				$klon.find('.effect-close').attr('data-direct','#effect_wrap_'+num+'_1');	
+				$klon.find('.effect-wrap').prop('id','effect_wrap_'+num+"_1");
+				//submit button
+				$klon.find('.submit-effect').prop('id','close_'+num+'_1');						
+				$klon.find('.submit-effect').attr('data-direct','#effect_wrap_'+num+'_1');					
+					if($numdes>1)
+					{
+						for(z=2;z<=$numdes;z++)
+						{
+							$namedel="#wrap_desciption_content_"+z;
+							$klon.find($namedel).remove();
+						}
+					}
+					$('#item_number').prop('value',num);						
+				}
+				else if(b.indexOf("create-desciption")!=-1)
+				{
+					var $parentdiv=$(this).parent().parent();
+					var $content_des=$parentdiv.find(".wrap-desciption-content").last();
+					var numpa = parseInt($content_des.prop("id").match(/\d+/g), 10 )+1;
+					var wrapnum = parseInt( $parentdiv.prop("id").match(/\d+/g), 10 );
+					var $cloneparent = $content_des.clone(true).prop('id', 'wrap_desciption_content_'+numpa ).insertAfter($content_des);		
+						$parentdiv.find(".number-description").prop('value',numpa);
+						$cloneparent.find('.input-description').prop('id','item_description_'+wrapnum+'_'+numpa);
+						$cloneparent.find('.input-description').prop('name','description_'+wrapnum+'_'+numpa);		
+						$cloneparent.find('.input-description').prop('value','');	
+						$cloneparent.find('.delete-desciption').prop('id','delete_desciption_'+wrapnum+'_'+numpa);
+						//show 
+						$cloneparent.find('.options-show').prop('id','options_show_'+wrapnum+'_'+numpa);
+						$cloneparent.find('.show-delay-class').prop('name','show-delay-'+wrapnum+'-'+numpa);
+						$cloneparent.find('.show-delay-class').prop('id','show_delay_'+wrapnum+'_'+numpa);
+						$cloneparent.find('.show-duration-class').prop('name','show-duration-'+wrapnum+'-'+numpa);	
+						$cloneparent.find('.show-duration-class').prop('id','show_duration_'+wrapnum+'_'+numpa);		
+						$cloneparent.find('.show-ease-class').prop('name','show-ease-'+wrapnum+'-'+numpa);
+						$cloneparent.find('.show-ease-class').prop('id','show_ease_'+wrapnum+'_'+numpa);	
+						$cloneparent.find('.show-effect-class').prop('name','show-effect-'+wrapnum+'-'+numpa);		
+						$cloneparent.find('.show-effect-class').prop('id','show_effect_'+wrapnum+'_'+numpa);		
+
+						//hide
+						$cloneparent.find('.hide-time-class').prop('name','hide-time-'+wrapnum+'-'+numpa);
+						$cloneparent.find('.hide-time-class').prop('id','hide_time_'+wrapnum+'_'+numpa);	
+						$cloneparent.find('.hide-duration-class').prop('name','hide-duration-'+wrapnum+'-'+numpa);		
+						$cloneparent.find('.hide-duration-class').prop('id','hide_duration_'+wrapnum+'_'+numpa);		
+						$cloneparent.find('.hide-ease-class').prop('name','hide-ease-'+wrapnum+'-'+numpa);
+						$cloneparent.find('.hide-ease-class').prop('id','hide_ease_'+wrapnum+'_'+numpa);	
+						$cloneparent.find('.hidden-effect-class').prop('name','hidden-effect-'+wrapnum+'-'+numpa);	
+						$cloneparent.find('.hidden-effect-class').prop('id','hidden_effect_'+wrapnum+'_'+numpa);	
+						//position
+						$cloneparent.find('.offset-x-class').prop('name',"offset-x-"+wrapnum+"-"+numpa);
+						$cloneparent.find('.offset-y-class').prop('name',"offset-y-"+wrapnum+"-"+numpa);
+						$cloneparent.find('.origin-class').prop('name',"origin-"+wrapnum+"-"+numpa);
+						$cloneparent.find('.origin-class').prop('id',"origin_"+wrapnum+"_"+numpa);						
+						//--------------------------------------------------------------------------------------//	
+						$cloneparent.find('.effect-close').prop('id','close_'+wrapnum+'_'+numpa);						
+						$cloneparent.find('.effect-close').attr('data-direct','#effect_wrap_'+wrapnum+'_'+numpa);		
+						$cloneparent.find('.effect-wrap').prop('id','effect_wrap_'+wrapnum+'_'+numpa);			
+						$cloneparent.find('.submit-effect').prop('id','close_'+wrapnum+'_'+numpa);						
+						$cloneparent.find('.submit-effect').attr('data-direct','#effect_wrap_'+wrapnum+'_'+numpa);		
+						
+					//------------------------------------------------------------------------------------------//
+						$parentdiv.find('.number-index').prop('value',numpa);
+				}
+				else if(b.indexOf("delete-desciption")!=-1)
+				{
+					// alert(b);
+					value=$(this).parent().parent().parent().find(".number-description").val();
+					if(parseInt(value)>1)
+					{
+						value=parseInt(value)-1;				
+						$(this).parent().parent().parent().find(".number-description").prop("value",value);
+						var parentdiv=$(this).parent().parent();
+						parentdiv.remove();
+					}
+					else
+					{
+						alert("you can not delete this element");
+					}
+
+				}
+				else if(b.indexOf("show-transition")!=-1)
+				{
+					
+					var $parentdiv=$(this).parent().parent();
+					a=$parentdiv.find(".options-show");
+					var $cloneparent = a.clone(true).insertAfter("#content_effect_lable");
+					a.remove();
+				
+				}
+				else if(b.indexOf("effect-close")!=-1)
+				{
+					direct=$(this).attr("data-direct");
+					b=$(this).parent().parent();
+					var $cloneparent = b.clone(true).appendTo(direct);
+					b.remove();					
+				}
+				else if(b.indexOf("submit-effect")!=-1)
+				{
+					direct=$(this).attr("data-direct");
+					b=$(this).parent().parent().parent();
+					var $cloneparent = b.clone(true).appendTo(direct);
+					b.remove();						
+				}
+				event.preventDefault();
+			  });
+				
+				$("input.show-delay-class,input.show-duration-class,input.hide-time-class,input.hide-duration-class,input.offset-x-class,input.offset-y-class" ).change(function(event) {
+					a=$(this).val();
+					$(this).attr("value",a);
+				});
+				
+				$("select.show-ease-class,select.show-effect-class,select.hide-ease-class,select.hidden-effect-class,select.origin-class").change(function (event) {
+					var optionSelected = $("option:selected", this);
+					var valueSelected = this.value;
+					$(this).find('option').each(function(i,e){
+						if($(e).val() ==valueSelected)
+						{
+							$(e).attr("selected","selected");
+						}
+						else
+						{
+							$(e).removeAttr("selected");
+						}
+					});
+				});					
+        });
+</script>

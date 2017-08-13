@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <move element="logo" destination="header-wrapper-container" before="-" />
+		<move element="top.links" destination="header.panel" before="-" />  
+		<move element="store_switcher" destination="header.panel" after="top.links" />		
+		<referenceContainer name="main.content">
+			<container name="main.content.full" htmlTag="div" htmlClass="main-content-full" label="Main Content Full" after="-"/>
+        </referenceContainer>
+		<referenceContainer name="footer-container">
+            <container name="em.maxwidth.content" htmlTag="div" htmlClass="em-maxwidth-content" before="-"/>
+        </referenceContainer>
+		<move element="footer_top" destination="em.maxwidth.content"/>
+		<move element="footer_bottom" destination="em.maxwidth.content"/>
+		<referenceBlock name="navigation.sections">
+                <block class="Magento\Framework\View\Element\Template" name="store.menu" group="navigation-sections" template="Magento_Theme::html/container.phtml">
+                    <arguments>
+                        <argument name="title" translate="true" xsi:type="string">Menu</argument>
+                    </arguments>
+                    <block class="Magento\Theme\Block\Html\Topmenu" name="catalog.topnav" template="html/topmenu.phtml" ttl="3600" before="-"/>
+                </block>
+				<referenceBlock name="store.links" remove="true"/>
+				<block class="Magento\Framework\View\Element\Template" name="store.links.health" group="navigation-sections" template="Magento_Theme::html/container.phtml" after="store.menu">
+                    <arguments>
+                        <argument name="title" translate="true" xsi:type="string">Account</argument>
+                    </arguments>
+                    <block class="Magento\Framework\View\Element\Template" name="store.account.heathy" template="Magento_Theme::html/mobile-account.phtml">
+                        <arguments>
+                            <argument name="id_modifier" xsi:type="string">nav</argument>
+                        </arguments>
+                    </block>
+                </block>				
+                <block class="Magento\Framework\View\Element\Template" name="store.settings" group="navigation-sections" template="Magento_Theme::html/container.phtml" after="-">
+                    <arguments>
+                        <argument name="title" translate="true" xsi:type="string">Settings</argument>
+                    </arguments>
+                    <block class="Magento\Store\Block\Switcher" name="store.settings.language" template="switch/languages.phtml">
+                        <arguments>
+                            <argument name="id_modifier" xsi:type="string">nav</argument>
+                        </arguments>
+                    </block>
+                    <block class="Magento\Directory\Block\Currency" name="store.settings.currency" template="currency.phtml">
+                        <arguments>
+                            <argument name="id_modifier" xsi:type="string">nav</argument>
+                        </arguments>
+                    </block>
+                </block>
+		</referenceBlock>		
+    </body>
+</page>
+

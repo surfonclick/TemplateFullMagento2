@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>                                    
+        <referenceContainer name="header.panel">
+            <container name="header.panel.left" htmlTag="div" htmlClass="panel header left" before="header.panel.right" />            
+            <container name="header.panel.right" htmlTag="div" htmlClass="panel header right" after="-" />
+        </referenceContainer>    
+        <move element="header-wrapper" destination="header.container" after="header.panel" />
+        <move element="logo" destination="header.panel" after="skip_to_content"/>
+        <move element="top.links" destination="header.panel.right" after="-"/>
+        <move element="store_language" destination="header.panel.right" after="-" />
+        <move element="store_switcher" destination="header.panel.right" after="store_language" />
+        <referenceContainer name="header-wrapper-container">
+            <block class="Magento\Theme\Block\Html\Header\Logo" name="small_logo" before="navigation.sections" template="Magento_Theme::html/header/smalllogo.phtml" />                   
+        </referenceContainer>        	
+        <referenceContainer name="page.wrapper">
+            <container name="before.page.bottom.container" as="befoew_page_bottom_container" label="After Main Container" before="page.bottom.container" htmlTag="div" htmlClass="fullwidth-banner"/>
+        </referenceContainer>                    
+    </body>
+</page>

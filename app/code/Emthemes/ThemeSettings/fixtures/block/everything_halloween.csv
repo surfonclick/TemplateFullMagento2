@@ -1,0 +1,800 @@
+title,identifier,content
+"EM0144 Everything - Halloween Store - Home - Ads Text",em0144-halloween-home-ads-text,"<div class=""row em-wrapper-ads-13 hidden-xs"">
+<div class=""text-box col-sm-8 col-xs-8""><a class=""icon-banner-left pull-left"" title=""Tech Support 247"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""Tech Support 247"" href=""#"">RETURN &amp; EXCHANGE</a></h5>
+<p>Vintage pastel tucked t-shirt leather cami</p>
+</div>
+</div>
+<div class=""text-box col-sm-8 col-xs-8""><a class=""icon-banner-left pull-left"" title=""Free shipping all order"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""Free shipping all order"" href=""#"">Free shipping</a></h5>
+<p>Get Free Shipping on all orders</p>
+</div>
+</div>
+<div class=""text-box col-sm-8 col-xs-8""><a class=""icon-banner-left pull-left"" title=""30 days return"" href=""#""><em class=""fa fa-fw""></em></a>
+<div class=""em-banner-right"">
+<h5><a title=""30 days return"" href=""#"">MEMBER DISCOUNT</a></h5>
+<p>The total billed is discount for member</p>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween Store - Sidebar Left - Home - Banner 01",em0144-halloween-sidebar-left-home-banner-01,"<div class=""em-wrapper-banners hidden-xs space-small-block"">
+<div class=""effect""><a class=""banner-img"" href=""#""><img class=""img-responsive retina-img"" src=""{{media url=""wysiwyg/em0144/layout_fashion/home/em_ads_01.jpg""}}"" alt=""em_ads_01.jpg"" /></a><span class=""effect-line"">&nbsp;</span></div>
+</div>"
+"EM0144 Everything - Halloween Store - Sidebar Left - Home - Ads 02",em0144-halloween-sidebar-left-home-ads-02,"<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-15"">
+<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;items&quot;:1}}"">
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+<div class=""em-ads-item"">
+<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_02.png'}}"" alt=""em_ads_02.png"" /></a></div>
+<div class=""em-ads-content"">
+<p class=""em-ads-des""><em class=""fa fa-fw""></em>You can change the visual appearance of almost every element of the theme.</p>
+<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween Store - Sidebar Left 03 - Home - Recent Blog",em0144-halloween-sidebar-left03-home-recent-blog,"<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-block-title"">
+<h2><span>Blog</span></h2>
+</div>
+<div class=""em-from-our-blog"">
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_03.jpg'}}"" alt=""em_ads_03.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color...</p>
+<div><a class=""link-more"" href=""#"">Read more</a></div>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_04.jpg'}}"" alt=""em_ads_04.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers...</p>
+<div><a class=""link-more"" href=""#"">Read more</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween Store - Sidebar Left - Home - Banner 04",em0144-halloween-sidebar-left-home-banner-04,"<div class=""img-banner hidden-xs"">
+<div class=""effect-hover-text2""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_05.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>"
+"EM0144 Everything - Halloween Store - Area Main 01 - Home - Banners",em0144-halloween-area-main01-home-banners,"<div class=""row hidden-xs space-small-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-8 col-xs-8  text-center"">
+<div class=""effect""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_06.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text effect-line"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_01.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-8 col-xs-8  img-banner text-center"">
+<div class=""effect""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_07.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text effect-line"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_02.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-8 col-xs-8 text-center"">
+<div class=""effect""><a class=""banner-img retina-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_08.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text effect-line"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_03.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween Store - Area Main 02 - Home - Tabs",em0144-halloween-area-main02-home-tabs,"<div class=""emtabs-ajaxblock-loaded"">
+<div class=""em-tabs-widget tabs-widget"">
+<div class=""widget-title em-widget-title"">
+<h3><span>New Arrivals</span></h3>
+</div>
+<div class=""em-tabs-right"">
+<div class=""em-tabs emtabs product data items"" data-mage-init=""{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}"">
+<div id=""tab-label-shirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-shirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#shirt-tab"" data-toggle=""switch"">Shirt</a></div>
+<div id=""shirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`41`;]]""}}</div>
+<div id=""tab-label-skirt-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-skirt-tab-title"" class=""data switch"" tabindex=""-1"" href=""#skirt-tab"" data-toggle=""switch"">Skirt</a></div>
+<div id=""skirt-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`41`;]]""}}</div>
+<div id=""tab-label-dress-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-dress-tab-title"" class=""data switch"" tabindex=""-1"" href=""#dress-tab"" data-toggle=""switch"">Dress</a></div>
+<div id=""dress-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`41`;]]""}}</div>
+<div id=""tab-label-outerwear-tab"" class=""data item title"" data-role=""collapsible""><a id=""tab-label-outerwear-tab-title"" class=""data switch"" tabindex=""-1"" href=""#outerwear-tab"" data-toggle=""switch"">Outerwear</a></div>
+<div id=""outerwear-tab"" class=""data item content"" data-role=""content"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" display_type=""all_products"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""grid_noslider.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`41`;]]""}}</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween Store - Area Main 03 - Home - Banner",em0144-halloween-area-main03-home-banner,"<div class=""em-wrapper-banners hidden-xs space-small-block"">
+<div class=""effect""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_10.jpg'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>"
+"EM0144 Everything - Halloween Store - Main Bottom - Banners",em0144-halloween-main-bottom-banners,"<div class=""row hidden-xs"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-6 col-xs-6 first img-banner text-center"">
+<div class=""effect-hover-text""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_11.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_07.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-12 col-xs-12 img-banner text-center"">
+<div class=""effect-hover-text4""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_12.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_08.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+<div class=""col-sm-6 col-xs-6 last img-banner text-center"">
+<div class=""effect-hover-text3""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_13.jpg'}}"" alt=""em-sample-alt"" /> </a> <a class=""banner-text"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/em_ads_text_09.png'}}"" alt=""em-sample-alt"" /> </a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween Store - Main Bottom 02 - Ads",em0144-halloween-main-bottom02-ads,"<div class=""em-wrapper-ads-09 space-block"">
+<div class=""row"">
+<div class=""col-sm-6 text-center em-wrapper-ads-item"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-ads-content"">
+<h4 class=""primary em-text-upercase"">SUPER ONLINE STORES</h4>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+</div>
+</div>
+</div>
+<div class=""col-sm-6 text-center em-wrapper-ads-item  line-left line-right"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-ads-content"">
+<h4 class=""primary em-text-upercase"">RESPONSIVaE DESIGN</h4>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+</div>
+</div>
+</div>
+<div class=""col-sm-6 text-center  em-wrapper-ads-item  line-left line-right"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-ads-content"">
+<h4 class=""primary em-text-upercase"">FREE UPDATES</h4>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+</div>
+</div>
+</div>
+<div class=""col-sm-6 text-center  em-wrapper-ads-item"">
+<div class=""em-ads-item"">
+<p><em class=""fa fa-fw""></em></p>
+<div class=""em-ads-content"">
+<h4 class=""primary em-text-upercase"">24/7 SUPPORT ONLINE</h4>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween Store - Main Bottom 03 - Banner Slider",em0144-halloween-main-bottom03-banners-slider,"<div class=""em-wrapper-brands space-block"">
+<div class="" slider-style02"">
+<div class=""em-slider em-slider-banners em-slider-navigation-icon"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:6,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:2},&quot;640&quot;:{&quot;items&quot;:3},&quot;768&quot;:{&quot;items&quot;:4},&quot;1024&quot;:{&quot;items&quot;:5}}}}"">
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_06.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_02.png'}}"" alt=""em_brand_06.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.jpg"" /></a></div>
+<div class=""em-banners-item""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashion/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.jpg"" /></a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween Store - Before Footer 01 - Links",em0144-halloween-before-footer01-links-,"<div class=""em-footer-info"">
+	<div class=""row"">
+		<div class=""col-sm-4 first text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>What's hot</span></p>
+			</div>
+			<ul id=""collapse01"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Discount Voucher</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Spring Collection</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Trending</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Best Sellers</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Brands</span></p>
+			</div>
+			<ul id=""collapse02"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jack &amp; Jones</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Calvin Klein</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Ray Ban</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>River Island</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Men shop</span></p>
+			</div>
+			<ul id=""collapse03"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Top</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Bottoms</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Accessories</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Women shop</span></p>
+			</div>
+			<ul id=""collapse04"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jeans</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Dresses</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Other</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse05&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Help</span></p>
+			</div>
+			<ul id=""collapse05"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>F.A.Q.</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shipping</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store direct_url='contacts'}}""><span>Contact Us</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+			</ul>
+		</div>
+		<div class=""col-sm-4 last text-center"">
+			<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse06&quot;}}"">
+				<p class=""h4 em-text-upercase""><span>Nation Apps</span></p>
+			</div>
+			<ul id=""collapse06"" class=""em-links em-block-content block-info"">
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPhone</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPad</span></a></li>
+				<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Android</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class=""em-footer-info-bottom"">
+		<div class=""row"">
+			<div class=""col-sm-12 col-md-12 col-lg-15 first"">
+				<div class=""em-wrapper-newsletter"">
+					<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse07&quot;}}"">
+						<p class=""h4 em-text-upercase""><span>Sign Up For Newsletter</span></p>
+					</div>
+					<div id=""collapse07"" class=""em-block-content em-newsletter"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style05"" template=""subscribe.phtml""}}</div>
+				</div>
+			</div>
+			<div class=""col-sm-12 col-md-12 col-lg-9 last"">
+				<div class=""em-wrapper-social f-right"">
+					<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse08&quot;}}"">
+						<p class=""h4 em-text-upercase""><span>Follow Us</span></p>
+					</div>
+					<div id=""collapse08"" class=""em-block-content"">
+						<p class=""em-social""><a class=""em-social-icon em-facebook f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-twitter f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-pinterest  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-google f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a> <a class=""em-social-icon em-rss  f-left"" title=""em-sample-title"" href=""#""><span class=""fa fa-fw""></span></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>"
+"EM0144 Everything - Halloween Store - Footer Inner - Payment",em0144-halloween-area-footer-inner-payment,"<div class=""em-payment f-right""><a class=""em-payment-icon em-visa"" title=""em-sample-title"" href=""#"">visa</a> <a class=""em-payment-icon em-master"" title=""em-sample-title"" href=""#"">master</a> <a class=""em-payment-icon em-express "" title=""em-sample-title"" href=""#"">express</a><a class=""em-payment-icon em-paypal"" title=""em-sample-title"" href=""#"">paypal</a> <a class=""em-payment-icon em-other "" title=""em-sample-title"" href=""#"">other</a></div>"
+"EM0144 Everything - Halloween Store - Area Main 04 - Home - Best Sale",em0144-halloween-area-main02-home-best-sale,"<div class=""em-wrapper-product-15"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Best Sales"" display_type=""all_products"" products_count=""6"" order_by=""name ASC"" show=""thumb,name,review,price"" thumb_width=""110"" thumb_height=""110"" filter_template=""custom"" custom_template=""grid_custom_list.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`41`;]]""}}</div>"
+"EM0144 Everything - Halloween Store - Area Main - Slideshow",em0144-halloween-main-area-main-slideshow,"<div class=""em-slideshow space-small-block"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""17""}}</div>"
+"EM0144 Everything - Halloween Store - Popup Advertising Block",em0144-halloween-popup-adsvertising-block,"<div class=""em-block-ads""><img class=""img-responsive"" src=""{{media url=""wysiwyg/em0144/layout_fashion/home/em_ads_popup.jpg""}}"" alt=""em_ads_popup.jpg"" /></div>"
+"EM0144 Everything - FashionNova Store - Top Navigation - Menu",em0144-halloweennova-top-navigation-menu,"<div class=""em-menu-left"">
+<ul class=""em-menu-content"">
+<li class=""level0 submenu""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link fa"" href=""{{config path=""web/secure/base_url""}}women.html""><span class=""icon-menu fa fa-automobile"">&nbsp;</span><span>Home</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-3"" style=""padding-bottom: 267px;"">
+<div class=""bg-dropmenu"" style=""right: -20px;""><img src=""{{media url='wysiwyg/em0144/menu/bkg-menu02.png'}}"" alt=""em-sample-alt"" /></div>
+<div class=""em-row"">
+<div class=""col-8"">
+<div class=""nav-title-link""><span>Services</span></div>
+<div class=""nav-text"">
+<p>A friendly responsive design, adaptive screen with the new Bootstrap 3 is already very impressive. Besides that, Visual Content Editor allows you to edit content directly on front-end. Key features for an online market, such as Featured products, Promotions, Deals with Timing, are absolutely ready. It&rsquo;s no doubt that Titanshop will get traffic for your site, and also help boosting sales.</p>
+<p>You can change visual appearance of almost every element of this Magento theme. You can set your favorite colors and generate css file from the admin.</p>
+</div>
+</div>
+<div class=""col-4"">
+<div class=""nav-title-link""><span>Category</span></div>
+<ul class=""ls-link"">
+<li><a href=""#"">Dolor Sit Amet</a></li>
+<li><a href=""#"">Conse Ctetur</a></li>
+<li><a href=""#"">Adipisicing</a></li>
+<li><a href=""#"">Elit sed do</a></li>
+<li><a href=""#"">Eiusmod tempor</a></li>
+<li><a href=""#"">Hoodies</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link""><span class=""icon-menu fa fa-desktop"">&nbsp;</span><span>Features</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-1"">
+<div class=""em-row"">
+<div class=""col-12"">
+<ul class=""ls-link"">
+<li><a href=""#"">Deals product <span class=""menu-label coming-soon"">&nbsp;</span></a></li>
+<li><a href=""#"">Product Label <span class=""menu-label coming-soon"">&nbsp;</span></a></li>
+<li><a href=""#"">ColorSwatch</a></li>
+<li><a href=""#"">Blog</a></li>
+<li><a href=""#"">Mega Menu</a></li>
+<li><a href=""#"">Quickshop</a></li>
+<li><a href=""#"">Emthemes Setting</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{config path=""web/secure/base_url""}}women/tops-women.html""><span class=""icon-menu fa fa-camera"">&nbsp;</span><span>Categorys</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-6 dropmenu-full-content"">
+<div class=""em-row"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>1 Column</span></div>
+<div class=""nav-text"">
+<p>Key features for an online market, such as Featured products, Promotions, Deals with Timing, are absolutely ready. It&rsquo;s no doubt that Titanshop will get traffic for your site, and also help boosting sales.</p>
+<p class=""view-more""><a href=""{{config path=""web/secure/base_url""}}women/tops-women.html"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu01.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>2 Columns</span></div>
+<div class=""nav-text"">
+<p>A friendly responsive design, adaptive screen with the new Bootstrap 3 is already very impressive. Besides that, Visual Content Editor allows you to edit content directly on front-end.</p>
+<p class=""view-more""><a href=""{{config path=""web/secure/base_url""}}men/tops-men.html"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu02.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>3 Columns</span></div>
+<div class=""nav-text"">
+<p>A friendly responsive design, adaptive screen with the new Bootstrap 3 is already very impressive. Besides that, Visual Content Editor allows you to edit content directly on front-end.</p>
+<p class=""view-more""><a href=""{{config path=""web/secure/base_url""}}gear/bags.html"">View more</a></p>
+</div>
+</div>
+<div class=""col-2"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu03.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link""><span class=""icon-menu fa fa-video-camera"">&nbsp;</span><span>Products</span></a>
+<div class=""dropmenu-template"">
+<div class=""dropmenu-content dropmenu-5"">
+<div class=""em-row"">
+<div class=""col-3"">
+<div class=""nav-title-link""><span>Product Types</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}compete-track-tote.html"">Simple product</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}beginner-s-yoga.html"">Downloadable Product</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}chaz-kangeroo-hoodie.html"">Configurable Product</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}set-of-sprite-yoga-straps.html"">Grouped Product</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}sprite-yoga-companion-kit.html"">Bundle Product</a></li>
+</ul>
+</div>
+<div class=""col-3"">
+<div class=""nav-title-link""><span>Product Columns</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}aeon-capri.html"">1 Column</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}atlas-fitness-tank.html"">2 Columns Left</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}cronus-yoga-pant.html"">2 Columns Right</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}bardot-capri.html"">Upsell</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}breathe-easy-tank.html"">Related Product</a></li>
+</ul>
+</div>
+<div class=""col-6"">
+<div class=""nav-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu10.jpg'}}"" alt=""em-sample-alt"" /></div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{config path=""web/secure/base_url""}}man.html""><span class=""icon-menu fa fa-university"">&nbsp;</span><span>Fashion</span></a>
+<div class=""dropmenu-template fix-top"">
+<div class=""dropmenu-content dropmenu-6"" style=""padding-bottom: 200px;"">
+<div class=""bg-dropmenu""><img src=""{{media url='wysiwyg/em0144/menu/bkg-menu.jpg'}}"" alt=""em-sample-alt"" /></div>
+<div class=""em-row"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Women</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women.html"">Tops</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/jackets-women.html"">Jackets</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/hoodies-and-sweatshirts-women.html"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/tees-women.html"">Tees</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/tanks-women.html"">Bras &amp; Tanks</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women.html"">Bottoms</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women/pants-women.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women/shorts-women.html"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Men</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men.html"">Tops</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/jackets-men.html"">Jackets</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/hoodies-and-sweatshirts-men.html"">Hoodies </a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/tees-men.html"">Tees</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/tanks-men.html"">Bras &amp; Tanks</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men.html"">Bottoms</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men/pants-men.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men/shorts-men.html"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Gear</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}gear.html"">Gear</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}gear/bags.html"">Bags</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}gear/fitness-equipment.html"">Fitness Equipment</a></li>
+<li><a href=""{{config path="">watches</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}training.html"">Training</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}training/training-video.html"">Video Download</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/pants-men.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/shorts-men.html"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Women</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women.html"">Tops</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/jackets-women.html"">Jackets</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/hoodies-and-sweatshirts-women.html"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/tees-women.html"">Tees</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/tanks-women.html"">Bras &amp; Tanks</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women.html"">Bottoms</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women/pants-women.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women/shorts-women.html"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Men</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men.html"">Tops</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/jackets-men.html"">Jackets</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/hoodies-and-sweatshirts-men.html"">Hoodies </a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/tees-men.html"">Tees</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/tanks-men.html"">Bras &amp; Tanks</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men.html"">Bottoms</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men/pants-men.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men/shorts-men.html"">Shorts</a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Gear</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}gear.html"">Gear</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}gear/bags.html"">Bags</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}gear/fitness-equipment.html"">Fitness Equipment</a></li>
+<li><a href=""{{config path="">watches</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}training.html"">Training</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}training/training-video.html"">Video Download</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/pants-men.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/shorts-men.html"">Shorts</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu parent""><a class=""arrow"" href=""javascript:void(0)""><span>&gt;</span></a> <a class=""em-menu-link"" href=""{{config path=""web/secure/base_url""}}men/tops-men.html""><span class=""icon-menu fa fa-leaf"">&nbsp;</span><span>Sport</span></a>
+<div class=""dropmenu-template fix-top"">
+<div class=""dropmenu-content dropmenu-6"">
+<div class=""em-row nav-flex"">
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Tenis</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu08.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men.html"">Tops</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/jackets-men.html"">Jackets</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/hoodies-and-sweatshirts-men.html"">Hoodies </a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/tees-men.html"">Tees</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/tanks-men.html"">Bras &amp; Tanks</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men.html"">Bottoms</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men/pants-men.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men/shorts-men.html"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Golf</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu04.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women.html"">Tops</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/jackets-women.html"">Jackets</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/hoodies-and-sweatshirts-women.html"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/tees-women.html"">Tees</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/tanks-women.html"">Bras &amp; Tanks</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women.html"">Bottoms</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women/pants-women.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women/shorts-women.html"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Basketball</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu05.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}gear.html"">Gear</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}gear/bags.html"">Bags</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}gear/fitness-equipment.html"">Fitness Equipment</a></li>
+<li><a href=""{{config path="">watches</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}training.html"">Training</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}training/training-video.html"">Video Download</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/pants-men.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/shorts-men.html"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Trainning</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu07.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women.html"">Tops</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/jackets-women.html"">Jackets</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/hoodies-and-sweatshirts-women.html"">Hoodies &amp; Sweatshirts</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/tees-women.html"">Tees</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/tops-women/tanks-women.html"">Bras &amp; Tanks</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women.html"">Bottoms</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women/pants-women.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}women/bottoms-women/shorts-women.html"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2"">
+<div class=""nav-title-link""><span>Football</span></div>
+<div class=""nav-title-banner""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/menu/img-menu06.jpg'}}"" alt=""running"" /></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}gear.html"">Gear</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}gear/bags.html"">Bags</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}gear/fitness-equipment.html"">Fitness Equipment</a></li>
+<li><a href=""{{config path="">watches</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}training.html"">Training</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}training/training-video.html"">Video Download</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/pants-men.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/shorts-men.html"">Shorts</a></li>
+<li class=""view-all""><a href=""#""><strong>View all</strong></a></li>
+</ul>
+</div>
+<div class=""col-2 line-col-left"">
+<div class=""nav-title-link""><span>other sports</span></div>
+<ul class=""ls-link"">
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men.html"">Tops</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/jackets-men.html"">Jackets</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/hoodies-and-sweatshirts-men.html"">Hoodies </a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/tees-men.html"">Tees</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/tops-men/tanks-men.html"">Bras &amp; Tanks</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men.html"">Bottoms</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men/pants-men.html"">Pants</a></li>
+<li><a href=""{{config path=""web/secure/base_url""}}men/bottoms-men/shorts-men.html"">Shorts</a></li>
+<li><a href=""#"">Training</a></li>
+<li><a href=""#"">Outdoor</a></li>
+<li><a href=""#"">Tennis</a></li>
+<li><a href=""#"">Golf</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class=""level0 submenu last""><a class=""em-menu-link"" href=""{{config path=""web/secure/base_url""}}blog""><span class=""icon-menu fa fa-tachometer"">&nbsp;</span><span>Blog</span></a></li>
+</ul>
+</div>"
+"EM0144 Everything - FashionNova - Main Content Top - Main Slideshow",em0144-halloweennova-main-content-top-main-slideshow,"<div class=""em-slideshow"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""5""}}</div>"
+"EM0144 Everything - FashionNova Store - Main Content Top - Four Banners",em0144-halloweennova-main-content-top-four-banners,"<div class=""hidden-xs col-sm-24"">
+<div class=""row space-small-block"">
+<div class=""col-sm-6 em-clear-padding"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionnova/home/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /></a>
+<div class=""desc text-center"">
+<h1 class=""em-text-upercase"" style=""color: #fff;"">SHOES<br />COLLECTION</h1>
+<p style=""color: #fff;"">29 Products</p>
+<a class=""button-link"" href=""#""><span>shop now</span></a></div>
+</div>
+</div>
+<div class=""col-sm-6 em-clear-padding"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionnova/home/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""desc text-center"">
+<h1 class=""em-text-upercase"" style=""color: #fff;"">women&rsquo;s<br />Clothing</h1>
+<p style=""color: #fff;"">29 Products</p>
+<a class=""button-link"" href=""#""><span>shop now</span></a></div>
+</div>
+</div>
+<div class=""col-sm-6 em-clear-padding"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionnova/home/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""desc text-center"">
+<h1 class=""em-text-upercase"" style=""color: #fff;"">bags &amp;<br />handbags</h1>
+<p style=""color: #fff;"">29 Products</p>
+<a class=""button-link"" href=""#""><span>shop now</span></a></div>
+</div>
+</div>
+<div class=""col-sm-6 em-clear-padding"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionnova/home/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /> </a>
+<div class=""desc text-center"">
+<h1 class=""em-text-upercase"" style=""color: #fff;"">color<br />eyewear</h1>
+<p style=""color: #fff;"">29 Products</p>
+<a class=""button-link"" href=""#""><span>shop now</span></a></div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - FashionNova Store - Main Content Area - New Arrivals - Grid 21",em0144-halloweennova-main-content-area-new-arrivals-grid21,"<div class=""em-wrapper-product-20 em-line-01 button-show01 button-hide-text except-case"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""New Arrivals"" display_type=""all_products"" products_count=""10"" order_by=""name ASC"" show=""thumb,name,price,review,addtocart,addto"" thumb_width=""530"" thumb_height=""530"" filter_template=""custom"" custom_template=""em_grid_21.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`41`;]]""}}</div>"
+"EM0144 Everything - FashionNova Store - Main Content Area - Three Banners",em0144-halloweennova-main-content-area-three-banners,"<div class=""row hidden-xs space-block"">
+<div class=""col-sm-8 text-center em-wrapper-ads-item"">
+<div class=""em-ads-item em-box-bkg"">
+<p><em class=""fa fa-fw fa-2x""></em></p>
+<div class=""em-ads-content"">
+<h5 class=""em-text-upercase"">RETURN &amp; EXCHANGE</h5>
+<p>Vintage pastel tucked t-shirt leather cami</p>
+</div>
+</div>
+</div>
+<div class=""col-sm-8 text-center em-wrapper-ads-item"">
+<div class=""em-ads-item em-box-bkg"">
+<p><em class=""fa fa-fw fa-2x""></em></p>
+<div class=""em-ads-content"">
+<h5 class=""em-text-upercase"">free shipping</h5>
+<p>Loafer Jil Sander Vasari oversized boots</p>
+</div>
+</div>
+</div>
+<div class=""col-sm-8 text-center  em-wrapper-ads-item"">
+<div class=""em-ads-item em-box-bkg"">
+<p><em class=""fa fa-fw fa-2x""></em></p>
+<div class=""em-ads-content"">
+<h5 class=""em-text-upercase"">MEMBER DISCOUNT</h5>
+<p>Flats Cara D. dress knitwear leather luxe</p>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - FashionNova Store - Main Content Area - Our Blogs - Code",em0144-halloweennova-main-content-top-our-blogs-code,"<div class=""row space-block"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-slider em-slider-from-our-blog"">{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.style03.recent"" template=""post/list/recent_03.phtml""}}</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - FashionNova Store - Before Page Footer Container - Two Banners",em0144-halloweennova-before-page-footer-two-banners,"<div class=""clearer hidden-xs"">
+<div class=""col-sm-12 em-clear-padding""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive em-clear-radius"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_fashionnova/home/em_ads_08.jpg'}}"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+<div class=""col-sm-12 em-clear-padding""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive em-clear-radius"" alt=""em-sample-alt"" src=""{{media url='wysiwyg/em0144/layout_fashionnova/home/em_ads_09.jpg'}}"" /> </a>
+<div class=""effect-line"">&nbsp;</div>
+</div>
+</div>"
+"EM0144 Everything - FashionNova Store - Footer Area 01 - Logo",em0144-halloweennova-footer-area-01-logo,"<div class=""text-center""><p class=""em-logo-footer""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashionnova/home/em_footer_logo.png'}}"" alt=""EM Everything"" /></a></p>
+<ul class=""effect-menu  footer-menu-links"">
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Home </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Men's Swatches </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Lady's Swatches </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Kid's Swatches </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Brands </span> </a></li>
+<li class=""menu-item-link""><a class=""em-menu-link"" href=""#""> <span> Blog </span> </a></li>
+</ul>
+</div>"
+"EM0144 Everything - FashionNova Store - Footer Area 02 - Newsletter",em0144-halloweennova-footer-area-02-newsletter,"<div class=""row""><div class=""col-sm-16 col-sm-push-4""><div class=""em-newsletter-style02 newsletter-boder-input-act"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div></div></div>"
+"EM0144 Everything - Halloween Store - Sidebar Left 03 - Home - Recent Blog - Code",em0144-halloween-sidebar-left-03-home-recent-blog-code,"<div>{{block class=""Magefan\Blog\Block\Post\PostList\Recent"" name=""blog.sidebar"" template=""post/list/recent.phtml""}}</div>"
+"EM0144 Everything - FashionNova Store - Main Content Area - Our Blogs",em0144-halloweennova-main-content-top-our-blogs,"<div class=""row space-block"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01 space-block"">
+<div class=""em-slider em-slider-from-our-blog"">
+<div class=""widget block block-static-block"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class=""em-wrapper-ads-10 em-line-01"">
+<div class=""em-block-title"">
+<h2><span>From Our Blog</span></h2>
+</div>
+<div class=""em-slider em-slider-navigation-icon em-slider-from-our-blog"" data-mage-init=""{&quot;emslider&quot;:{&quot;loop&quot;:true,&quot;lazyLoad&quot;:true,&quot;items&quot;:3,&quot;dots&quot;:false,&quot;nav&quot;:true,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:1},&quot;320&quot;:{&quot;items&quot;:1},&quot;640&quot;:{&quot;items&quot;:2},&quot;768&quot;:{&quot;items&quot;:3},&quot;1024&quot;:{&quot;items&quot;:3}}}}"">
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_07.jpg'}}"" alt=""em_ads_06.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_08.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_09.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_07.jpg'}}"" alt=""em_ads_06.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_08.jpg'}}"" alt=""em_ads_07.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+<div class=""em-blog-item em-effect-13"">
+<div class=""em-blog-content bkg-top""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_glass/home/em_ads_09.jpg'}}"" alt=""em_ads_08.jpg"" /></a>
+<div class=""em-blog-time"">
+<p class=""em-blog-date"">28</p>
+<p class=""em-blog-month"">aug</p>
+</div>
+<div class=""hov"">&nbsp;</div>
+</div>
+<div class=""em-box bkg-bottom"">
+<h4 class=""em-blog-title""><a href=""#"">Unlimited Colors</a></h4>
+<p class=""em-blog-des"">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class=""link-more"" href=""#"">Read more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Halloween- Left Menu",em0144-halloween-left-menu,"<div>{{block class=""Magento\Theme\Block\Html\Topmenu"" name=""everything.catalog.leftnav"" template=""navigation/left.phtml"" ttl=""3600"" cate_count=""8""}}</div>"

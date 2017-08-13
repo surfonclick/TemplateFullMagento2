@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		<add id="Emthemes_Settings::emthemes_settings" title="EMThemes" module="Emthemes_ThemeSettings" sortOrder="20" resource="Emthemes_Settings::emthemes_settings"/>     
+		<add id="Emthemes_Settings::themes_settings" title="Themes Settings" module="Emthemes_ThemeSettings" sortOrder="10" parent="Emthemes_Settings::emthemes_settings" resource="Emthemes_Settings::themes_settings"/>   
+		<add id="Emthemes_Settings::extensions_settings" title="Extensions Settings" module="Emthemes_ThemeSettings" sortOrder="20" parent="Emthemes_Settings::emthemes_settings" resource="Emthemes_Settings::extensions_settings"/>   
+		
+
+		<add id="Emthemes_Settings::megamenu_title" title="EM Megamenu" module="Emthemes_ThemeSettings" parent="Emthemes_Settings::extensions_settings" sortOrder="20"  resource="Emthemes_Settings::megamenu_title"/>
+		<add id="Emthemes_MegaMenu::menus" title="List" module="Emthemes_MegaMenu" action="megamenu" sortOrder="10" parent="Emthemes_Settings::megamenu_title" resource="Emthemes_Settings::megamenu_settings"/>	
+
+		<add id="Emthemes_Settings::slideshow_title" title="EM Slideshow" module="Emthemes_ThemeSettings" parent="Emthemes_Settings::extensions_settings" sortOrder="30"  resource="Emthemes_Settings::slideshow_title"/>
+		<add id="emthemes_slideshow::slideshow" title="Manage Slideshows" module="Emthemes_Slideshow" sortOrder="10" parent="Emthemes_Settings::slideshow_title" action="emthemes_slideshow/items/" resource="Emthemes_Slideshow::items"/>	
+        <add id="Emthemes_Settings::slideshow" title="Faster Settings" module="Emthemes_Slideshow" parent="Emthemes_Settings::slideshow_title" sortOrder="10" action="adminhtml/system_config/edit/section/slideshow/" resource="Emthemes_Settings::slideshow_title"/>	
+
+		<add id="Emthemes_Settings::showblock_elements" title="Show Block" module="Emthemes_ThemeSettings" parent="Emthemes_Settings::extensions_settings" sortOrder="25"  resource="Emthemes_Settings::showblock_elements"/>
+        <add id="Emthemes_Settings::showblocksettings" title="Settings" module="Emthemes_ThemeSettings" parent="Emthemes_Settings::showblock_elements" sortOrder="10" action="adminhtml/system_config/edit/section/showblock/" resource="Emthemes_Settings::showblock_settings"/>	
+        
+		<add id="Emthemes_Settings::quickshop_elements" title="Quickshop" module="Emthemes_ThemeSettings" parent="Emthemes_Settings::extensions_settings" sortOrder="26"  resource="Emthemes_Settings::quickshop_elements"/>
+        <add id="Emthemes_Settings::quickshopsettings" title="Settings" module="Emthemes_ThemeSettings" parent="Emthemes_Settings::quickshop_elements" sortOrder="10" action="adminhtml/system_config/edit/section/quickshop/" resource="Emthemes_Settings::quickshop_settings"/>
+		<add id="Emthemes_Settings::elements" title="Flying Effect Cart" module="Emthemes_ThemeSettings" parent="Emthemes_Settings::extensions_settings" sortOrder="40"  resource="Emthemes_FlyingEffectCart::flyingeffect_elements"/>
+		<add id="Emthemes_FlyingEffectCart::settings" title="Settings" module="Emthemes_FlyingEffectCart" parent="Emthemes_Settings::elements" sortOrder="50" action="adminhtml/system_config/edit/section/flyingeffect/" resource="Emthemes_FlyingEffectCart::flyingeffect_settings"/>	
+	</menu>
+</config>

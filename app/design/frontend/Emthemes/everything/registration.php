@@ -1,0 +1,187 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_default',
+    __DIR__.'/default'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_glass',
+    __DIR__.'/glass'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_shoes',
+    __DIR__.'/shoes'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_jewelry',
+    __DIR__.'/jewelry'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_furniture',
+    __DIR__.'/furniture'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_fashionnova',
+    __DIR__.'/fashionnova'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_bicycle',
+    __DIR__.'/bicycle'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_clothing',
+    __DIR__.'/clothing'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_swatch',
+    __DIR__.'/swatch'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_baby',
+    __DIR__.'/baby'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_lingerie',
+    __DIR__.'/lingerie'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_beauty',
+    __DIR__.'/beauty'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_health',
+    __DIR__.'/health'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_supermarket_store',
+    __DIR__.'/supermarket_store'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_garden',
+    __DIR__.'/garden'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_computer',
+    __DIR__.'/computer'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_sport',
+    __DIR__.'/sport'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_halloween',
+    __DIR__.'/halloween'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_newfashion',
+    __DIR__.'/newfashion'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_gentleman',
+    __DIR__.'/gentleman'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_luxuryjewelry',
+    __DIR__.'/luxuryjewelry'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_dennis',
+    __DIR__.'/dennis'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_valentine',
+    __DIR__.'/valentine'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_smartphone',
+    __DIR__.'/smartphone'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_electronic',
+    __DIR__.'/electronic'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_hottrend',
+    __DIR__.'/hottrend'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_newstyle',
+    __DIR__.'/newstyle'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_digital',
+    __DIR__.'/digital'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_shoppingcenter',
+    __DIR__.'/shoppingcenter'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_gym',
+    __DIR__.'/gym'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_golf',
+    __DIR__.'/golf'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_weddinggift',
+    __DIR__.'/weddinggift'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_diamond',
+    __DIR__.'/diamond'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_fashionshop',
+    __DIR__.'/fashionshop'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_hitech',
+    __DIR__.'/hitech'
+);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+    'frontend/Emthemes/everything_hobby',
+    __DIR__.'/hobby'
+);
+

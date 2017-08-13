@@ -1,0 +1,34 @@
+{{block class="Emthemes\Slideshow\Block\Slideshow" setId="2" template="Emthemes_Slideshow::slideshow.phtml"}}
+
+
+<div class="emthemes-slideshow <?php echo $data_configure["slider_skin"];  ?>" id="<?php echo $id_div; ?>">
+	<div class="master-slider ms-skin-default" id="masterslider">
+		<?php foreach ($data_image as $image) : ?>
+			<div class="ms-slide">
+				<img src="pub/media/emthemes/style/blank.gif" data-src="<?php echo $block->imageResize($image["image"],$w,$h); ?>" alt=""/>   
+				<a href="<?php echo $image["url"] ?>">Agc</a>
+				<div class="ms-layer ms-caption" style="top:10px; left:30px;">
+					<?php echo $image['desciption']; ?>
+				</div>	
+			</div>
+		<?php endforeach;?>
+	</div>
+</div>
+
+<script type="text/javascript">
+     require(['jquery','masterslidermin','domReady!'],function(){
+
+			var slider = new MasterSlider();
+					slider.control('arrows');
+	    slider.setup('masterslider' , {
+	         width:<?php echo $w; ?>,    // slider standard width
+	         height:<?php echo $h; ?>,   // slider standard height
+			 view: "<?php echo $data_configure["change_trans"]; ?>",
+			 loop: <?php if($data_configure["loop"]=="1"){ echo "true";}else{ echo "false"; } ?>,
+			 autoplay: <?php if($data_configure["auto"]=="1"){ echo "true";}else{ echo "false"; } ?>,
+			 layout: "<?php if($data_configure["layout"]) { echo $data_configure["layout"]; } else { echo "boxed"; } ?>",
+	         space:5
+
+	    });
+        });
+</script>

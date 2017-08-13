@@ -1,0 +1,230 @@
+title,identifier,content
+"EM0144 Everything - Fashion Shop - Main Slideshow",em0144-fashionshop-main-slideshow,"<div class=""em-slideshow space-block"">{{widget type=""Emthemes\Slideshow\Block\Widget\Slideshow"" setId=""34""}}</div>"
+"EM0144 Everything - Fashion Shop - Main Content Area 01 - Banners",em0144-fashionshop-main-content-area-01-banners,"<div class=""row hidden-xs space-block"">
+<div class=""em-wrapper-banners"">
+<div class=""col-sm-8 text-center"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_ads_01.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-8 text-center"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_ads_02.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-8 text-center"">
+<div class=""img-banner""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_ads_03.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Fashion Shop - Main Content Area 03 - Product01",em0144-fashionshop-main-content-area-03-product01,"<div class=""new-product-slider em-line-01 space-small-block button-show04"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Top of this week"" display_type=""all_products"" show_slider=""1"" slider_item=""6"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`93`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - Fashion Shop - Main Content Area 05 - Two Banners",em0144-fashionshop-main-content-area-05-two-banner,"<div class=""em-wrapper-banners"">
+<div class=""col-sm-12 text-center em-clear-padding"">
+<div class=""img-banner space-block""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_ads_04.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+<div class=""col-sm-12 text-center em-clear-padding"">
+<div class=""img-banner space-block""><a class=""banner-img"" title=""em-sample-title"" href=""#""> <img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_ads_05.jpg'}}"" alt=""em-sample-alt"" /></a></div>
+</div>
+</div>"
+"EM0144 Everything - Fashion Shop - After Main Column 2 - Terminals",em0144-fashionshop-after-main-column2-two-terminals,"<div class=""row"">
+	<div class=""col-sm-24"">
+		<div class=""em-wrapper-ads-15 text-center"">
+			<div class=""em-slider em-slider-category"" data-mage-init=""{&quot;emslider&quot;:{&quot;items&quot;:1}}"">
+				<div class=""em-ads-item"">
+					<div class=""q-icon""><em class=""fa fa-quote-left""></em></div>
+					<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_ads_01.png'}}"" alt=""em_ads_01.png"" /></a></div>
+					<div class=""em-ads-content"">
+						<p class=""em-ads-des"">Aliquam quis risus viverra sum masset  congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Dolor sit amet, consectetuer adipiscing elit.Donec eros tellus, scelerisque nec, honcus eget, laoreet sit amet, nunc. Ut sit amet turpis.</p>
+						<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+					</div>
+				</div>
+				<div class=""em-ads-item"">
+					<div class=""q-icon""><em class=""fa fa-quote-left""></em></div>
+					<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_ads_01.png'}}"" alt=""em_ads_01.png"" /></a></div>
+					<div class=""em-ads-content"">
+						<p class=""em-ads-des"">Aliquam quis risus viverra sum masset  congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Dolor sit amet, consectetuer adipiscing elit.Donec eros tellus, scelerisque nec, honcus eget, laoreet sit amet, nunc. Ut sit amet turpis.</p>
+						<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+					</div>
+				</div>
+				<div class=""em-ads-item"">
+					<div class=""q-icon""><em class=""fa fa-quote-left""></em></div>
+					<div class=""em-ads-img""><a href=""#""><img class=""img-responsive"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_ads_01.png'}}"" alt=""em_ads_01.png"" /></a></div>
+					<div class=""em-ads-content"">
+						<p class=""em-ads-des"">Aliquam quis risus viverra sum masset  congue tellus tibulum nunct. Lorem ipsum dolor sit amet assa tetur Fusce fringilla faucibus hendrerit. Dolor sit amet, consectetuer adipiscing elit.Donec eros tellus, scelerisque nec, honcus eget, laoreet sit amet, nunc. Ut sit amet turpis.</p>
+						<p class=""em-ads-author""><span class=""em-text-upercase"">elena gilbert </span><span>- Web designer</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>"
+"EM0144 Everything - Fashion Shop - After Main Column 2 - Three Ads Texts",em0144-fashionshop-after-main-column2-three-ads-text,"<div class=""row em-wrapper-ads-20 hidden-xs"">
+<div class=""text-box col-sm-8 col-xs-8 first"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-01""></div>
+<div class=""em-banner-right"">
+<h5><a title=""Tech Support 247"" href=""#"">free to delivery</a></h5>
+<p>Lorem ipsum dolor sit consectetur</p>
+</div>
+</div>
+</div>
+<div class=""text-box col-sm-8 col-xs-8 second"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-02""></div>
+<div class=""em-banner-right"">
+<h5><a title=""Free shipping all order"" href=""#"">DAYS FREE RETURNS</a></h5>
+<p>Maecenas imperdiet sagittis enim</p>
+</div>
+</div>
+</div>
+<div class=""text-box col-sm-8 col-xs-8 third"">
+<div class=""box-inner"">
+<div class=""icon-banner-left pull-left icon-03""></div>
+<div class=""em-banner-right"">
+<h5><a title=""30 days return"" href=""#"">SUPPORT 24/7</a></h5>
+<p>Lorem ipsum dolor sit consectetur</p>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Fashion Shop - Footer Top",em0144-fashionshop-footer-top,"<div class=""footer-top-inner"">
+<div class=""footer-top-wrapper"">
+<div class=""row"">
+<div class=""col-sm-24"">
+<div class="" four-block-middle"">
+<div class=""row"">
+<div class=""col-sm-8"">
+<p class=""em-logo-footer""><a href=""#""><img class=""img-responsive retina-img"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/em_footer_logo.png'}}"" alt=""EM Everything"" /></a></p>
+<div class=""em-block-content block-info"">
+<p>Mauris bibendum, nulla accumsan pr etium lorem eros vulputate lacus aliquet felis lacus vel metus.</p>
+<p class=""em-info"">234 Fake address name, Fake city name, Country</p>
+<p class=""em-info"">info@yourdomain.com</p>
+<div class=""em-wrapper-social""></div>
+</div>
+</div>
+<div class=""col-sm-9"">
+<div class=""em-block-title"" data-collapse-target=""#collapse09"">
+<p class=""h4 em-text-upercase""><span>Latest News</span></p>
+</div>
+<div id=""collapse09"" class=""em-block-content em-from-our-blog"">
+<div class=""em-container-ads"">
+<div class=""box-date""><span class=""em-blog-date"">20</span> <span class=""em-blog-month"">Jan</span></div>
+<div class=""em-detail"">
+<h5 class=""em-blog-title""><a href=""#"">Duis risus scelerisque euismod ullam </a></h5>
+<span class=""em-blog-comment""><span>Etiam vel magna ullamcorper, fermentum elit id, scelerisque mi.</span></span></div>
+</div>
+<div class=""em-container-ads"">
+<div class=""box-date""><span class=""em-blog-date"">20</span> <span class=""em-blog-month"">Jan</span></div>
+<div class=""em-detail"">
+<h5 class=""em-blog-title""><a href=""#"">Duis risus scelerisque euismod ullam</a></h5>
+<span class=""em-blog-comment""><span>Etiam vel magna ullamcorper, fermentum elit id, scelerisque mi. </span></span></div>
+</div>
+</div>
+</div>
+<div class=""col-sm-7"">
+<div class=""em-block-title"" data-collapse-target=""#collapse10"">
+<p class=""h4 em-text-upercase""><span>Sign up for newsletters</span></p>
+<p class=""text-des"">Be the first to know about new arrivals, exclusive offers and trend news. Plus, first time subscribers enjoy $15 off their first order.</p>
+</div>
+<div id=""collapse10"" class=""em-block-content"">
+<div class=""newsletter-clearbutton"">{{block class=""Magento\Newsletter\Block\Subscribe"" name=""em.newsletter.style02"" template=""subscribe.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Fashion Shop - Footer Bottom",em0144-fashionshop-footer-bottom,"<div class=""footer-bottom-inner"">
+<div class=""em-footer-info"">
+<div class=""row"">
+<div class=""col-sm-4 first"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse01&quot;}}"">
+<p class=""h4 em-text-upercase""><span>What's hot</span></p>
+</div>
+<ul id=""collapse01"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Discount Voucher</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Spring Collection</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Trending</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Best Sellers</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse02&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Brands</span></p>
+</div>
+<ul id=""collapse02"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jack &amp; Jones</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Calvin Klein</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Ray Ban</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>River Island</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse03&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Men shop</span></p>
+</div>
+<ul id=""collapse03"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Top</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Bottoms</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Accessories</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse04&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Women shop</span></p>
+</div>
+<ul id=""collapse04"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Jeans</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Dresses</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Other</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shoes</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse05&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Help</span></p>
+</div>
+<ul id=""collapse05"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>F.A.Q.</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Shipping</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""{{store direct_url='contacts'}}""><span>Contact Us</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Privacy Policy</span></a></li>
+</ul>
+</div>
+<div class=""col-sm-4 last"">
+<div class=""em-block-title"" data-mage-init=""{&quot;emCollapsible&quot;:{&quot;collapseTarget&quot;:&quot;#collapse06&quot;}}"">
+<p class=""h4 em-text-upercase""><span>Nation Apps</span></p>
+</div>
+<ul id=""collapse06"" class=""em-links em-block-content block-info"">
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPhone</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>iPad</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Android</span></a></li>
+<li class=""em-links-item""><a title=""em-sample-title"" href=""#""><span>Google Play</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Fashion Shop - Main Content Area 02 - Brands",em0144-fashionshop-main-content-area-02-brands,"<div class=""em-wrapper-brands row space-block"">
+<div class=""col-sm-24"">
+<div class=""brand-wrapper"">
+<ul class=""brand-item-list first row"">
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_01.png'}}"" alt=""em_brand_01.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_01_hover.png'}}"" alt=""em_brand_01_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_02.png'}}"" alt=""em_brand_02.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_02_hover.png'}}"" alt=""em_brand_02_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_03.png'}}"" alt=""em_brand_03.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_03_hover.png'}}"" alt=""em_brand_03_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_04.png'}}"" alt=""em_brand_04.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_04_hover.png'}}"" alt=""em_brand_04_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_05.png'}}"" alt=""em_brand_05.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_05_hover.png'}}"" alt=""em_brand_05_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_06.png'}}"" alt=""em_brand_06.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_06_hover.png'}}"" alt=""em_brand_06_hover.png"" /> </a></li>
+</ul>
+<ul class=""brand-item-list second row"">
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_07.png'}}"" alt=""em_brand_07.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_07_hover.png'}}"" alt=""em_brand_07_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_08.png'}}"" alt=""em_brand_08.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_08_hover.png'}}"" alt=""em_brand_08_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_09.png'}}"" alt=""em_brand_09.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_09_hover.png'}}"" alt=""em_brand_09_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_10.png'}}"" alt=""em_brand_10.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_10_hover.png'}}"" alt=""em_brand_10_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_11.png'}}"" alt=""em_brand_11.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_11_hover.png'}}"" alt=""em_brand_11_hover.png"" /> </a></li>
+<li class=""em-banners-item col-sm-4""><a href=""#""> <img class=""img-responsive first"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_12.png'}}"" alt=""em_brand_12.png"" /> <img class=""img-responsive last"" src=""{{media url='wysiwyg/em0144/layout_fashionshop/home/brand/em_brand_12_hover.png'}}"" alt=""em_brand_12_hover.png"" /> </a></li>
+</ul>
+</div>
+</div>
+</div>"
+"EM0144 Everything - Fashion Shop - Main Content Area 04 - Product02",em0144-fashionshop-main-content-area-04-product02,"<div class=""new-product-slider em-line-01 button-show04"">{{widget type=""Emthemes\FilterProduct\Block\Product\ProductsList"" title=""Featured Products"" display_type=""all_products"" show_slider=""1"" slider_item=""6"" products_count=""8"" order_by=""name ASC"" show=""thumb,name,review,price,addtocart,addto"" thumb_width=""250"" thumb_height=""250"" filter_template=""custom"" custom_template=""em_custom_grid.phtml"" conditions_encoded=""a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:12:`category_ids`;s:8:`operator`;s:2:`==`;s:5:`value`;s:2:`94`;]]"" cache_lifetime=""86400""}}</div>"
+"EM0144 Everything - Fashion Shop - Footer Bottom - Payment",em0144-fashionshop-footer-bottom-payment,"<div class=""em-payment f-right""><a class=""em-payment-icon em-visa"" title=""em-sample-title"" href=""#"">visa</a> <a class=""em-payment-icon em-master"" title=""em-sample-title"" href=""#"">master</a> <a class=""em-payment-icon em-express "" title=""em-sample-title"" href=""#"">express</a><a class=""em-payment-icon em-paypal"" title=""em-sample-title"" href=""#"">paypal</a> <a class=""em-payment-icon em-other "" title=""em-sample-title"" href=""#"">other</a></div>"

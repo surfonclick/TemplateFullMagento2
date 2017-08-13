@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="megamenu_configure" class="Emthemes\MegaMenu\Block\Widget\MegaMenu" is_email_compatible="true">
+        <label translate="true">Emthemes Megamenu</label>
+        <description translate="true">List of Menu</description>
+		<parameters>
+			<parameter name="menu_id" xsi:type="select" source_model="Emthemes\MegaMenu\Model\Config\Widget" visible="true" sort_order="10" >
+				<label translate="true">MegaMenu</label>
+			</parameter>		
+		</parameters>
+        <containers>
+            <container name="content">
+                <template name="grid" value="default" />
+            </container>
+            <container name="content.top">
+                <template name="grid" value="default" />
+            </container>
+            <container name="content.bottom">
+                <template name="grid" value="default" />
+            </container>
+        </containers>
+    </widget>
+</widgets>

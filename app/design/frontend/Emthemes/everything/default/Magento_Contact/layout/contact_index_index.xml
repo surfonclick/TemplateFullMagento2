@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+    	<head>
+        	<title>Contact Us</title>
+    	</head>
+        <referenceBlock name="page.main.title">
+            <action method="setPageTitle">
+                <argument translate="true" name="title" xsi:type="string">Contact Us</argument>
+            </action>
+        </referenceBlock>
+        <referenceContainer name="content">
+            <block class="Emthemes\Em0144settings\Block\ContactForm" name="contactForm" template="Magento_Contact::form.phtml">
+                <container name="form.additional.info" label="Form Additional Info"/>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
+
