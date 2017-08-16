@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Installing Theme">
+		<meta name="author" content="">
+		
+		<title>Premium Magento Theme Documentation</title>
+		<!-- Bootstrap core CSS -->
+		<link href="library/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="library/css/style.css" rel="stylesheet"><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script><script src="library/js/bootstrap.min.js"></script></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2" id="em-ajax-menu">
+					<div class="sidebar-nav navbar-default navbar-fixed-top" role="navigation">
+						<div class="col-sm-12">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html"><img src="library/images/logo.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav">
+									<li><a href="index.html">I. Home</a></li>
+									<li class="dropdown">
+										<a class="dropdown-toggle" data-toggle="dropdown" href="01-install.html">II. Installation <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="01-01-before-installing.html">1. Before Installing</a></li>
+											<li><a href="01-02-installing-theme.html">2. Installing Theme</a></li>
+											<li><a href="01-05-installing-full-theme.html">3. Installing Full Demo Theme</a></li>
+											<li><a href="01-03-after-installing.html">4. After Installing</a></li>
+											<li><a href="01-04-installation-service.html">5. Installation Service</a></li>
+										</ul>
+									</li>
+									<li class="dropdown fixed-top">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">III. Base Settings <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="02-01-stores.html">1. Stores</a></li>
+											<li><a href="02-02-caching-system.html">2. Caching System</a></li>
+											<li><a href="02-03-index-management.html">3. Index Management</a></li>
+											<li><a href="02-04-categories.html">4. Categories</a></li>
+											<li><a href="02-05-products.html">5. Products</a></li>
+											<li><a href="02-06-attributes.html">6. Attributes</a></li>
+											<li><a href="02-07-logo.html">7. Logo</a></li>
+											<li><a href="02-08-homepage.html">8. Homepage</a></li>										
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">IV. Theme Settings <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="03-01-active-deactive-theme.html">1. Active &amp; Deactive Theme</a></li>
+											<li><a href="03-02-customize-theme.html">2. Customize Theme</a></li>											
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">V. Widgets<b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="04-01-filter-products.html">1. EM Filter Products</a></li>															
+											<li><a href="04-05-slideshow.html">4. EM Slideshow</a></li>											
+											<li><a href="04-07-products-label.html">6. EM Products Label</a></li>
+											<li><a href="04-09-group-deals.html">8. EM Deals</a></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+									<li>
+										<a href="show_block_id.html">VI. Theme Content<b class="caret"></b></a>									
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">VII. Developer<b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="06-01-css-html.html">1. Custom CSS &amp; Html</a></li>
+											<li><a href="06-02-javascript.html">2. Custom Javascript</a></li>											
+											<li><a href="06-05-merge-js-css.html">5. Merging Javascript &amp; CSS</a></li>											
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">VIII. Updates <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="08-01-updates.html">1. Updates</a></li>
+											<li><a href="08-02-changelog.html">2. ChangeLog</a></li>
+										</ul>
+									</li>
+									<li><a href="07-troubleshooting.html">IX. Troubleshooting &amp; FAQ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-10">
+					<div class="container-fluid" id="primary">
+						<div class="row">
+							<div class="col-sm-12">                                
+								<h4>Documentation</h4>
+								<h1 class="nomargin">Installing Theme</h1>
+								<div class="row">
+									<div class="col-sm-12 margintop">
+										<ul class="list-group displaInlineBlock">
+											<li class="list-group-item">
+												<a href="#1_install_magento">1. Installing Magento</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#2_installing_theme">2. Installing The Theme Package Theme</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#3_installing_full">3. Installing The Full Package Theme</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<div id="1_install_magento" class="col-sm-12 title">
+											<h3>1. Installing Magento</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<p>Before installing the theme, you should have installed Magento Community Edition open source e-commerce web application. If Magento theme is already installed, please skip this section and move on section 2 <a href="#2_installing_theme">2. Installing Our Theme on live Magento</a></p>
+											<p>You can do step by step in this link <a class="alert-link" href="http://devdocs.magento.com/guides/v2.0/install-gde/bk-install-guide.html">http://devdocs.magento.com/guides/v2.0/install-gde/bk-install-guide.html</a> to Install Magento 2</p>
+																						
+										</div>
+										<div id="2_installing_theme" class="col-sm-12 title">
+											<h3>2. Installing The Package Theme</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											
+																					
+											<p>If you already had a Magento store and want to apply the theme, follow the instruction below. To install the theme you only need to upload all the theme files on your server and then enable the theme in the admin panel. But to avoid unexpected problems after installation, your Magento should be prepared first.</p>
+											<h3>How To Install Magento 2 and EM Everything on EC2 Amazon Server</h3>
+											<p class="alert alert-info">
+
+											  <a href="https://www.youtube.com/watch?v=4JLEDcf6TFA" target="_blank">
+											  	<img src="library/images/clip-install-magento2-325x250.png" alt="install-ec.jpg" />
+											  	
+											  </a>
+											</p>	
+											<div class="row">
+												<div class="col-sm-12 margintop">
+													<ul class="list-group displaInlineBlock">
+														<li class="list-group-item">
+															<a href="#1_prepare_magento">2.1. Prepare Your Magento</a>
+														</li>
+														<li class="list-group-item">
+															<a href="#2_ready_install">2.2. Installing Theme after Magento is prepared</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div id="1_prepare_magento">
+												<h4>2.1. Prepare Your Magento</h4>
+											</div>
+											<div class="content">												
+												<p><strong>Step 1: </strong>Disable all cache in your Magento</p>
+												<div class="alert alert-danger" role="alert">IMPORTANT: When developing your Magento store, in order to be able to see changes immediately, you should completely disable the cache. You can enable it after you finish configuring your store</div>
+												<ol>
+													<li>Magento Cache. Please read more details in : <a href="02-02-caching-system.html">this link</a></li>
+													<li>Full Page cache and caching modules for Magento. Please read more details in : <a href="02-02-caching-system.html">this link</a></li>
+													<li>Any additional cache on your server, PHP cache engines, APC, etc Please read more details in : <a href="#">this link</a></li>
+													<li>Disable Merge JavaScript Files and CSS Files in backend Stores &gt; Configuration &gt; Developer &gt; JavaScript Settings, CSS Settings Please read more details in : <a href="06-05-merge-js-css.html">this link</a></li>
+												</ol>
+												<p> <strong>Step 2: </strong>Before you install, make sure your store is disabled (no page can be refreshed during the installation process).</p>
+												<div class="alert alert-warning" role="alert">Magento's root directory is place you can find basic files of Magento, such as: index.php and .htacess.</div>
+												<div class="alert alert-danger" role="alert">IMPORTANT: Creating backup before installing any themes or extensions in Magento is extremely important, especially if you are working on a live store. Backup Magento files and the store database</div>
+											</div>
+											<div id="2_ready_install">
+												<h4>2.2. Installing Theme after Magento is prepared</h4>
+											</div>
+											<div class="content">
+												<div class="alert alert-warning" role="alert">This procedure doesn&rsquo;t change core files of Magento</div>
+												<p> <strong>Step 1: </strong>Extracting file theme package on your computer and copy all files to your Magento folder. The theme folder after extracting, it should contain folders such as: app, pub.</p>
+												<p> <strong>Step 2: </strong>Using your FTP client upload all folders and files to your Magento's root directory Magento already contains the same directories - do not remove those directories. (You can upload your files to server by using <a class="alert-link" href="https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en)">Filezilla.</a>) Directories extracted from theme package have to be merged with existing directories of Magento. If your system asks you whether you want to merge directories, you can confirm that you want to merge those directories.</p>                                                
+												<p> 
+													<strong>Step 3: </strong>Set correct file permissions for folders as below image.
+													<img class="img-responsive" src="library/images/01-02-001.jpg" alt="01-02-001.jpg" />
+												</p>
+												<p> <strong>Step 4: </strong>Running the Setup Wizard
+
+												, it is a multi-page wizard that enables you to go back and forward one page at a time.</p>
+
+												<strong>Getting started</strong>
+												<div class="install-wizard">
+													<p>To install the Magento software using the Setup Wizard:</p>
+													<ol>
+													<li>Start a web browser.</li>
+
+													<li>Enter the following URL in the browser’s address or location bar:
+
+													<strong><code>http://&lt;Magento host or IP&gt;/&lt;path to Magento root&gt;/themesetup</code></strong>
+													<p>For example, if the Magento server’s IP address is 192.0.2.10 and you installed Magento 2 in the magento2 directory relative to the web server’s docroot, and you did not configure a Virtual Host, enter:
+
+													http://192.0.2.10/magento2/setup
+													On the initial page, click Agree and Set Up Magento.</p>
+													</li>
+													</ol>
+												</div>
+												<div class="install-command">
+													<h2><strong class="color:red;">Only use this when you can not install theme by Setup Wizard</strong></h2>
+													<ol>
+														<li>Using SSH to go the root folder (ex: var/www/html)</li>
+														<li>Run the command <strong><code>"php -f bin/magento setup:upgrade"</code></strong></li>
+														<li>After that you, need set permission 777 for <strong>var/</strong> and <strong>pub/</strong> folder<br>Using this command <strong><code>sudo chmod -R 777 var/ pub/</code></strong></li>
+													</ol>
+												</div>
+												
+																														
+												<p> <strong>Step 5: </strong>Active our theme. Please read more details at : <a href="03-01-active-deactive-theme.html">this link</a></p>
+                                                <p> <strong>Step 6: </strong>Set Homepage. Please read more details at : <a href="02-08-homepage.html#1_create_cmspage">this link</a></p>
+												<p> <strong>Step 7: </strong>Flush Magento cache : <a href="01-01-before-installing.html#1_disable_magento_cache">this link</a></p>
+												<p>To activate and use layout which you like, you please go to content of each theme below:</p>
+												<ul>
+													<li><a href="05-01-layout-01.html">1. Fashion</a></li>
+													<li><a href="05-02-layout-02.html">2. Shoes</a></li>
+													<li><a href="05-03-layout-03.html">3. Sunglasses</a></li>
+													<li><a href="05-04-layout-04.html">4. Jewelry</a></li>										
+												</ul>
+											</div>
+										</div>										
+										<p class="alert alert-info">Congraguration! You have successfully installed. Now, you can customize this theme at <a href="03-02-customize-theme.html">here</a></p>
+                                        <p class="alert alert-info">If you have any problems with the installation, read more <a href="01-03-after-installing.html">here</a></p>
+                                        <p class="alert alert-info">If installation procedure looks unfamiliar for you or you don't want to spend time on this task, you can order our installation service <a href="01-04-installation-service.html">here</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /container -->
+		<!-- Bootstrap core JavaScript
+			================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		
+		
+	</body>
+</html>

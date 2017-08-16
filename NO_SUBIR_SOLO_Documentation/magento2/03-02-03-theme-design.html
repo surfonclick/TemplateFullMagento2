@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Theme Design">
+		<meta name="author" content="">
+		
+		<title>Premium Magento Theme Documentation</title>
+		<!-- Bootstrap core CSS -->
+		<link href="library/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="library/css/style.css" rel="stylesheet"><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script><script src="library/js/bootstrap.min.js"></script></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2" id="em-ajax-menu">
+					<div class="sidebar-nav navbar-default navbar-fixed-top" role="navigation">
+						<div class="col-sm-12">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html"><img src="library/images/logo.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav">
+									<li><a href="index.html">I. Home</a></li>
+									<li class="dropdown">
+										<a class="dropdown-toggle" data-toggle="dropdown" href="01-install.html">II. Installation <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="01-01-before-installing.html">1. Before Installing</a></li>
+											<li><a href="01-02-installing-theme.html">2. Installing Theme</a></li>
+											<li><a href="01-05-installing-full-theme.html">3. Installing Full Demo Theme</a></li>
+											<li><a href="01-03-after-installing.html">4. After Installing</a></li>
+											<li><a href="01-04-installation-service.html">5. Installation Service</a></li>
+										</ul>
+									</li>
+									<li class="dropdown fixed-top">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">III. Base Settings <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="02-01-stores.html">1. Stores</a></li>
+											<li><a href="02-02-caching-system.html">2. Caching System</a></li>
+											<li><a href="02-03-index-management.html">3. Index Management</a></li>
+											<li><a href="02-04-categories.html">4. Categories</a></li>
+											<li><a href="02-05-products.html">5. Products</a></li>
+											<li><a href="02-06-attributes.html">6. Attributes</a></li>
+											<li><a href="02-07-logo.html">7. Logo</a></li>
+											<li><a href="02-08-homepage.html">8. Homepage</a></li>										
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">IV. Theme Settings <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="03-01-active-deactive-theme.html">1. Active &amp; Deactive Theme</a></li>
+											<li><a href="03-02-customize-theme.html">2. Customize Theme</a></li>											
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">V. Widgets<b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="04-01-filter-products.html">1. EM Filter Products</a></li>															
+											<li><a href="04-05-slideshow.html">4. EM Slideshow</a></li>											
+											<li><a href="04-07-products-label.html">6. EM Products Label</a></li>
+											<li><a href="04-09-group-deals.html">8. EM Deals</a></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="show_block_id.html">VI. Theme Content<b class="caret"></b></a>
+										
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">VII. Developer<b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="06-01-css-html.html">1. Custom CSS &amp; Html</a></li>
+											<li><a href="06-02-javascript.html">2. Custom Javascript</a></li>											
+											<li><a href="06-05-merge-js-css.html">5. Merging Javascript &amp; CSS</a></li>											
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">VIII. Updates <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="08-01-updates.html">1. Updates</a></li>
+											<li><a href="08-02-changelog.html">2. ChangeLog</a></li>
+										</ul>
+									</li>
+									<li><a href="07-troubleshooting.html">IX. Troubleshooting &amp; FAQ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-10">
+					<div class="container-fluid" id="primary">
+						<div class="row">
+							<div class="col-sm-12">
+								<ol class="breadcrumb">
+									<li><a href="03-02-customize-theme.html">Customize Theme</a></li>
+									<li class="active">Theme Design</li>
+								</ol>								
+								<h1 class="nomargin">Theme Design</h1>
+								<div class="alert alert-danger">After you customize theme design, you must clean the old files to make sure you get all the changes for your customization 									
+									  <p>You can clean generated static view files in any of the following ways:</p>
+									  <ul><li>Manually by clearing the <code>pub/static</code> and <code>var/view_preprocessed</code> directories and subdirectories. <em>except</em> for <code>pub/static/.htaccess</code>.<br><br>
+									  	To clear the <code>pub/static</code> directory of all files except <code>.htaccess</code>, enter the following command:<br>
+									  	<code>find . -depth -name .htaccess -prune -o -delete</code></li>
+									  <li>Using the Magento command line. Several commands support an optional parameter <code>--clear-static-content</code>, which cleans <a href="http://devdocs.magento.com/guides/v2.0/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview">generated static view files</a>. For example, see <a href="/guides/v2.0/install-gde/install/install-cli-subcommands-enable.html">Enable or disable modules</a>.</li>
+									<li>In the Magento Admin. Go to <strong>System</strong> &gt; Tools &gt; <strong>Cache Management</strong> and click <strong>Flush Static Files Cache</strong>.</li></ul>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 margintop">
+										<ul class="list-group displaInlineBlock">
+											<li class="list-group-item">
+												<a href="#1_custom_css">1. Custom CSS</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#2_fonts">2. Fonts</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#3_page">3. Page</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#4_header">4. Header</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#5_menu">5. Menu</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#6_body">6. Body</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#7_footer">7. Footer</a>
+											</li>
+											<li class="list-group-item">
+												<a href="#8_button">8. Button</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<div id="1_custom_css" class="col-sm-12 title">
+											<h3>1. Custom CSS</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<ul>
+												<li><strong>Additional CSS File(s): </strong>Upload your custom css file here skin/frontend/default/embasetheme/css directory. Then add custom css file name to this field.
+													Multiple files are separated by a comma (,).
+													You can create your own file as well. 
+													Note: Less Css File must always be first.
+													E.g.: custom1.less
+													E.g.: custom2.css
+													E.g.: custom1.less,custom2.css
+												</li>
+												<li>
+													<strong>Your Custom CSS: </strong>If you know how to code and want to customize your site beyond the styling options in the default theme settings, you can add custom CSS code here. 
+													If you do decide to apply custom CSS to your site, it should be used sparingly. Customer Care doesn't offer support or troubleshooting for CSS modifications. We also can't provide you with code or support for any third-party code modification. 
+													Here are few popular and credible websites we would like to recommend for CSS tutorials, troubleshooting, and reference guides:
+													<ul>
+														<li><a href="http://www.w3schools.com/">W3Schools</a></li>
+														<li><a href="http://www.codecademy.com/">CodeAcademy</a></li>
+														<li><a href="http://stackoverflow.com/">Stack Overflow</a></li>
+														<li><a href="http://learn.shayhowe.com/html-css/">Shay Howe</a></li>
+														<li><a href="http://www.sitepoint.com/css/">SitePoint</a></li>
+													</ul>
+													.
+													E.g: .header{background-color:red}
+												</li>
+											</ul>
+										</div>
+										<div id="2_fonts" class="col-sm-12 title">
+											<h3>2. Fonts</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<ul>
+												<li>
+													<strong>Google Font API Key: </strong>You will need a Google API key to make use of google fonts. Your key is free and easy to get. However, many people get confused on this. It's really quite simple:
+													<ol>
+														<li>Logged in to your Gmail account;</li>
+														<li>Go to the <a href="https://console.developers.google.com/">Google Developers Console</a>.</li>
+														<li>Create a project (example: "my google fonts");</li>
+														<li>Select a project.</li>
+														<li>In the sidebar on the left, select <b>APIs &amp; auth</b> In the list of APIs, make sure the status is <b>ON</b> for the Google Fonts Developer API.;</li>
+														<li>In the sidebar on the left, select <b>APIs &amp; auth</b>, In the list of <b>Credentials</b> click on <b>Create new key</b>, then choose <b>Browser key</b>, end click on <b>Create</b> button</li>
+														<li>Copy the API key under "Key for browser applications", that's it.</li>
+													</ol>
+													Click on this link <a href="http://vimeo.com/83986921">http://vimeo.com/83986921</a> to view demo how to create new google font api key.											
+												</li>
+												<li>
+													<strong>Import Google Fonts: </strong>Font preview is available on <a href="http://www.google.com/webfonts">Google Web Fonts</a>. Google Fonts makes it quick and easy for everyone to use web fonts, including professional designers and developers. You can even customize them for your own use, or collaborate with the original designer to improve them. And you can use them in every way you want.
+													<strong>Select which google fonts should be imported to your site.</strong> Hold SHIFT + left click a font to multiple select.										
+												</li>
+												<li>
+													<strong>General Font Family: </strong>
+													The font-family property specifies the font for an element.
+													The font-family property can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.
+													There are two types of font family names:
+													<ul>
+														<li>1. family-name - The name of a font-family, like "times", "courier", "arial", etc.</li>
+														<li>2. generic-family - The name of a generic-family, like "serif", "sans-serif", "cursive", "fantasy", "monospace".</li>
+													</ul>
+													Start with the font you want, and always end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+													Note: Separate each value with a comma.
+													Eg: Helvetica Neue, Helvetica, Arial, sans-serif.
+												</li>
+												<li><strong>Google Fonts' Weights: </strong>most of the fonts from Google are not available in all weights. Make sure that you specified correct weight for selected font. Otherwise font will not be displayed. Refer to <a href="http://www.google.com/webfonts">Google Web Fonts</a> to check if the selected weight is available for your font. <br>Eg: 200,400,321,800.Leave empty to use default weight.</li>
+												<li><strong>General Font: </strong></li>
+												<li><strong>H1 Font: </strong></li>
+												<li><strong>H2 Font: </strong></li>
+												<li><strong>H3 Font: </strong></li>
+												<li><strong>H4 Font: </strong></li>
+												<li><strong>H5 Font: </strong></li>
+												<li><strong>H6 Font: </strong></li>
+											</ul>
+										</div>
+										<div id="3_page" class="col-sm-12 title">
+											<h3>3. Page</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<ul>
+												<li><strong>Page Background Color : </strong>Syntax: #number or rgba...</li>
+												<li><strong>Page Background Pattern: </strong></li>
+												<li><strong>Upload Page Background Image: </strong></li>
+												<li><strong>Page Background Position: </strong>Property Values: left top, left center, left bottom,right top, right center, right bottom,center top,center center,center bottom,x% y%, xpos ypos, inherit</li>
+												<li><strong>Page Background Repeat : </strong>Property Values: repeat, repeat-x, repeat-y, no-repeat, inherit</li>
+												<li><strong>Page Background Attachment : </strong>Property Values: fixed, scroll, inherit</li>
+												<li><strong>Box Shadow: </strong></li>
+												<li><strong>Rounded Corner: </strong></li>
+											</ul>
+										</div>
+										<div id="4_header" class="col-sm-12 title">
+											<h3>4. Header</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<p>In this tab, you can configure the header section of the page located at the top.</p>
+											<ul>
+												<li>
+													Background
+													<ul>
+														<li><strong>Header Top Background Color  : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Header Background Cart Color : </strong>Syntax: #number or rgba...</li>														
+														<li><strong>Header Background Search Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Header Background Dropdown Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Header Background Image: </strong></li>
+														<li><strong>Upload Header Background Pattern: </strong></li>
+														<li><strong>Header Background Position: </strong></li>
+														<li><strong>Header Background Repeat: </strong></li>
+													</ul>
+												</li>
+												<li>
+													General Color
+													<ul>
+														<li><strong>Header Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Header Text Cart Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Header Text Dropdown Color  : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Header Text Search Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Header Line Color : </strong>Syntax: #number or rgba...</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div id="5_menu" class="col-sm-12 title">
+											<h3>5. Menu</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<p>In this tab, you can configure the Menu.</p>
+											<ul>
+												<li>
+													Top Menu Settings
+													<ul>
+														<li><strong>Top Menu Background: </strong></li>
+														<li><strong>Top Menu Hover Background : </strong>.</li>
+														<li><strong>Top Menu Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Top Menu Hover Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Top Menu Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Top Menu Font: </strong></li>
+													</ul>
+												</li>
+												<li>
+													Vertical Menu Settings
+													<ul>
+														<li><strong>Vertical Menu Background: </strong></li>
+														<li><strong>Vertical Menu Hover Background : </strong></li>
+														<li><strong>Vertical Menu Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Vertical Menu Hover Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Vertical Menu Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Vertical Menu Font  : </strong></li>
+													</ul>
+												</li>
+												<li>
+													Dropdown Menu Settings
+													<ul>
+														<li><strong>Dropdown Menu Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Dropdown Menu Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Dropdown Menu Hover/Active Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Dropdown Menu Title Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Dropdown Menu Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Dropdown Menu Font   : </strong></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div id="6_body" class="col-sm-12 title">
+											<h3>6. Body</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<p>In this tab, you can configure the Menu.</p>
+											<ul>
+												<li>
+													Background
+													<ul>
+														<li><strong>Body Wrapper Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Container Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Background Brands Color, Title Block : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Tab Hover/Active Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Background Title Block sidebar Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Tab Background Color  : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Label New Background Color  : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Label Hot Background Color  : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Label Special Background Color  : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Background Image: </strong></li>
+														<li><strong>Upload Body Background Pattern: </strong></li>
+														<li><strong>Body Background Position: </strong></li>
+														<li><strong>Body Background Repeat: </strong></li>
+													</ul>
+												</li>
+												<li>
+													General Color
+													<ul>
+														<li><strong>Body Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Text Title Block Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Text Product Name, Title Page Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Text Price Color  : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Text Title Tab Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Text Readmore Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Text Label Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Line Title Block : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Body Line Color : </strong>Syntax: #number or rgba...</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div id="7_footer" class="col-sm-12 title">
+											<h3>7. Footer</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<p>In this tab, you can configure the Footer.</p>
+											<ul>
+												<li>
+													Background
+													<ul>
+														<li><strong>Footer Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Footer Background Image  : </strong>.</li>
+														<li><strong>Upload Footer Background Pattern : </strong></li>
+														<li><strong>Footer Background Position  : </strong></li>
+														<li><strong>Footer Background Repeat : </strong></li>
+													</ul>
+												</li>
+												<li>
+													General Color
+													<ul>
+														<li><strong>Footer Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Footer Title Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Footer Hover Link Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Footer Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Footer Social hover Colo: </strong>Syntax: #number or rgba...</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div id="8_button" class="col-sm-12 title">
+											<h3>8. Button</h3>
+											<a href="#">Back to top</a>
+										</div>
+										<div class="content">
+											<ul>
+												<li>
+													Button 1 (Button Default)
+													<ul>
+														<li><strong>Button 1 Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 1 Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 1 Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 1 Font  : </strong></li>
+													</ul>
+												</li>
+												<li>
+													Button 2 (Button sidebar)
+													<ul>
+														<li><strong>Button 2 Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 2 Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 2 Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 2 Font  : </strong></li>
+													</ul>
+												</li>
+												<li>
+													Button 3 (Button Add To Cart)
+													<ul>
+														<li><strong>Button 3 Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 3 Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 3 Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 3 Font  : </strong></li>
+													</ul>
+												</li>
+												<li>
+													Button 4 (Button Proceed to Checkout)
+													<ul>
+														<li><strong>Button 4 Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 4 Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 4 Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button 4 Font : </strong></li>
+													</ul>
+												</li>
+												<li>
+													Button 5 (Button Add To Wishlist)
+													<ul>
+														<li><strong>Button Add To Wishlist Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Add To Wishlist Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Add To Wishlist Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Add To Wishlist Font : </strong></li>
+													</ul>
+												</li>
+												<li>
+													Button 6 (Button Add To Compare)
+													<ul>
+														<li><strong>Button Add To Compare Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Add To Compare Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Add To Compare Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Add To Compare Font : </strong></li>
+													</ul>
+												</li>
+												<li>
+													Button 7 (Add to cart, Wishlist, Compare on top product)
+													<ul>
+														<li><strong>Button Background Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Text Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Line Color : </strong>Syntax: #number or rgba...</li>
+														<li><strong>Button Font : </strong></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /container -->
+		<!-- Bootstrap core JavaScript
+			================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		
+		
+	</body>
+</html>
